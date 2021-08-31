@@ -1,0 +1,7 @@
+CRITICAL - 2021-06-27 22:37:36 --> Trying to access array offset on value of type int
+#0 G:\Shared drives\ProjectData\Vyapaar\app\Controllers\admin\Leads.php(169): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'G:\\Shared drive...', 169, Array)
+#1 G:\Shared drives\ProjectData\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Leads->addLeads()
+#2 G:\Shared drives\ProjectData\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leads))
+#3 G:\Shared drives\ProjectData\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\Shared drives\ProjectData\Vyapaar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

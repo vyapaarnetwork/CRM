@@ -1,0 +1,119 @@
+CRITICAL - 2021-04-22 09:45:52 --> Column 'cat_name' cannot be null
+#0 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `tb...')
+#1 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\Allxampp\7.4\htdocs\vyaapar\app\Models\Categories_model.php(36): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\Allxampp\7.4\htdocs\vyaapar\app\Controllers\admin\Categories.php(112): App\Models\Categories_model->insertcategories(Array)
+#6 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Categories->addcategories()
+#7 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Categories))
+#8 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Allxampp\7.4\htdocs\vyaapar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-04-22 14:41:17 --> orWhereIn() expects $values to be of type array or closure
+#0 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(872): CodeIgniter\Database\BaseBuilder->_whereIn('main_cat_name', 'Human Resources', false, 'OR ', NULL)
+#1 D:\Allxampp\7.4\htdocs\vyaapar\app\Models\SubCategories_model.php(121): CodeIgniter\Database\BaseBuilder->orWhereIn('main_cat_name', 'Human Resources')
+#2 D:\Allxampp\7.4\htdocs\vyaapar\app\Controllers\admin\Subcategories.php(172): App\Models\Subcategories_model->selectSubcategories('Human Resources')
+#3 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Subcategories->getSubcategories()
+#4 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Subcategories))
+#5 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Allxampp\7.4\htdocs\vyaapar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-22 14:43:06 --> orWhereIn() expects $values to be of type array or closure
+#0 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(872): CodeIgniter\Database\BaseBuilder->_whereIn('main_cat_name', 'Human Resources', false, 'OR ', NULL)
+#1 D:\Allxampp\7.4\htdocs\vyaapar\app\Models\SubCategories_model.php(121): CodeIgniter\Database\BaseBuilder->orWhereIn('main_cat_name', 'Human Resources')
+#2 D:\Allxampp\7.4\htdocs\vyaapar\app\Controllers\admin\Subcategories.php(172): App\Models\Subcategories_model->selectSubcategories('Human Resources')
+#3 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Subcategories->getSubcategories()
+#4 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Subcategories))
+#5 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Allxampp\7.4\htdocs\vyaapar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-22 14:55:08 --> orWhereIn() expects $values to be of type array or closure
+#0 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(872): CodeIgniter\Database\BaseBuilder->_whereIn('main_cat_name', 'Human Resources', false, 'OR ', NULL)
+#1 D:\Allxampp\7.4\htdocs\vyaapar\app\Models\SubCategories_model.php(125): CodeIgniter\Database\BaseBuilder->orWhereIn('main_cat_name', 'Human Resources')
+#2 D:\Allxampp\7.4\htdocs\vyaapar\app\Controllers\admin\Subcategories.php(172): App\Models\Subcategories_model->selectSubcategories('Human Resources')
+#3 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Subcategories->getSubcategories()
+#4 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Subcategories))
+#5 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Allxampp\7.4\htdocs\vyaapar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-22 15:10:42 --> Undefined offset: 0
+#0 D:\Allxampp\7.4\htdocs\vyaapar\app\Models\VendorDetails_model.php(65): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\Allxampp\\7.4...', 65, Array)
+#1 D:\Allxampp\7.4\htdocs\vyaapar\app\Controllers\admin\Leads.php(210): App\Models\VendorDetails_model->get_vendors(Array)
+#2 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Leads->getvendor()
+#3 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leads))
+#4 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Allxampp\7.4\htdocs\vyaapar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-04-22 15:10:56 --> Undefined offset: 0
+#0 D:\Allxampp\7.4\htdocs\vyaapar\app\Models\VendorDetails_model.php(65): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\Allxampp\\7.4...', 65, Array)
+#1 D:\Allxampp\7.4\htdocs\vyaapar\app\Controllers\admin\Leads.php(210): App\Models\VendorDetails_model->get_vendors(Array)
+#2 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Leads->getvendor()
+#3 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leads))
+#4 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Allxampp\7.4\htdocs\vyaapar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-04-22 15:11:01 --> Undefined offset: 0
+#0 D:\Allxampp\7.4\htdocs\vyaapar\app\Models\VendorDetails_model.php(65): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\Allxampp\\7.4...', 65, Array)
+#1 D:\Allxampp\7.4\htdocs\vyaapar\app\Controllers\admin\Leads.php(210): App\Models\VendorDetails_model->get_vendors(Array)
+#2 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Leads->getvendor()
+#3 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leads))
+#4 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Allxampp\7.4\htdocs\vyaapar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-04-22 15:15:33 --> Undefined offset: 0
+#0 D:\Allxampp\7.4\htdocs\vyaapar\app\Models\VendorDetails_model.php(65): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\Allxampp\\7.4...', 65, Array)
+#1 D:\Allxampp\7.4\htdocs\vyaapar\app\Controllers\admin\Leads.php(210): App\Models\VendorDetails_model->get_vendors(Array)
+#2 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Leads->getvendor()
+#3 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leads))
+#4 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Allxampp\7.4\htdocs\vyaapar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-04-22 15:15:42 --> Undefined offset: 0
+#0 D:\Allxampp\7.4\htdocs\vyaapar\app\Models\VendorDetails_model.php(65): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\Allxampp\\7.4...', 65, Array)
+#1 D:\Allxampp\7.4\htdocs\vyaapar\app\Controllers\admin\Leads.php(210): App\Models\VendorDetails_model->get_vendors(Array)
+#2 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Leads->getvendor()
+#3 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leads))
+#4 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Allxampp\7.4\htdocs\vyaapar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-04-22 22:52:37 --> Undefined variable: lead_sourcea
+#0 D:\Allxampp\7.4\htdocs\vyaapar\app\Views\admin\leads\leads.php(229): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Allxampp\\7.4...', 229, Array)
+#1 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\Allxampp\\7.4...')
+#2 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('admin/leads/lea...', Array, true)
+#3 D:\Allxampp\7.4\htdocs\vyaapar\app\Controllers\admin\Leads.php(74): view('admin/leads/lea...', Array)
+#4 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Leads->index()
+#5 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leads))
+#6 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Allxampp\7.4\htdocs\vyaapar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-22 22:53:21 --> syntax error, unexpected 'echo' (T_ECHO)
+#0 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('D:\\Allxampp\\7.4...')
+#1 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Allxampp\7.4\htdocs\vyaapar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-22 22:54:01 --> Undefined variable: lead_sourcea
+#0 D:\Allxampp\7.4\htdocs\vyaapar\app\Views\admin\leads\leads.php(229): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Allxampp\\7.4...', 229, Array)
+#1 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\Allxampp\\7.4...')
+#2 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('admin/leads/lea...', Array, true)
+#3 D:\Allxampp\7.4\htdocs\vyaapar\app\Controllers\admin\Leads.php(75): view('admin/leads/lea...', Array)
+#4 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Leads->index()
+#5 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leads))
+#6 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Allxampp\7.4\htdocs\vyaapar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-22 22:54:22 --> Undefined variable: lead_sourcea
+#0 D:\Allxampp\7.4\htdocs\vyaapar\app\Views\admin\leads\leads.php(229): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Allxampp\\7.4...', 229, Array)
+#1 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\Allxampp\\7.4...')
+#2 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('admin/leads/lea...', Array, true)
+#3 D:\Allxampp\7.4\htdocs\vyaapar\app\Controllers\admin\Leads.php(75): view('admin/leads/lea...', Array)
+#4 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Leads->index()
+#5 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leads))
+#6 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Allxampp\7.4\htdocs\vyaapar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}

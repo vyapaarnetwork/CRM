@@ -1,0 +1,17 @@
+CRITICAL - 2021-04-24 09:57:19 --> Undefined index: flip_icon
+#0 D:\Allxampp\7.4\htdocs\vyaapar\app\Views\include\header.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Allxampp\\7.4...', 13, Array)
+#1 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\Allxampp\\7.4...')
+#2 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('include/header', Array, true)
+#3 D:\Allxampp\7.4\htdocs\vyaapar\app\Controllers\admin\Admin.php(27): view('include/header', Array)
+#4 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Admin->index()
+#5 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Admin))
+#6 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Allxampp\7.4\htdocs\vyaapar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-24 11:12:28 --> Undefined variable: apikey
+#0 D:\Allxampp\7.4\htdocs\vyaapar\app\Controllers\ImportLead.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Allxampp\\7.4...', 26, Array)
+#1 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\ImportLead->create()
+#2 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ImportLead))
+#3 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Allxampp\7.4\htdocs\vyaapar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

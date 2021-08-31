@@ -1,0 +1,75 @@
+CRITICAL - 2021-08-11 23:52:07 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::request()
+#0 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Customer->get_customer()
+#1 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Customer))
+#2 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-11 23:52:09 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::request()
+#0 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Customer->get_customer()
+#1 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Customer))
+#2 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-11 23:52:10 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::request()
+#0 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Customer->get_customer()
+#1 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Customer))
+#2 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-11 23:52:27 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::request()
+#0 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Customer->get_customer()
+#1 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Customer))
+#2 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-11 23:54:55 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::request()
+#0 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Customer->get_customer()
+#1 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Customer))
+#2 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-11 23:55:23 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::post()
+#0 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Customer->get_customer()
+#1 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Customer))
+#2 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-11 23:55:23 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::post()
+#0 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Customer->get_customer()
+#1 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Customer))
+#2 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-11 23:55:41 --> Call to undefined function App\Controllers\admin\emtpy()
+#0 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Customer->get_customer()
+#1 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Customer))
+#2 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-11 23:55:41 --> Call to undefined function App\Controllers\admin\emtpy()
+#0 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Customer->get_customer()
+#1 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Customer))
+#2 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-11 23:56:29 --> Undefined property: App\Controllers\admin\Customer::$leadsModel
+#0 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\app\Controllers\admin\Customer.php(231): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'G:\\Shared drive...', 231, Array)
+#1 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Customer->get_customer()
+#2 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Customer))
+#3 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-11 23:56:35 --> Undefined property: App\Controllers\admin\Customer::$leadsModel
+#0 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\app\Controllers\admin\Customer.php(231): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'G:\\Shared drive...', 231, Array)
+#1 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Customer->get_customer()
+#2 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Customer))
+#3 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-11 23:56:35 --> Undefined property: App\Controllers\admin\Customer::$leadsModel
+#0 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\app\Controllers\admin\Customer.php(231): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'G:\\Shared drive...', 231, Array)
+#1 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Customer->get_customer()
+#2 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Customer))
+#3 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

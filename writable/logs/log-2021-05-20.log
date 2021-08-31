@@ -1,0 +1,23 @@
+CRITICAL - 2021-05-20 15:40:23 --> Undefined index: search
+#0 /home/vyapaar/crm.vyapaar.net/app/Models/Categories_model.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/vyapaar/c...', 50, Array)
+#1 /home/vyapaar/crm.vyapaar.net/app/Models/Categories_model.php(72): App\Models\Categories_model->_get_datatables_query(Array)
+#2 /home/vyapaar/crm.vyapaar.net/app/Controllers/admin/Categories.php(47): App\Models\Categories_model->get_datatables(Array)
+#3 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\admin\Categories->categoriesList()
+#4 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Categories))
+#5 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/vyapaar/crm.vyapaar.net/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-20 15:42:04 --> Undefined property: stdClass::$sub_cat_name
+#0 /home/vyapaar/crm.vyapaar.net/app/Controllers/ImportLead.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/vyapaar/c...', 47, Array)
+#1 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\ImportLead->create()
+#2 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ImportLead))
+#3 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/vyapaar/crm.vyapaar.net/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-20 15:42:13 --> Undefined property: stdClass::$sub_cat_name
+#0 /home/vyapaar/crm.vyapaar.net/app/Controllers/ImportLead.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/vyapaar/c...', 47, Array)
+#1 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\ImportLead->create()
+#2 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ImportLead))
+#3 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/vyapaar/crm.vyapaar.net/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

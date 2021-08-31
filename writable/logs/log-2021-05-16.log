@@ -1,0 +1,230 @@
+CRITICAL - 2021-05-16 13:15:36 --> Undefined index: vendor_type
+#0 D:\Allxampp\7.4\htdocs\vyaapar\app\Controllers\vendor\Vendor.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Allxampp\\7.4...', 32, Array)
+#1 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\vendor\Vendor->index()
+#2 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Vendor))
+#3 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Allxampp\7.4\htdocs\vyaapar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-16 13:21:26 --> Invalid file: vendor/dashboard/vendor_dashboard.php
+#0 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('vendor/dashboar...')
+#1 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('vendor/dashboar...', Array, true)
+#2 D:\Allxampp\7.4\htdocs\vyaapar\app\Controllers\vendor\Vendor.php(53): view('vendor/dashboar...', Array)
+#3 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\vendor\Vendor->home()
+#4 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Vendor))
+#5 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Allxampp\7.4\htdocs\vyaapar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-16 13:22:01 --> Invalid file: vendor/dashboard/.php
+#0 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('vendor/dashboar...')
+#1 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('vendor/dashboar...', Array, true)
+#2 D:\Allxampp\7.4\htdocs\vyaapar\app\Controllers\vendor\Vendor.php(53): view('vendor/dashboar...', Array)
+#3 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\vendor\Vendor->home()
+#4 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Vendor))
+#5 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Allxampp\7.4\htdocs\vyaapar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-16 13:24:55 --> Trying to access array offset on value of type null
+#0 D:\Allxampp\7.4\htdocs\vyaapar\app\Views\include\menu_bar.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Allxampp\\7.4...', 7, Array)
+#1 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\Allxampp\\7.4...')
+#2 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('include/menu_ba...', Array, true)
+#3 D:\Allxampp\7.4\htdocs\vyaapar\app\Controllers\vendor\Vendor.php(50): view('include/menu_ba...', Array)
+#4 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\vendor\Vendor->home()
+#5 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Vendor))
+#6 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Allxampp\7.4\htdocs\vyaapar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-16 13:25:11 --> Trying to access array offset on value of type null
+#0 D:\Allxampp\7.4\htdocs\vyaapar\app\Views\include\menu_bar.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Allxampp\\7.4...', 7, Array)
+#1 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\Allxampp\\7.4...')
+#2 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('include/menu_ba...', Array, true)
+#3 D:\Allxampp\7.4\htdocs\vyaapar\app\Controllers\vendor\Vendor.php(50): view('include/menu_ba...', Array)
+#4 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\vendor\Vendor->home()
+#5 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Vendor))
+#6 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Allxampp\7.4\htdocs\vyaapar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-16 13:30:45 --> syntax error, unexpected 'die' (T_EXIT)
+#0 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('include/menu_ba...', Array, true)
+#1 D:\Allxampp\7.4\htdocs\vyaapar\app\Controllers\vendor\Vendor.php(50): view('include/menu_ba...', Array)
+#2 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\vendor\Vendor->home()
+#3 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Vendor))
+#4 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Allxampp\7.4\htdocs\vyaapar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-16 13:30:51 --> Function name must be a string
+#0 D:\Allxampp\7.4\htdocs\vyaapar\app\Views\include\menu_bar.php(7): get_type()
+#1 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\Allxampp\\7.4...')
+#2 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('include/menu_ba...', Array, true)
+#3 D:\Allxampp\7.4\htdocs\vyaapar\app\Controllers\vendor\Vendor.php(50): view('include/menu_ba...', Array)
+#4 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\vendor\Vendor->home()
+#5 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Vendor))
+#6 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Allxampp\7.4\htdocs\vyaapar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-16 13:31:39 --> Undefined variable: CI
+#0 D:\Allxampp\7.4\htdocs\vyaapar\app\Helpers\Utility_helper.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Allxampp\\7.4...', 43, Array)
+#1 D:\Allxampp\7.4\htdocs\vyaapar\app\Views\include\menu_bar.php(7): get_type()
+#2 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\Allxampp\\7.4...')
+#3 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('include/menu_ba...', Array, true)
+#4 D:\Allxampp\7.4\htdocs\vyaapar\app\Controllers\vendor\Vendor.php(50): view('include/menu_ba...', Array)
+#5 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\vendor\Vendor->home()
+#6 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Vendor))
+#7 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Allxampp\7.4\htdocs\vyaapar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-16 13:41:30 --> Trying to access array offset on value of type null
+#0 D:\Allxampp\7.4\htdocs\vyaapar\app\Views\include\menu_bar.php(123): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Allxampp\\7.4...', 123, Array)
+#1 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\Allxampp\\7.4...')
+#2 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('include/menu_ba...', Array, true)
+#3 D:\Allxampp\7.4\htdocs\vyaapar\app\Controllers\vendor\Vendor.php(50): view('include/menu_ba...', Array)
+#4 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\vendor\Vendor->home()
+#5 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Vendor))
+#6 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Allxampp\7.4\htdocs\vyaapar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-16 13:47:13 --> Invalid file: include/v_menu_bar.php
+#0 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('include/v_menu_...')
+#1 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('include/v_menu_...', Array, true)
+#2 D:\Allxampp\7.4\htdocs\vyaapar\app\Controllers\vendor\Vendor.php(50): view('include/v_menu_...', Array)
+#3 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\vendor\Vendor->home()
+#4 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Vendor))
+#5 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Allxampp\7.4\htdocs\vyaapar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-16 13:47:31 --> Undefined index: admin_name
+#0 D:\Allxampp\7.4\htdocs\vyaapar\app\Views\include\v_menu_bar.php(114): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Allxampp\\7.4...', 114, Array)
+#1 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\Allxampp\\7.4...')
+#2 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('include/v_menu_...', Array, true)
+#3 D:\Allxampp\7.4\htdocs\vyaapar\app\Controllers\vendor\Vendor.php(50): view('include/v_menu_...', Array)
+#4 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\vendor\Vendor->home()
+#5 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Vendor))
+#6 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Allxampp\7.4\htdocs\vyaapar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-16 20:11:35 --> Undefined index: search
+#0 D:\Allxampp\7.4\htdocs\vyaapar\app\Models\Leads_model.php(51): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Allxampp\\7.4...', 51, Array)
+#1 D:\Allxampp\7.4\htdocs\vyaapar\app\Models\Leads_model.php(73): App\Models\Leads_model->_get_datatables_query(Array)
+#2 D:\Allxampp\7.4\htdocs\vyaapar\app\Controllers\vendor\Vendor.php(97): App\Models\Leads_model->get_datatables(Array)
+#3 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\vendor\Vendor->listLeads()
+#4 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Vendor))
+#5 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Allxampp\7.4\htdocs\vyaapar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-16 20:11:54 --> Undefined index: search
+#0 D:\Allxampp\7.4\htdocs\vyaapar\app\Models\Leads_model.php(51): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Allxampp\\7.4...', 51, Array)
+#1 D:\Allxampp\7.4\htdocs\vyaapar\app\Models\Leads_model.php(73): App\Models\Leads_model->_get_datatables_query(Array)
+#2 D:\Allxampp\7.4\htdocs\vyaapar\app\Controllers\vendor\Vendor.php(97): App\Models\Leads_model->get_datatables(Array)
+#3 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\vendor\Vendor->listLeads()
+#4 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Vendor))
+#5 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Allxampp\7.4\htdocs\vyaapar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-16 20:16:31 --> Undefined index: search
+#0 D:\Allxampp\7.4\htdocs\vyaapar\app\Models\Leads_model.php(51): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Allxampp\\7.4...', 51, Array)
+#1 D:\Allxampp\7.4\htdocs\vyaapar\app\Models\Leads_model.php(73): App\Models\Leads_model->_get_datatables_query(Array)
+#2 D:\Allxampp\7.4\htdocs\vyaapar\app\Controllers\vendor\Vendor.php(97): App\Models\Leads_model->get_datatables(Array)
+#3 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\vendor\Vendor->listLeads()
+#4 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Vendor))
+#5 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Allxampp\7.4\htdocs\vyaapar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-16 20:24:17 --> Undefined index: search
+#0 D:\Allxampp\7.4\htdocs\vyaapar\app\Models\Leads_model.php(51): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Allxampp\\7.4...', 51, Array)
+#1 D:\Allxampp\7.4\htdocs\vyaapar\app\Models\Leads_model.php(73): App\Models\Leads_model->_get_datatables_query(Array)
+#2 D:\Allxampp\7.4\htdocs\vyaapar\app\Controllers\vendor\Vendor.php(122): App\Models\Leads_model->get_datatables(Array)
+#3 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\vendor\Vendor->listLeads()
+#4 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Vendor))
+#5 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Allxampp\7.4\htdocs\vyaapar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-16 20:24:51 --> Undefined property: App\Controllers\vendor\Vendor::$leadsource
+#0 D:\Allxampp\7.4\htdocs\vyaapar\app\Controllers\vendor\Vendor.php(106): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\Allxampp\\7.4...', 106, Array)
+#1 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\vendor\Vendor->leads()
+#2 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Vendor))
+#3 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Allxampp\7.4\htdocs\vyaapar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-16 20:28:01 --> Undefined variable: main_cat
+#0 D:\Allxampp\7.4\htdocs\vyaapar\app\Views\vendor\leads\leads.php(199): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Allxampp\\7.4...', 199, Array)
+#1 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\Allxampp\\7.4...')
+#2 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('vendor/leads/le...', Array, true)
+#3 D:\Allxampp\7.4\htdocs\vyaapar\app\Controllers\vendor\Vendor.php(118): view('vendor/leads/le...', Array)
+#4 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\vendor\Vendor->leads()
+#5 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Vendor))
+#6 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Allxampp\7.4\htdocs\vyaapar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-16 20:28:09 --> Undefined variable: main_cat
+#0 D:\Allxampp\7.4\htdocs\vyaapar\app\Views\vendor\leads\leads.php(199): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Allxampp\\7.4...', 199, Array)
+#1 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\Allxampp\\7.4...')
+#2 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('vendor/leads/le...', Array, true)
+#3 D:\Allxampp\7.4\htdocs\vyaapar\app\Controllers\vendor\Vendor.php(118): view('vendor/leads/le...', Array)
+#4 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\vendor\Vendor->leads()
+#5 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Vendor))
+#6 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Allxampp\7.4\htdocs\vyaapar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-16 20:31:01 --> Undefined variable: main_cat
+#0 D:\Allxampp\7.4\htdocs\vyaapar\app\Views\vendor\leads\leads.php(199): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Allxampp\\7.4...', 199, Array)
+#1 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\Allxampp\\7.4...')
+#2 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('vendor/leads/le...', Array, true)
+#3 D:\Allxampp\7.4\htdocs\vyaapar\app\Controllers\vendor\Vendor.php(118): view('vendor/leads/le...', Array)
+#4 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\vendor\Vendor->leads()
+#5 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Vendor))
+#6 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Allxampp\7.4\htdocs\vyaapar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-16 20:32:36 --> Undefined variable: main_cat
+#0 D:\Allxampp\7.4\htdocs\vyaapar\app\Views\vendor\leads\leads.php(199): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Allxampp\\7.4...', 199, Array)
+#1 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\Allxampp\\7.4...')
+#2 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('vendor/leads/le...', Array, true)
+#3 D:\Allxampp\7.4\htdocs\vyaapar\app\Controllers\vendor\Vendor.php(118): view('vendor/leads/le...', Array)
+#4 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\vendor\Vendor->leads()
+#5 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Vendor))
+#6 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Allxampp\7.4\htdocs\vyaapar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-16 20:32:58 --> Undefined variable: main_cat
+#0 D:\Allxampp\7.4\htdocs\vyaapar\app\Views\vendor\leads\leads.php(199): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Allxampp\\7.4...', 199, Array)
+#1 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\Allxampp\\7.4...')
+#2 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('vendor/leads/le...', Array, true)
+#3 D:\Allxampp\7.4\htdocs\vyaapar\app\Controllers\vendor\Vendor.php(118): view('vendor/leads/le...', Array)
+#4 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\vendor\Vendor->leads()
+#5 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Vendor))
+#6 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Allxampp\7.4\htdocs\vyaapar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-16 20:45:25 --> Undefined property: App\Controllers\vendor\Vendor::$customerModel
+#0 D:\Allxampp\7.4\htdocs\vyaapar\app\Controllers\vendor\Vendor.php(135): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\Allxampp\\7.4...', 135, Array)
+#1 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\vendor\Vendor->listLeads()
+#2 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Vendor))
+#3 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Allxampp\7.4\htdocs\vyaapar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-16 20:46:53 --> Undefined property: App\Controllers\vendor\Vendor::$customerModel
+#0 D:\Allxampp\7.4\htdocs\vyaapar\app\Controllers\vendor\Vendor.php(135): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\Allxampp\\7.4...', 135, Array)
+#1 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\vendor\Vendor->listLeads()
+#2 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Vendor))
+#3 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Allxampp\7.4\htdocs\vyaapar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-16 20:47:36 --> Undefined property: App\Controllers\vendor\Vendor::$customerModel
+#0 D:\Allxampp\7.4\htdocs\vyaapar\app\Controllers\vendor\Vendor.php(135): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\Allxampp\\7.4...', 135, Array)
+#1 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\vendor\Vendor->listLeads()
+#2 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Vendor))
+#3 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Allxampp\7.4\htdocs\vyaapar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-16 20:47:40 --> Undefined property: App\Controllers\vendor\Vendor::$customerModel
+#0 D:\Allxampp\7.4\htdocs\vyaapar\app\Controllers\vendor\Vendor.php(135): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\Allxampp\\7.4...', 135, Array)
+#1 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\vendor\Vendor->listLeads()
+#2 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Vendor))
+#3 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Allxampp\7.4\htdocs\vyaapar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-16 22:16:40 --> Call to a member function getAdmin() on null
+#0 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\vendor\Vendor->leadsDetails('2390')
+#1 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Vendor))
+#2 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Allxampp\7.4\htdocs\vyaapar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}

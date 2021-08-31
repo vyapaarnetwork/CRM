@@ -1,0 +1,22 @@
+CRITICAL - 2021-02-16 14:47:58 --> syntax error, unexpected 'else' (T_ELSE)
+#0 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/opt/lampp/htdo...')
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/SystemManager/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-02-16 15:02:49 --> Column 'slcm_comment' cannot be null
+#0 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(331): mysqli->query('INSERT INTO `sm...')
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sm...')
+#2 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sm...')
+#3 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sm...', Array, false)
+#4 /opt/lampp/htdocs/SystemManager/app/Models/Comment_model.php(24): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /opt/lampp/htdocs/SystemManager/app/Controllers/admin/Leads.php(302): App\Models\Comment_model->addComment(Array)
+#6 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\admin\Leads->comment()
+#7 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leads))
+#8 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /opt/lampp/htdocs/SystemManager/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}

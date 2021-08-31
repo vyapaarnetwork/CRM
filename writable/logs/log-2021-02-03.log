@@ -1,0 +1,149 @@
+CRITICAL - 2021-02-03 11:40:30 --> Call to undefined method App\Models\SaleasAssociate_model::getVendorForgot
+#0 /opt/lampp/htdocs/SystemManager/app/Controllers/client/Home.php(244): CodeIgniter\Model->__call('getVendorForgot', Array)
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\client\Home->forgotPassword()
+#2 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\client\Home))
+#3 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/SystemManager/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-03 11:47:06 --> syntax error, unexpected '!'
+#0 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/opt/lampp/htdo...')
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/SystemManager/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-02-03 15:17:54 --> syntax error, unexpected 'return' (T_RETURN)
+#0 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/opt/lampp/htdo...')
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Prod...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Prod...')
+#3 /opt/lampp/htdocs/SystemManager/app/Controllers/client/Product.php(16): spl_autoload_call('App\\Models\\Prod...')
+#4 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(890): App\Controllers\client\Product->__construct()
+#5 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#6 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/SystemManager/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-02-03 15:18:02 --> Unknown column 'sm_product_masterid' in 'on clause'
+#0 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /opt/lampp/htdocs/SystemManager/app/Models/Product_model.php(128): CodeIgniter\Database\BaseBuilder->get()
+#5 /opt/lampp/htdocs/SystemManager/app/Controllers/client/Product.php(191): App\Models\Product_model->getProductForPage('bag')
+#6 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\client\Product->productList()
+#7 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\client\Product))
+#8 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /opt/lampp/htdocs/SystemManager/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-02-03 15:18:17 --> Unknown column 'sm_product_master.id' in 'on clause'
+#0 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /opt/lampp/htdocs/SystemManager/app/Models/Product_model.php(128): CodeIgniter\Database\BaseBuilder->get()
+#5 /opt/lampp/htdocs/SystemManager/app/Controllers/client/Product.php(191): App\Models\Product_model->getProductForPage('bag')
+#6 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\client\Product->productList()
+#7 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\client\Product))
+#8 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /opt/lampp/htdocs/SystemManager/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-02-03 16:34:41 --> Undefined variable: keyp
+#0 /opt/lampp/htdocs/SystemManager/app/Views/client/Product/productList.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/opt/lampp/htdo...', 18, Array)
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/View/View.php(246): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('client/Product/...', Array, true)
+#3 /opt/lampp/htdocs/SystemManager/app/Controllers/client/Product.php(198): view('client/Product/...', Array)
+#4 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\client\Product->productList()
+#5 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\client\Product))
+#6 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/SystemManager/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-02-03 16:34:52 --> Undefined variable: keyp
+#0 /opt/lampp/htdocs/SystemManager/app/Views/client/Product/productList.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/opt/lampp/htdo...', 18, Array)
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/View/View.php(246): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('client/Product/...', Array, true)
+#3 /opt/lampp/htdocs/SystemManager/app/Controllers/client/Product.php(198): view('client/Product/...', Array)
+#4 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\client\Product->productList()
+#5 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\client\Product))
+#6 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/SystemManager/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-02-03 16:42:35 --> Undefined property: CodeIgniter\View\View::$require
+#0 /opt/lampp/htdocs/SystemManager/app/Views/client/includs/header.php(94): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/opt/lampp/htdo...', 94, Array)
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/View/View.php(246): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('client/includs/...', Array, true)
+#3 /opt/lampp/htdocs/SystemManager/app/Controllers/client/Product.php(195): view('client/includs/...', Array)
+#4 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\client\Product->productList()
+#5 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\client\Product))
+#6 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/SystemManager/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-02-03 16:42:45 --> Undefined property: CodeIgniter\View\View::$require
+#0 /opt/lampp/htdocs/SystemManager/app/Views/client/includs/header.php(94): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/opt/lampp/htdo...', 94, Array)
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/View/View.php(246): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('client/includs/...', Array, true)
+#3 /opt/lampp/htdocs/SystemManager/app/Controllers/client/Product.php(195): view('client/includs/...', Array)
+#4 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\client\Product->productList()
+#5 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\client\Product))
+#6 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/SystemManager/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-02-03 16:43:15 --> Undefined index: search
+#0 /opt/lampp/htdocs/SystemManager/app/Views/client/includs/header.php(94): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 94, Array)
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/View/View.php(246): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('client/includs/...', Array, true)
+#3 /opt/lampp/htdocs/SystemManager/app/Controllers/client/Product.php(195): view('client/includs/...', Array)
+#4 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\client\Product->productList()
+#5 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\client\Product))
+#6 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/SystemManager/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-02-03 16:59:07 --> Class 'App\Controllers\client\App\Libraries\Paginition' not found
+#0 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\client\Product->productList()
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\client\Product))
+#2 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/SystemManager/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-03 17:01:08 --> Class 'App\Controllers\client\App\Libraries\Paginition' not found
+#0 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\client\Product->productList()
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\client\Product))
+#2 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/SystemManager/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-03 17:05:37 --> App\Controllers\client\Product::productList(): Failed opening required 'app/Libraries/Paginition.php' (include_path='.:/opt/lampp/lib/php')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-02-03 17:07:04 --> App\Controllers\client\Product::productList(): Failed opening required 'http://localhost/app/Libraries/Paginition.php' (include_path='.:/opt/lampp/lib/php')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-02-03 17:07:37 --> App\Controllers\client\Product::productList(): Failed opening required 'http://localhost/app/Libraries/Paginition.php' (include_path='.:/opt/lampp/lib/php')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-02-03 17:07:39 --> App\Controllers\client\Product::productList(): Failed opening required 'http://localhost/app/Libraries/Paginition.php' (include_path='.:/opt/lampp/lib/php')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-02-03 17:09:41 --> CodeIgniter\Autoloader\Autoloader::main(): Failed opening required './app/Libraries/Paginition.php' (include_path='.:/opt/lampp/lib/php')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-02-03 17:10:13 --> CodeIgniter\Autoloader\Autoloader::main(): Failed opening required 'http://localhost/app/Libraries/Paginition.php' (include_path='.:/opt/lampp/lib/php')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-02-03 17:10:48 --> CodeIgniter\Autoloader\Autoloader::main(): Failed opening required './app/Libraries/Paginition.php' (include_path='.:/opt/lampp/lib/php')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-02-03 17:11:13 --> CodeIgniter\Autoloader\Autoloader::main(): Failed opening required './Libraries/Paginition.php' (include_path='.:/opt/lampp/lib/php')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-02-03 17:15:42 --> Constant expression contains invalid operations
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-02-03 17:33:46 --> Call to a member function get_paginition_query_string() on string
+#0 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/View/View.php(246): include()
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('client/Product/...', Array, true)
+#2 /opt/lampp/htdocs/SystemManager/app/Controllers/client/Product.php(237): view('client/Product/...', Array)
+#3 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\client\Product->productList()
+#4 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\client\Product))
+#5 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/SystemManager/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}

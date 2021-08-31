@@ -1,0 +1,393 @@
+CRITICAL - 2021-04-02 08:55:30 --> Undefined index: search
+#0 D:\Allxampp\7.4\htdocs\vyaapar\app\Models\Vendor_model.php(98): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Allxampp\\7.4...', 98, Array)
+#1 D:\Allxampp\7.4\htdocs\vyaapar\app\Models\Vendor_model.php(120): App\Models\Vendor_model->_get_datatables_query(Array)
+#2 D:\Allxampp\7.4\htdocs\vyaapar\app\Controllers\admin\Vendor.php(45): App\Models\Vendor_model->get_datatables(Array)
+#3 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Vendor->vendorList()
+#4 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Vendor))
+#5 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Allxampp\7.4\htdocs\vyaapar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-02 09:26:10 --> Undefined index: svm_name
+#0 D:\Allxampp\7.4\htdocs\vyaapar\app\Views\admin\vendor\vendorDetails.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Allxampp\\7.4...', 13, Array)
+#1 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\Allxampp\\7.4...')
+#2 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('admin/Vendor/ve...', Array, true)
+#3 D:\Allxampp\7.4\htdocs\vyaapar\app\Controllers\admin\Vendor.php(148): view('admin/Vendor/ve...', Array)
+#4 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Vendor->details('213412441234213...')
+#5 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Vendor))
+#6 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Allxampp\7.4\htdocs\vyaapar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-02 09:48:12 --> json_decode() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'json_decode() e...', 'D:\\Allxampp\\7.4...', 35, Array)
+#1 D:\Allxampp\7.4\htdocs\vyaapar\app\Controllers\admin\Vendor.php(35): json_decode(Array)
+#2 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Vendor->index()
+#3 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Vendor))
+#4 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Allxampp\7.4\htdocs\vyaapar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-04-02 10:10:12 --> Illegal string offset 'email'
+#0 D:\Allxampp\7.4\htdocs\vyaapar\app\Controllers\admin\Vendor.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'D:\\Allxampp\\7.4...', 53, Array)
+#1 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Vendor->vendorList()
+#2 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Vendor))
+#3 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Allxampp\7.4\htdocs\vyaapar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-02 11:05:31 --> Undefined index: svm_name
+#0 D:\Allxampp\7.4\htdocs\vyaapar\app\Views\admin\vendor\vendorDetails.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Allxampp\\7.4...', 13, Array)
+#1 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\Allxampp\\7.4...')
+#2 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('admin/Vendor/ve...', Array, true)
+#3 D:\Allxampp\7.4\htdocs\vyaapar\app\Controllers\admin\Vendor.php(152): view('admin/Vendor/ve...', Array)
+#4 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Vendor->details('213412441234213...')
+#5 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Vendor))
+#6 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Allxampp\7.4\htdocs\vyaapar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-02 11:05:42 --> Undefined index: svm_name
+#0 D:\Allxampp\7.4\htdocs\vyaapar\app\Views\admin\vendor\vendorDetails.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Allxampp\\7.4...', 13, Array)
+#1 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\Allxampp\\7.4...')
+#2 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('admin/Vendor/ve...', Array, true)
+#3 D:\Allxampp\7.4\htdocs\vyaapar\app\Controllers\admin\Vendor.php(152): view('admin/Vendor/ve...', Array)
+#4 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Vendor->details('213412441234213...')
+#5 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Vendor))
+#6 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Allxampp\7.4\htdocs\vyaapar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-02 12:39:55 --> Undefined index: svm_name
+#0 D:\Allxampp\7.4\htdocs\vyaapar\app\Views\admin\vendor\vendorDetails.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Allxampp\\7.4...', 13, Array)
+#1 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\Allxampp\\7.4...')
+#2 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('admin/Vendor/ve...', Array, true)
+#3 D:\Allxampp\7.4\htdocs\vyaapar\app\Controllers\admin\Vendor.php(193): view('admin/Vendor/ve...', Array)
+#4 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Vendor->details('213412441234213...')
+#5 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Vendor))
+#6 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Allxampp\7.4\htdocs\vyaapar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-02 14:01:40 --> Unknown column 'vendor_mobile' in 'where clause'
+#0 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Allxampp\7.4\htdocs\vyaapar\app\Models\Vendor_model.php(65): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Allxampp\7.4\htdocs\vyaapar\app\Controllers\admin\Vendor.php(113): App\Models\Vendor_model->checkPhoneNoExists('8796541213', NULL)
+#6 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Vendor->checkPhoneNo()
+#7 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Vendor))
+#8 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Allxampp\7.4\htdocs\vyaapar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-04-02 14:01:42 --> Unknown column 'vendor_mobile' in 'where clause'
+#0 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Allxampp\7.4\htdocs\vyaapar\app\Models\Vendor_model.php(65): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Allxampp\7.4\htdocs\vyaapar\app\Controllers\admin\Vendor.php(113): App\Models\Vendor_model->checkPhoneNoExists('8796541213', NULL)
+#6 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Vendor->checkPhoneNo()
+#7 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Vendor))
+#8 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Allxampp\7.4\htdocs\vyaapar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-04-02 14:01:53 --> Column 'admin_type' cannot be null
+#0 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `tb...')
+#1 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\Allxampp\7.4\htdocs\vyaapar\app\Models\Admin_model.php(133): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\Allxampp\7.4\htdocs\vyaapar\app\Controllers\admin\Admin.php(200): App\Models\Admin_model->insertAdmin(Array, NULL)
+#6 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Admin->addAdmin()
+#7 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Admin))
+#8 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Allxampp\7.4\htdocs\vyaapar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-04-02 14:01:53 --> Unknown column 'vendor_mobile' in 'where clause'
+#0 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Allxampp\7.4\htdocs\vyaapar\app\Models\Vendor_model.php(65): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Allxampp\7.4\htdocs\vyaapar\app\Controllers\admin\Vendor.php(113): App\Models\Vendor_model->checkPhoneNoExists('8796541213', NULL)
+#6 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Vendor->checkPhoneNo()
+#7 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Vendor))
+#8 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Allxampp\7.4\htdocs\vyaapar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-04-02 14:02:20 --> Unknown column 'vendor_mobile' in 'where clause'
+#0 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Allxampp\7.4\htdocs\vyaapar\app\Models\Vendor_model.php(65): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Allxampp\7.4\htdocs\vyaapar\app\Controllers\admin\Vendor.php(113): App\Models\Vendor_model->checkPhoneNoExists('8796541214', NULL)
+#6 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Vendor->checkPhoneNo()
+#7 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Vendor))
+#8 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Allxampp\7.4\htdocs\vyaapar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-04-02 14:02:37 --> Unknown column 'vendor_mobile' in 'where clause'
+#0 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Allxampp\7.4\htdocs\vyaapar\app\Models\Vendor_model.php(65): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Allxampp\7.4\htdocs\vyaapar\app\Controllers\admin\Vendor.php(113): App\Models\Vendor_model->checkPhoneNoExists('8796541214', NULL)
+#6 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Vendor->checkPhoneNo()
+#7 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Vendor))
+#8 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Allxampp\7.4\htdocs\vyaapar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-04-02 14:02:37 --> Unknown column 'vendor_mobile' in 'where clause'
+#0 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Allxampp\7.4\htdocs\vyaapar\app\Models\Vendor_model.php(65): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Allxampp\7.4\htdocs\vyaapar\app\Controllers\admin\Vendor.php(113): App\Models\Vendor_model->checkPhoneNoExists('8796541214', NULL)
+#6 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Vendor->checkPhoneNo()
+#7 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Vendor))
+#8 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Allxampp\7.4\htdocs\vyaapar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-04-02 14:02:38 --> Column 'admin_type' cannot be null
+#0 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `tb...')
+#1 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\Allxampp\7.4\htdocs\vyaapar\app\Models\Admin_model.php(133): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\Allxampp\7.4\htdocs\vyaapar\app\Controllers\admin\Admin.php(200): App\Models\Admin_model->insertAdmin(Array, NULL)
+#6 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Admin->addAdmin()
+#7 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Admin))
+#8 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Allxampp\7.4\htdocs\vyaapar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-04-02 14:03:11 --> Column 'admin_type' cannot be null
+#0 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `tb...')
+#1 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\Allxampp\7.4\htdocs\vyaapar\app\Models\Admin_model.php(133): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\Allxampp\7.4\htdocs\vyaapar\app\Controllers\admin\Admin.php(200): App\Models\Admin_model->insertAdmin(Array, NULL)
+#6 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Admin->addAdmin()
+#7 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Admin))
+#8 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Allxampp\7.4\htdocs\vyaapar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-04-02 14:09:05 --> Unknown column 'vendor_mobile' in 'field list'
+#0 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `tb...')
+#1 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\Allxampp\7.4\htdocs\vyaapar\app\Models\Vendor_model.php(75): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\Allxampp\7.4\htdocs\vyaapar\app\Controllers\admin\Vendor.php(161): App\Models\Vendor_model->insertVendor(Array, NULL)
+#6 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Vendor->addVendor()
+#7 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Vendor))
+#8 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Allxampp\7.4\htdocs\vyaapar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-04-02 14:11:19 --> Undefined index: svm_name
+#0 D:\Allxampp\7.4\htdocs\vyaapar\app\Views\admin\vendor\vendorDetails.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Allxampp\\7.4...', 13, Array)
+#1 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\Allxampp\\7.4...')
+#2 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('admin/Vendor/ve...', Array, true)
+#3 D:\Allxampp\7.4\htdocs\vyaapar\app\Controllers\admin\Vendor.php(264): view('admin/Vendor/ve...', Array)
+#4 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Vendor->details('dc2f45b4306539b...')
+#5 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Vendor))
+#6 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Allxampp\7.4\htdocs\vyaapar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-02 16:05:37 --> Undefined index: svm_name
+#0 D:\Allxampp\7.4\htdocs\vyaapar\app\Views\admin\vendor\vendorDetails.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Allxampp\\7.4...', 13, Array)
+#1 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\Allxampp\\7.4...')
+#2 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('admin/Vendor/ve...', Array, true)
+#3 D:\Allxampp\7.4\htdocs\vyaapar\app\Controllers\admin\Vendor.php(265): view('admin/Vendor/ve...', Array)
+#4 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Vendor->details('dc2f45b4306539b...')
+#5 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Vendor))
+#6 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Allxampp\7.4\htdocs\vyaapar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-02 16:34:07 --> Undefined variable: user
+#0 D:\Allxampp\7.4\htdocs\vyaapar\app\Views\admin\vendor\vendorDetails.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Allxampp\\7.4...', 40, Array)
+#1 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\Allxampp\\7.4...')
+#2 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('admin/Vendor/ve...', Array, true)
+#3 D:\Allxampp\7.4\htdocs\vyaapar\app\Controllers\admin\Vendor.php(265): view('admin/Vendor/ve...', Array)
+#4 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Vendor->details('dc2f45b4306539b...')
+#5 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Vendor))
+#6 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Allxampp\7.4\htdocs\vyaapar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-02 21:23:11 --> Trying to get property 'cat_name' of non-object
+#0 D:\Allxampp\7.4\htdocs\vyaapar\app\Views\admin\vendor\vendorDetails.php(137): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\Allxampp\\7.4...', 137, Array)
+#1 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\Allxampp\\7.4...')
+#2 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('admin/Vendor/ve...', Array, true)
+#3 D:\Allxampp\7.4\htdocs\vyaapar\app\Controllers\admin\Vendor.php(271): view('admin/Vendor/ve...', Array)
+#4 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Vendor->details('dc2f45b4306539b...')
+#5 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Vendor))
+#6 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Allxampp\7.4\htdocs\vyaapar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-02 21:23:20 --> Trying to get property 'cat_name' of non-object
+#0 D:\Allxampp\7.4\htdocs\vyaapar\app\Views\admin\vendor\vendorDetails.php(137): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\Allxampp\\7.4...', 137, Array)
+#1 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\Allxampp\\7.4...')
+#2 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('admin/Vendor/ve...', Array, true)
+#3 D:\Allxampp\7.4\htdocs\vyaapar\app\Controllers\admin\Vendor.php(271): view('admin/Vendor/ve...', Array)
+#4 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Vendor->details('dc2f45b4306539b...')
+#5 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Vendor))
+#6 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Allxampp\7.4\htdocs\vyaapar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-02 21:26:40 --> Trying to get property 'cat_name' of non-object
+#0 D:\Allxampp\7.4\htdocs\vyaapar\app\Views\admin\vendor\vendorDetails.php(137): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\Allxampp\\7.4...', 137, Array)
+#1 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\Allxampp\\7.4...')
+#2 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('admin/Vendor/ve...', Array, true)
+#3 D:\Allxampp\7.4\htdocs\vyaapar\app\Controllers\admin\Vendor.php(271): view('admin/Vendor/ve...', Array)
+#4 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Vendor->details('dc2f45b4306539b...')
+#5 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Vendor))
+#6 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Allxampp\7.4\htdocs\vyaapar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-02 21:26:58 --> Trying to get property 'cat_name' of non-object
+#0 D:\Allxampp\7.4\htdocs\vyaapar\app\Views\admin\vendor\vendorDetails.php(137): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\Allxampp\\7.4...', 137, Array)
+#1 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\Allxampp\\7.4...')
+#2 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('admin/Vendor/ve...', Array, true)
+#3 D:\Allxampp\7.4\htdocs\vyaapar\app\Controllers\admin\Vendor.php(271): view('admin/Vendor/ve...', Array)
+#4 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Vendor->details('dc2f45b4306539b...')
+#5 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Vendor))
+#6 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Allxampp\7.4\htdocs\vyaapar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-02 21:26:58 --> Trying to get property 'cat_name' of non-object
+#0 D:\Allxampp\7.4\htdocs\vyaapar\app\Views\admin\vendor\vendorDetails.php(137): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\Allxampp\\7.4...', 137, Array)
+#1 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\Allxampp\\7.4...')
+#2 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('admin/Vendor/ve...', Array, true)
+#3 D:\Allxampp\7.4\htdocs\vyaapar\app\Controllers\admin\Vendor.php(271): view('admin/Vendor/ve...', Array)
+#4 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Vendor->details('dc2f45b4306539b...')
+#5 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Vendor))
+#6 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Allxampp\7.4\htdocs\vyaapar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-02 21:28:26 --> Trying to get property 'cat_name' of non-object
+#0 D:\Allxampp\7.4\htdocs\vyaapar\app\Controllers\admin\Vendor.php(271): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\Allxampp\\7.4...', 271, Array)
+#1 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Vendor->details('dc2f45b4306539b...')
+#2 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Vendor))
+#3 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Allxampp\7.4\htdocs\vyaapar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-02 21:30:30 --> Undefined variable: data
+#0 D:\Allxampp\7.4\htdocs\vyaapar\app\Views\admin\vendor\vendorDetails.php(137): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Allxampp\\7.4...', 137, Array)
+#1 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\Allxampp\\7.4...')
+#2 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('admin/Vendor/ve...', Array, true)
+#3 D:\Allxampp\7.4\htdocs\vyaapar\app\Controllers\admin\Vendor.php(274): view('admin/Vendor/ve...', Array)
+#4 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Vendor->details('dc2f45b4306539b...')
+#5 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Vendor))
+#6 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Allxampp\7.4\htdocs\vyaapar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-02 21:30:49 --> syntax error, unexpected ']'
+#0 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('admin/Vendor/ve...', Array, true)
+#1 D:\Allxampp\7.4\htdocs\vyaapar\app\Controllers\admin\Vendor.php(274): view('admin/Vendor/ve...', Array)
+#2 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Vendor->details('dc2f45b4306539b...')
+#3 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Vendor))
+#4 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Allxampp\7.4\htdocs\vyaapar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-04-02 23:38:35 --> Undefined offset: 0
+#0 D:\Allxampp\7.4\htdocs\vyaapar\app\Models\SaleasAssociate_model.php(164): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\Allxampp\\7.4...', 164, Array)
+#1 D:\Allxampp\7.4\htdocs\vyaapar\app\Controllers\admin\Vendor.php(257): App\Models\SaleasAssociate_model->getSaleBySlug('fetch_second_le...')
+#2 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Vendor->details('fetch_second_le...')
+#3 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Vendor))
+#4 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Allxampp\7.4\htdocs\vyaapar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-04-02 23:38:36 --> Undefined offset: 0
+#0 D:\Allxampp\7.4\htdocs\vyaapar\app\Models\SaleasAssociate_model.php(164): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\Allxampp\\7.4...', 164, Array)
+#1 D:\Allxampp\7.4\htdocs\vyaapar\app\Controllers\admin\Vendor.php(257): App\Models\SaleasAssociate_model->getSaleBySlug('fetch_second_le...')
+#2 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Vendor->details('fetch_second_le...')
+#3 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Vendor))
+#4 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Allxampp\7.4\htdocs\vyaapar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-04-02 23:38:39 --> Undefined offset: 0
+#0 D:\Allxampp\7.4\htdocs\vyaapar\app\Models\SaleasAssociate_model.php(164): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\Allxampp\\7.4...', 164, Array)
+#1 D:\Allxampp\7.4\htdocs\vyaapar\app\Controllers\admin\Vendor.php(257): App\Models\SaleasAssociate_model->getSaleBySlug('fetch_second_le...')
+#2 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Vendor->details('fetch_second_le...')
+#3 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Vendor))
+#4 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Allxampp\7.4\htdocs\vyaapar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-04-02 23:38:40 --> Undefined offset: 0
+#0 D:\Allxampp\7.4\htdocs\vyaapar\app\Models\SaleasAssociate_model.php(164): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\Allxampp\\7.4...', 164, Array)
+#1 D:\Allxampp\7.4\htdocs\vyaapar\app\Controllers\admin\Vendor.php(257): App\Models\SaleasAssociate_model->getSaleBySlug('fetch_second_le...')
+#2 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Vendor->details('fetch_second_le...')
+#3 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Vendor))
+#4 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Allxampp\7.4\htdocs\vyaapar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-04-02 23:38:40 --> Undefined offset: 0
+#0 D:\Allxampp\7.4\htdocs\vyaapar\app\Models\SaleasAssociate_model.php(164): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\Allxampp\\7.4...', 164, Array)
+#1 D:\Allxampp\7.4\htdocs\vyaapar\app\Controllers\admin\Vendor.php(257): App\Models\SaleasAssociate_model->getSaleBySlug('fetch_second_le...')
+#2 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Vendor->details('fetch_second_le...')
+#3 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Vendor))
+#4 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Allxampp\7.4\htdocs\vyaapar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-04-02 23:38:41 --> Undefined offset: 0
+#0 D:\Allxampp\7.4\htdocs\vyaapar\app\Models\SaleasAssociate_model.php(164): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\Allxampp\\7.4...', 164, Array)
+#1 D:\Allxampp\7.4\htdocs\vyaapar\app\Controllers\admin\Vendor.php(257): App\Models\SaleasAssociate_model->getSaleBySlug('fetch_second_le...')
+#2 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Vendor->details('fetch_second_le...')
+#3 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Vendor))
+#4 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Allxampp\7.4\htdocs\vyaapar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-04-02 23:38:43 --> Undefined offset: 0
+#0 D:\Allxampp\7.4\htdocs\vyaapar\app\Models\SaleasAssociate_model.php(164): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\Allxampp\\7.4...', 164, Array)
+#1 D:\Allxampp\7.4\htdocs\vyaapar\app\Controllers\admin\Vendor.php(257): App\Models\SaleasAssociate_model->getSaleBySlug('fetch_second_le...')
+#2 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Vendor->details('fetch_second_le...')
+#3 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Vendor))
+#4 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Allxampp\7.4\htdocs\vyaapar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-04-02 23:38:43 --> Undefined offset: 0
+#0 D:\Allxampp\7.4\htdocs\vyaapar\app\Models\SaleasAssociate_model.php(164): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\Allxampp\\7.4...', 164, Array)
+#1 D:\Allxampp\7.4\htdocs\vyaapar\app\Controllers\admin\Vendor.php(257): App\Models\SaleasAssociate_model->getSaleBySlug('fetch_second_le...')
+#2 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Vendor->details('fetch_second_le...')
+#3 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Vendor))
+#4 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Allxampp\7.4\htdocs\vyaapar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-04-02 23:38:43 --> Undefined offset: 0
+#0 D:\Allxampp\7.4\htdocs\vyaapar\app\Models\SaleasAssociate_model.php(164): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\Allxampp\\7.4...', 164, Array)
+#1 D:\Allxampp\7.4\htdocs\vyaapar\app\Controllers\admin\Vendor.php(257): App\Models\SaleasAssociate_model->getSaleBySlug('fetch_second_le...')
+#2 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Vendor->details('fetch_second_le...')
+#3 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Vendor))
+#4 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Allxampp\7.4\htdocs\vyaapar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-04-02 23:38:44 --> Undefined offset: 0
+#0 D:\Allxampp\7.4\htdocs\vyaapar\app\Models\SaleasAssociate_model.php(164): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\Allxampp\\7.4...', 164, Array)
+#1 D:\Allxampp\7.4\htdocs\vyaapar\app\Controllers\admin\Vendor.php(257): App\Models\SaleasAssociate_model->getSaleBySlug('fetch_second_le...')
+#2 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Vendor->details('fetch_second_le...')
+#3 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Vendor))
+#4 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Allxampp\7.4\htdocs\vyaapar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-04-02 23:39:23 --> Undefined offset: 0
+#0 D:\Allxampp\7.4\htdocs\vyaapar\app\Models\SaleasAssociate_model.php(164): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\Allxampp\\7.4...', 164, Array)
+#1 D:\Allxampp\7.4\htdocs\vyaapar\app\Controllers\admin\Vendor.php(257): App\Models\SaleasAssociate_model->getSaleBySlug('fetch_second_le...')
+#2 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Vendor->details('fetch_second_le...')
+#3 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Vendor))
+#4 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Allxampp\7.4\htdocs\vyaapar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-04-02 23:43:59 --> Undefined offset: 0
+#0 D:\Allxampp\7.4\htdocs\vyaapar\app\Models\SaleasAssociate_model.php(164): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\Allxampp\\7.4...', 164, Array)
+#1 D:\Allxampp\7.4\htdocs\vyaapar\app\Controllers\admin\Vendor.php(257): App\Models\SaleasAssociate_model->getSaleBySlug('fetch_second_le...')
+#2 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Vendor->details('fetch_second_le...')
+#3 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Vendor))
+#4 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Allxampp\7.4\htdocs\vyaapar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-04-02 23:44:36 --> Undefined offset: 0
+#0 D:\Allxampp\7.4\htdocs\vyaapar\app\Models\SaleasAssociate_model.php(164): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\Allxampp\\7.4...', 164, Array)
+#1 D:\Allxampp\7.4\htdocs\vyaapar\app\Controllers\admin\Vendor.php(257): App\Models\SaleasAssociate_model->getSaleBySlug('fetch_second_le...')
+#2 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Vendor->details('fetch_second_le...')
+#3 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Vendor))
+#4 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Allxampp\7.4\htdocs\vyaapar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}

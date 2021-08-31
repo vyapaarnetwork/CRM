@@ -1,0 +1,52 @@
+CRITICAL - 2021-01-28 12:42:53 --> whereIn() expects $values to be of type array or closure
+#0 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(853): CodeIgniter\Database\BaseBuilder->_whereIn('id', '1', false, 'AND ', NULL)
+#1 /opt/lampp/htdocs/SystemManager/app/Models/Product_model.php(92): CodeIgniter\Database\BaseBuilder->whereIn('id', '1')
+#2 /opt/lampp/htdocs/SystemManager/app/Controllers/admin/Product.php(78): App\Models\Product_model->deleteProduct('1')
+#3 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\admin\Product->Productdelete()
+#4 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Product))
+#5 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/SystemManager/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-01-28 12:44:47 --> Unknown column 'id' in 'where clause'
+#0 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(331): mysqli->query('DELETE FROM `sm...')
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `sm...')
+#2 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `sm...')
+#3 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2853): CodeIgniter\Database\BaseConnection->query('DELETE FROM `sm...', Array, false)
+#4 /opt/lampp/htdocs/SystemManager/app/Models/Product_model.php(97): CodeIgniter\Database\BaseBuilder->delete()
+#5 /opt/lampp/htdocs/SystemManager/app/Controllers/admin/Product.php(78): App\Models\Product_model->deleteProduct('1')
+#6 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\admin\Product->Productdelete()
+#7 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Product))
+#8 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /opt/lampp/htdocs/SystemManager/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-01-28 16:42:15 --> Trying to get property 'spm_id' of non-object
+#0 /opt/lampp/htdocs/SystemManager/app/Controllers/admin/Product.php(141): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/opt/lampp/htdo...', 141, Array)
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\admin\Product->Details('37ce8dbc1d472d9...')
+#2 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Product))
+#3 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/SystemManager/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-28 16:42:20 --> Trying to get property 'spm_id' of non-object
+#0 /opt/lampp/htdocs/SystemManager/app/Controllers/admin/Product.php(141): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/opt/lampp/htdo...', 141, Array)
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\admin\Product->Details('37ce8dbc1d472d9...')
+#2 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Product))
+#3 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/SystemManager/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-28 18:59:36 --> Undefined offset: 0
+#0 /opt/lampp/htdocs/SystemManager/app/Controllers/admin/Product.php(140): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/opt/lampp/htdo...', 140, Array)
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\admin\Product->Details('37ce8dbc1d472d9...')
+#2 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Product))
+#3 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/SystemManager/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-28 19:32:50 --> Undefined index: spm_image
+#0 /opt/lampp/htdocs/SystemManager/app/Views/admin/product/productDetails.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 18, Array)
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/View/View.php(246): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('admin/product/p...', Array, true)
+#3 /opt/lampp/htdocs/SystemManager/app/Controllers/admin/Product.php(141): view('admin/product/p...', Array)
+#4 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\admin\Product->Details('fd904105a9a1b3a...')
+#5 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Product))
+#6 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/SystemManager/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}

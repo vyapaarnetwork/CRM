@@ -1,0 +1,10 @@
+CRITICAL - 2021-07-26 22:40:38 --> Undefined variable: totalTime
+#0 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\Debug\Toolbar\Views\toolbar.tpl.php(56): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'G:\\Shared drive...', 56, Array)
+#1 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\Debug\Toolbar.php(498): include('G:\\Shared drive...')
+#2 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\Debug\Toolbar.php(455): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\app\Config\Events.php(50): CodeIgniter\Debug\Toolbar->respond()
+#4 [internal function]: CodeIgniter\Events\Events::Config\{closure}()
+#5 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\Events\Events.php(188): call_user_func(Object(Closure))
+#6 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(293): CodeIgniter\Events\Events::trigger('pre_system')
+#7 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}

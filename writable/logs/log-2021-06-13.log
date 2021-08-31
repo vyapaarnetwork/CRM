@@ -1,0 +1,806 @@
+CRITICAL - 2021-06-13 11:13:22 --> Undefined variable: tllead
+#0 D:\Allxampp\7.4\htdocs\vyaapar\app\Views\admin\dashboard\super_dashboard.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Allxampp\\7.4...', 68, Array)
+#1 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\Allxampp\\7.4...')
+#2 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('admin/dashboard...', Array, true)
+#3 D:\Allxampp\7.4\htdocs\vyaapar\app\Controllers\admin\Admin.php(103): view('admin/dashboard...', Array)
+#4 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Admin->home()
+#5 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Admin))
+#6 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Allxampp\7.4\htdocs\vyaapar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-13 11:22:06 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '> open' at line 3
+#0 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Allxampp\7.4\htdocs\vyaapar\app\Helpers\db_helper.php(168): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Allxampp\7.4\htdocs\vyaapar\app\Controllers\admin\Admin.php(74): get_dbdata(Array)
+#6 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Admin->home()
+#7 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Admin))
+#8 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Allxampp\7.4\htdocs\vyaapar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-06-13 11:23:33 --> Undefined variable: tlcleads
+#0 D:\Allxampp\7.4\htdocs\vyaapar\app\Views\admin\dashboard\super_dashboard.php(82): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Allxampp\\7.4...', 82, Array)
+#1 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\Allxampp\\7.4...')
+#2 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('admin/dashboard...', Array, true)
+#3 D:\Allxampp\7.4\htdocs\vyaapar\app\Controllers\admin\Admin.php(104): view('admin/dashboard...', Array)
+#4 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Admin->home()
+#5 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Admin))
+#6 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Allxampp\7.4\htdocs\vyaapar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-13 11:27:34 --> Unknown column 'open' in 'where clause'
+#0 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Allxampp\7.4\htdocs\vyaapar\app\Helpers\db_helper.php(170): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Allxampp\7.4\htdocs\vyaapar\app\Controllers\admin\Admin.php(72): get_dbdata(Array)
+#6 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Admin->home()
+#7 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Admin))
+#8 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Allxampp\7.4\htdocs\vyaapar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-06-13 11:30:39 --> Undefined property: CodeIgniter\Database\MySQLi\Builder::$resultID
+#0 D:\Allxampp\7.4\htdocs\vyaapar\app\Helpers\db_helper.php(173): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\Allxampp\\7.4...', 173, Array)
+#1 D:\Allxampp\7.4\htdocs\vyaapar\app\Controllers\admin\Admin.php(51): get_dbdata(Array)
+#2 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Admin->home()
+#3 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Admin))
+#4 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Allxampp\7.4\htdocs\vyaapar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-06-13 11:31:04 --> Undefined property: CodeIgniter\Database\MySQLi\Builder::$resultID
+#0 D:\Allxampp\7.4\htdocs\vyaapar\app\Helpers\db_helper.php(173): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\Allxampp\\7.4...', 173, Array)
+#1 D:\Allxampp\7.4\htdocs\vyaapar\app\Controllers\admin\Admin.php(51): get_dbdata(Array)
+#2 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Admin->home()
+#3 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Admin))
+#4 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Allxampp\7.4\htdocs\vyaapar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-06-13 11:31:26 --> Undefined property: CodeIgniter\Database\MySQLi\Builder::$resultID
+#0 D:\Allxampp\7.4\htdocs\vyaapar\app\Helpers\db_helper.php(173): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\Allxampp\\7.4...', 173, Array)
+#1 D:\Allxampp\7.4\htdocs\vyaapar\app\Controllers\admin\Admin.php(51): get_dbdata(Array)
+#2 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Admin->home()
+#3 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Admin))
+#4 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Allxampp\7.4\htdocs\vyaapar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-06-13 11:46:47 --> syntax error, unexpected 'Count' (T_STRING)
+#0 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('D:\\Allxampp\\7.4...')
+#1 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Allxampp\7.4\htdocs\vyaapar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-13 11:47:00 --> Array to string conversion
+#0 D:\Allxampp\7.4\htdocs\vyaapar\app\Views\admin\dashboard\super_dashboard.php(82): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'D:\\Allxampp\\7.4...', 82, Array)
+#1 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\Allxampp\\7.4...')
+#2 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('admin/dashboard...', Array, true)
+#3 D:\Allxampp\7.4\htdocs\vyaapar\app\Controllers\admin\Admin.php(101): view('admin/dashboard...', Array)
+#4 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Admin->home()
+#5 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Admin))
+#6 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Allxampp\7.4\htdocs\vyaapar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-13 12:54:58 --> syntax error, unexpected ''count'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+#0 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('D:\\Allxampp\\7.4...')
+#1 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Allxampp\7.4\htdocs\vyaapar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-13 12:55:18 --> syntax error, unexpected ''count'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+#0 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('D:\\Allxampp\\7.4...')
+#1 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Allxampp\7.4\htdocs\vyaapar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-13 12:57:56 --> Undefined variable: tlleads
+#0 D:\Allxampp\7.4\htdocs\vyaapar\app\Views\vendor\dashboard\vendor_dashboard.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Allxampp\\7.4...', 41, Array)
+#1 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\Allxampp\\7.4...')
+#2 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('vendor/dashboar...', Array, true)
+#3 D:\Allxampp\7.4\htdocs\vyaapar\app\Controllers\vendor\Vendor.php(125): view('vendor/dashboar...', Array)
+#4 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\vendor\Vendor->home()
+#5 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Vendor))
+#6 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Allxampp\7.4\htdocs\vyaapar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-13 14:42:38 --> Trying to get property 'lead_value' of non-object
+#0 D:\Allxampp\7.4\htdocs\vyaapar\app\Controllers\vendor\Vendor.php(98): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\Allxampp\\7.4...', 98, Array)
+#1 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\vendor\Vendor->home()
+#2 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Vendor))
+#3 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Allxampp\7.4\htdocs\vyaapar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-13 14:42:55 --> Undefined property: stdClass::$lead_value
+#0 D:\Allxampp\7.4\htdocs\vyaapar\app\Controllers\vendor\Vendor.php(98): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\Allxampp\\7.4...', 98, Array)
+#1 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\vendor\Vendor->home()
+#2 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Vendor))
+#3 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Allxampp\7.4\htdocs\vyaapar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-13 14:43:28 --> Cannot use object of type stdClass as array
+#0 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\vendor\Vendor->home()
+#1 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Vendor))
+#2 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Allxampp\7.4\htdocs\vyaapar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-13 15:11:03 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::orderBy() must be of the type string, null given, called in D:\Allxampp\7.4\htdocs\vyaapar\app\Models\Leads_model.php on line 78
+#0 D:\Allxampp\7.4\htdocs\vyaapar\app\Models\Leads_model.php(78): CodeIgniter\Database\BaseBuilder->orderBy(NULL, 'asc')
+#1 D:\Allxampp\7.4\htdocs\vyaapar\app\Models\Leads_model.php(87): App\Models\Leads_model->_get_datatables_query(Array)
+#2 D:\Allxampp\7.4\htdocs\vyaapar\app\Controllers\vendor\Vendor.php(167): App\Models\Leads_model->get_datatables(Array)
+#3 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\vendor\Vendor->listLeads()
+#4 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Vendor))
+#5 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Allxampp\7.4\htdocs\vyaapar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-13 15:11:08 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::orderBy() must be of the type string, null given, called in D:\Allxampp\7.4\htdocs\vyaapar\app\Models\Leads_model.php on line 78
+#0 D:\Allxampp\7.4\htdocs\vyaapar\app\Models\Leads_model.php(78): CodeIgniter\Database\BaseBuilder->orderBy(NULL, 'desc')
+#1 D:\Allxampp\7.4\htdocs\vyaapar\app\Models\Leads_model.php(87): App\Models\Leads_model->_get_datatables_query(Array)
+#2 D:\Allxampp\7.4\htdocs\vyaapar\app\Controllers\vendor\Vendor.php(167): App\Models\Leads_model->get_datatables(Array)
+#3 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\vendor\Vendor->listLeads()
+#4 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Vendor))
+#5 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Allxampp\7.4\htdocs\vyaapar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-13 15:54:09 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::orderBy() must be of the type string, null given, called in /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php on line 78
+#0 /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php(78): CodeIgniter\Database\BaseBuilder->orderBy(NULL, 'asc')
+#1 /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php(87): App\Models\Leads_model->_get_datatables_query(Array)
+#2 /home/vyapaar/crm.vyapaar.net/app/Controllers/admin/Leads.php(172): App\Models\Leads_model->get_datatables(Array)
+#3 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\admin\Leads->listLeads()
+#4 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leads))
+#5 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/vyapaar/crm.vyapaar.net/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-13 15:54:15 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::orderBy() must be of the type string, null given, called in /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php on line 78
+#0 /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php(78): CodeIgniter\Database\BaseBuilder->orderBy(NULL, 'desc')
+#1 /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php(87): App\Models\Leads_model->_get_datatables_query(Array)
+#2 /home/vyapaar/crm.vyapaar.net/app/Controllers/admin/Leads.php(172): App\Models\Leads_model->get_datatables(Array)
+#3 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\admin\Leads->listLeads()
+#4 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leads))
+#5 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/vyapaar/crm.vyapaar.net/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-13 15:57:06 --> Division by zero
+#0 /home/vyapaar/crm.vyapaar.net/app/Views/admin/leads/leadDetails.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Division by zer...', '/home/vyapaar/c...', 125, Array)
+#1 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/View/View.php(246): include('/home/vyapaar/c...')
+#2 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('admin/leads/lea...', Array, true)
+#3 /home/vyapaar/crm.vyapaar.net/app/Controllers/admin/Leads.php(266): view('admin/leads/lea...', Array)
+#4 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\admin\Leads->leadsDetails('6860')
+#5 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leads))
+#6 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/vyapaar/crm.vyapaar.net/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-13 15:57:14 --> Division by zero
+#0 /home/vyapaar/crm.vyapaar.net/app/Views/admin/leads/leadDetails.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Division by zer...', '/home/vyapaar/c...', 125, Array)
+#1 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/View/View.php(246): include('/home/vyapaar/c...')
+#2 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('admin/leads/lea...', Array, true)
+#3 /home/vyapaar/crm.vyapaar.net/app/Controllers/admin/Leads.php(266): view('admin/leads/lea...', Array)
+#4 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\admin\Leads->leadsDetails('6860')
+#5 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leads))
+#6 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/vyapaar/crm.vyapaar.net/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-13 16:01:47 --> syntax error, unexpected 'lead_documents' (T_STRING), expecting ';' or ','
+#0 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('admin/leads/lea...', Array, true)
+#1 /home/vyapaar/crm.vyapaar.net/app/Controllers/admin/Leads.php(266): view('admin/leads/lea...', Array)
+#2 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\admin\Leads->leadsDetails('7491')
+#3 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leads))
+#4 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/vyapaar/crm.vyapaar.net/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-06-13 16:01:52 --> syntax error, unexpected 'lead_documents' (T_STRING), expecting ';' or ','
+#0 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('admin/leads/lea...', Array, true)
+#1 /home/vyapaar/crm.vyapaar.net/app/Controllers/admin/Leads.php(266): view('admin/leads/lea...', Array)
+#2 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\admin\Leads->leadsDetails('7491')
+#3 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leads))
+#4 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/vyapaar/crm.vyapaar.net/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-06-13 20:04:50 --> Division by zero
+#0 /home/vyapaar/crm.vyapaar.net/app/Views/admin/leads/leadDetails.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Division by zer...', '/home/vyapaar/c...', 125, Array)
+#1 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/View/View.php(246): include('/home/vyapaar/c...')
+#2 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('admin/leads/lea...', Array, true)
+#3 /home/vyapaar/crm.vyapaar.net/app/Controllers/admin/Leads.php(266): view('admin/leads/lea...', Array)
+#4 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\admin\Leads->leadsDetails('6860')
+#5 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leads))
+#6 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/vyapaar/crm.vyapaar.net/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-13 20:04:52 --> Division by zero
+#0 /home/vyapaar/crm.vyapaar.net/app/Views/admin/leads/leadDetails.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Division by zer...', '/home/vyapaar/c...', 125, Array)
+#1 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/View/View.php(246): include('/home/vyapaar/c...')
+#2 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('admin/leads/lea...', Array, true)
+#3 /home/vyapaar/crm.vyapaar.net/app/Controllers/admin/Leads.php(266): view('admin/leads/lea...', Array)
+#4 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\admin\Leads->leadsDetails('6860')
+#5 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leads))
+#6 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/vyapaar/crm.vyapaar.net/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-13 20:05:23 --> Division by zero
+#0 /home/vyapaar/crm.vyapaar.net/app/Views/admin/leads/leadDetails.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Division by zer...', '/home/vyapaar/c...', 125, Array)
+#1 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/View/View.php(246): include('/home/vyapaar/c...')
+#2 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('admin/leads/lea...', Array, true)
+#3 /home/vyapaar/crm.vyapaar.net/app/Controllers/admin/Leads.php(266): view('admin/leads/lea...', Array)
+#4 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\admin\Leads->leadsDetails('6860')
+#5 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leads))
+#6 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/vyapaar/crm.vyapaar.net/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-13 20:05:25 --> Division by zero
+#0 /home/vyapaar/crm.vyapaar.net/app/Views/admin/leads/leadDetails.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Division by zer...', '/home/vyapaar/c...', 125, Array)
+#1 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/View/View.php(246): include('/home/vyapaar/c...')
+#2 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('admin/leads/lea...', Array, true)
+#3 /home/vyapaar/crm.vyapaar.net/app/Controllers/admin/Leads.php(266): view('admin/leads/lea...', Array)
+#4 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\admin\Leads->leadsDetails('6860')
+#5 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leads))
+#6 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/vyapaar/crm.vyapaar.net/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-13 20:05:26 --> Division by zero
+#0 /home/vyapaar/crm.vyapaar.net/app/Views/admin/leads/leadDetails.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Division by zer...', '/home/vyapaar/c...', 125, Array)
+#1 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/View/View.php(246): include('/home/vyapaar/c...')
+#2 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('admin/leads/lea...', Array, true)
+#3 /home/vyapaar/crm.vyapaar.net/app/Controllers/admin/Leads.php(266): view('admin/leads/lea...', Array)
+#4 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\admin\Leads->leadsDetails('6860')
+#5 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leads))
+#6 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/vyapaar/crm.vyapaar.net/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-13 20:06:31 --> Division by zero
+#0 /home/vyapaar/crm.vyapaar.net/app/Views/admin/leads/leadDetails.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Division by zer...', '/home/vyapaar/c...', 125, Array)
+#1 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/View/View.php(246): include('/home/vyapaar/c...')
+#2 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('admin/leads/lea...', Array, true)
+#3 /home/vyapaar/crm.vyapaar.net/app/Controllers/admin/Leads.php(266): view('admin/leads/lea...', Array)
+#4 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\admin\Leads->leadsDetails('6860')
+#5 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leads))
+#6 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/vyapaar/crm.vyapaar.net/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-13 20:06:33 --> Division by zero
+#0 /home/vyapaar/crm.vyapaar.net/app/Views/admin/leads/leadDetails.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Division by zer...', '/home/vyapaar/c...', 125, Array)
+#1 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/View/View.php(246): include('/home/vyapaar/c...')
+#2 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('admin/leads/lea...', Array, true)
+#3 /home/vyapaar/crm.vyapaar.net/app/Controllers/admin/Leads.php(266): view('admin/leads/lea...', Array)
+#4 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\admin\Leads->leadsDetails('6860')
+#5 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leads))
+#6 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/vyapaar/crm.vyapaar.net/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-13 20:15:45 --> Call to undefined function roundup()
+#0 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/View/View.php(246): include()
+#1 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('admin/leads/lea...', Array, true)
+#2 /home/vyapaar/crm.vyapaar.net/app/Controllers/admin/Leads.php(266): view('admin/leads/lea...', Array)
+#3 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\admin\Leads->leadsDetails('7491')
+#4 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leads))
+#5 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/vyapaar/crm.vyapaar.net/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-13 20:27:47 --> Undefined property: App\Controllers\admin\Vendor::$salesModle
+#0 /home/vyapaar/crm.vyapaar.net/app/Controllers/admin/Vendor.php(353): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/vyapaar/c...', 353, Array)
+#1 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\admin\Vendor->details('crm-leads-repor...')
+#2 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Vendor))
+#3 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/vyapaar/crm.vyapaar.net/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-13 20:29:32 --> Unknown column 'lead_subcat_id' in 'order clause'
+#0 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php(96): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/vyapaar/crm.vyapaar.net/app/Controllers/admin/Leads.php(172): App\Models\Leads_model->get_datatables(Array)
+#6 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\admin\Leads->listLeads()
+#7 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leads))
+#8 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/vyapaar/crm.vyapaar.net/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-06-13 20:29:35 --> Unknown column 'lead_subcat_id' in 'order clause'
+#0 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php(96): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/vyapaar/crm.vyapaar.net/app/Controllers/admin/Leads.php(172): App\Models\Leads_model->get_datatables(Array)
+#6 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\admin\Leads->listLeads()
+#7 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leads))
+#8 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/vyapaar/crm.vyapaar.net/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-06-13 20:30:21 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::orderBy() must be of the type string, null given, called in /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php on line 78
+#0 /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php(78): CodeIgniter\Database\BaseBuilder->orderBy(NULL, 'asc')
+#1 /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php(87): App\Models\Leads_model->_get_datatables_query(Array)
+#2 /home/vyapaar/crm.vyapaar.net/app/Controllers/admin/Leads.php(172): App\Models\Leads_model->get_datatables(Array)
+#3 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\admin\Leads->listLeads()
+#4 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leads))
+#5 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/vyapaar/crm.vyapaar.net/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-13 20:30:22 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::orderBy() must be of the type string, null given, called in /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php on line 78
+#0 /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php(78): CodeIgniter\Database\BaseBuilder->orderBy(NULL, 'desc')
+#1 /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php(87): App\Models\Leads_model->_get_datatables_query(Array)
+#2 /home/vyapaar/crm.vyapaar.net/app/Controllers/admin/Leads.php(172): App\Models\Leads_model->get_datatables(Array)
+#3 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\admin\Leads->listLeads()
+#4 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leads))
+#5 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/vyapaar/crm.vyapaar.net/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-13 20:30:39 --> Unknown column 'lead_subcat_id' in 'order clause'
+#0 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php(96): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/vyapaar/crm.vyapaar.net/app/Controllers/admin/Leads.php(172): App\Models\Leads_model->get_datatables(Array)
+#6 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\admin\Leads->listLeads()
+#7 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leads))
+#8 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/vyapaar/crm.vyapaar.net/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-06-13 20:30:54 --> Unknown column 'lead_subcat_id' in 'order clause'
+#0 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php(96): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/vyapaar/crm.vyapaar.net/app/Controllers/admin/Leads.php(172): App\Models\Leads_model->get_datatables(Array)
+#6 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\admin\Leads->listLeads()
+#7 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leads))
+#8 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/vyapaar/crm.vyapaar.net/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-06-13 20:31:53 --> Undefined offset: 6
+#0 /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php(78): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home/vyapaar/c...', 78, Array)
+#1 /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php(87): App\Models\Leads_model->_get_datatables_query(Array)
+#2 /home/vyapaar/crm.vyapaar.net/app/Controllers/admin/Leads.php(172): App\Models\Leads_model->get_datatables(Array)
+#3 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\admin\Leads->listLeads()
+#4 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leads))
+#5 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/vyapaar/crm.vyapaar.net/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-13 20:32:34 --> Unknown column 'lead_subcat_id' in 'order clause'
+#0 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php(96): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/vyapaar/crm.vyapaar.net/app/Controllers/admin/Leads.php(172): App\Models\Leads_model->get_datatables(Array)
+#6 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\admin\Leads->listLeads()
+#7 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leads))
+#8 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/vyapaar/crm.vyapaar.net/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-06-13 20:32:59 --> Unknown column 'lead_subcat_id' in 'order clause'
+#0 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php(96): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/vyapaar/crm.vyapaar.net/app/Controllers/admin/Leads.php(172): App\Models\Leads_model->get_datatables(Array)
+#6 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\admin\Leads->listLeads()
+#7 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leads))
+#8 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/vyapaar/crm.vyapaar.net/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-06-13 20:33:11 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::orderBy() must be of the type string, null given, called in /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php on line 78
+#0 /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php(78): CodeIgniter\Database\BaseBuilder->orderBy(NULL, 'asc')
+#1 /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php(87): App\Models\Leads_model->_get_datatables_query(Array)
+#2 /home/vyapaar/crm.vyapaar.net/app/Controllers/admin/Leads.php(172): App\Models\Leads_model->get_datatables(Array)
+#3 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\admin\Leads->listLeads()
+#4 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leads))
+#5 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/vyapaar/crm.vyapaar.net/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-13 20:33:15 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::orderBy() must be of the type string, null given, called in /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php on line 78
+#0 /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php(78): CodeIgniter\Database\BaseBuilder->orderBy(NULL, 'asc')
+#1 /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php(87): App\Models\Leads_model->_get_datatables_query(Array)
+#2 /home/vyapaar/crm.vyapaar.net/app/Controllers/admin/Leads.php(172): App\Models\Leads_model->get_datatables(Array)
+#3 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\admin\Leads->listLeads()
+#4 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leads))
+#5 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/vyapaar/crm.vyapaar.net/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-13 20:33:20 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::orderBy() must be of the type string, null given, called in /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php on line 78
+#0 /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php(78): CodeIgniter\Database\BaseBuilder->orderBy(NULL, 'asc')
+#1 /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php(87): App\Models\Leads_model->_get_datatables_query(Array)
+#2 /home/vyapaar/crm.vyapaar.net/app/Controllers/admin/Leads.php(172): App\Models\Leads_model->get_datatables(Array)
+#3 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\admin\Leads->listLeads()
+#4 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leads))
+#5 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/vyapaar/crm.vyapaar.net/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-13 20:33:22 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::orderBy() must be of the type string, null given, called in /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php on line 78
+#0 /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php(78): CodeIgniter\Database\BaseBuilder->orderBy(NULL, 'desc')
+#1 /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php(87): App\Models\Leads_model->_get_datatables_query(Array)
+#2 /home/vyapaar/crm.vyapaar.net/app/Controllers/admin/Leads.php(172): App\Models\Leads_model->get_datatables(Array)
+#3 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\admin\Leads->listLeads()
+#4 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leads))
+#5 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/vyapaar/crm.vyapaar.net/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-13 20:33:41 --> Unknown column 'lead_subcat_id' in 'order clause'
+#0 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php(96): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/vyapaar/crm.vyapaar.net/app/Controllers/admin/Leads.php(172): App\Models\Leads_model->get_datatables(Array)
+#6 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\admin\Leads->listLeads()
+#7 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leads))
+#8 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/vyapaar/crm.vyapaar.net/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-06-13 20:33:46 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::orderBy() must be of the type string, null given, called in /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php on line 78
+#0 /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php(78): CodeIgniter\Database\BaseBuilder->orderBy(NULL, 'asc')
+#1 /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php(87): App\Models\Leads_model->_get_datatables_query(Array)
+#2 /home/vyapaar/crm.vyapaar.net/app/Controllers/admin/Leads.php(172): App\Models\Leads_model->get_datatables(Array)
+#3 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\admin\Leads->listLeads()
+#4 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leads))
+#5 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/vyapaar/crm.vyapaar.net/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-13 20:33:51 --> Undefined offset: 7
+#0 /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php(78): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home/vyapaar/c...', 78, Array)
+#1 /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php(87): App\Models\Leads_model->_get_datatables_query(Array)
+#2 /home/vyapaar/crm.vyapaar.net/app/Controllers/admin/Leads.php(172): App\Models\Leads_model->get_datatables(Array)
+#3 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\admin\Leads->listLeads()
+#4 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leads))
+#5 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/vyapaar/crm.vyapaar.net/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-13 20:33:56 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::orderBy() must be of the type string, null given, called in /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php on line 78
+#0 /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php(78): CodeIgniter\Database\BaseBuilder->orderBy(NULL, 'asc')
+#1 /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php(87): App\Models\Leads_model->_get_datatables_query(Array)
+#2 /home/vyapaar/crm.vyapaar.net/app/Controllers/admin/Leads.php(172): App\Models\Leads_model->get_datatables(Array)
+#3 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\admin\Leads->listLeads()
+#4 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leads))
+#5 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/vyapaar/crm.vyapaar.net/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-13 20:34:33 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::orderBy() must be of the type string, null given, called in /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php on line 78
+#0 /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php(78): CodeIgniter\Database\BaseBuilder->orderBy(NULL, 'asc')
+#1 /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php(87): App\Models\Leads_model->_get_datatables_query(Array)
+#2 /home/vyapaar/crm.vyapaar.net/app/Controllers/admin/Leads.php(172): App\Models\Leads_model->get_datatables(Array)
+#3 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\admin\Leads->listLeads()
+#4 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leads))
+#5 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/vyapaar/crm.vyapaar.net/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-13 20:34:36 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::orderBy() must be of the type string, null given, called in /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php on line 78
+#0 /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php(78): CodeIgniter\Database\BaseBuilder->orderBy(NULL, 'desc')
+#1 /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php(87): App\Models\Leads_model->_get_datatables_query(Array)
+#2 /home/vyapaar/crm.vyapaar.net/app/Controllers/admin/Leads.php(172): App\Models\Leads_model->get_datatables(Array)
+#3 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\admin\Leads->listLeads()
+#4 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leads))
+#5 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/vyapaar/crm.vyapaar.net/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-13 20:34:58 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::orderBy() must be of the type string, null given, called in /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php on line 78
+#0 /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php(78): CodeIgniter\Database\BaseBuilder->orderBy(NULL, 'asc')
+#1 /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php(87): App\Models\Leads_model->_get_datatables_query(Array)
+#2 /home/vyapaar/crm.vyapaar.net/app/Controllers/admin/Leads.php(172): App\Models\Leads_model->get_datatables(Array)
+#3 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\admin\Leads->listLeads()
+#4 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leads))
+#5 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/vyapaar/crm.vyapaar.net/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-13 20:36:46 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::orderBy() must be of the type string, null given, called in /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php on line 78
+#0 /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php(78): CodeIgniter\Database\BaseBuilder->orderBy(NULL, 'asc')
+#1 /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php(87): App\Models\Leads_model->_get_datatables_query(Array)
+#2 /home/vyapaar/crm.vyapaar.net/app/Controllers/admin/Leads.php(172): App\Models\Leads_model->get_datatables(Array)
+#3 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\admin\Leads->listLeads()
+#4 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leads))
+#5 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/vyapaar/crm.vyapaar.net/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-13 20:37:13 --> Unknown column 'lead_subcat_id' in 'order clause'
+#0 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php(96): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/vyapaar/crm.vyapaar.net/app/Controllers/admin/Leads.php(172): App\Models\Leads_model->get_datatables(Array)
+#6 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\admin\Leads->listLeads()
+#7 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leads))
+#8 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/vyapaar/crm.vyapaar.net/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-06-13 20:37:37 --> Unknown column 'lead_subcat_id' in 'order clause'
+#0 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php(96): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/vyapaar/crm.vyapaar.net/app/Controllers/admin/Leads.php(172): App\Models\Leads_model->get_datatables(Array)
+#6 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\admin\Leads->listLeads()
+#7 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leads))
+#8 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/vyapaar/crm.vyapaar.net/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-06-13 20:38:38 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::orderBy() must be of the type string, null given, called in /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php on line 78
+#0 /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php(78): CodeIgniter\Database\BaseBuilder->orderBy(NULL, 'asc')
+#1 /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php(87): App\Models\Leads_model->_get_datatables_query(Array)
+#2 /home/vyapaar/crm.vyapaar.net/app/Controllers/admin/Leads.php(172): App\Models\Leads_model->get_datatables(Array)
+#3 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\admin\Leads->listLeads()
+#4 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leads))
+#5 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/vyapaar/crm.vyapaar.net/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-13 20:38:41 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::orderBy() must be of the type string, null given, called in /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php on line 78
+#0 /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php(78): CodeIgniter\Database\BaseBuilder->orderBy(NULL, 'desc')
+#1 /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php(87): App\Models\Leads_model->_get_datatables_query(Array)
+#2 /home/vyapaar/crm.vyapaar.net/app/Controllers/admin/Leads.php(172): App\Models\Leads_model->get_datatables(Array)
+#3 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\admin\Leads->listLeads()
+#4 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leads))
+#5 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/vyapaar/crm.vyapaar.net/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-13 20:38:41 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::orderBy() must be of the type string, null given, called in /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php on line 78
+#0 /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php(78): CodeIgniter\Database\BaseBuilder->orderBy(NULL, 'desc')
+#1 /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php(87): App\Models\Leads_model->_get_datatables_query(Array)
+#2 /home/vyapaar/crm.vyapaar.net/app/Controllers/admin/Leads.php(172): App\Models\Leads_model->get_datatables(Array)
+#3 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\admin\Leads->listLeads()
+#4 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leads))
+#5 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/vyapaar/crm.vyapaar.net/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-13 20:38:41 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::orderBy() must be of the type string, null given, called in /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php on line 78
+#0 /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php(78): CodeIgniter\Database\BaseBuilder->orderBy(NULL, 'asc')
+#1 /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php(87): App\Models\Leads_model->_get_datatables_query(Array)
+#2 /home/vyapaar/crm.vyapaar.net/app/Controllers/admin/Leads.php(172): App\Models\Leads_model->get_datatables(Array)
+#3 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\admin\Leads->listLeads()
+#4 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leads))
+#5 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/vyapaar/crm.vyapaar.net/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-13 20:38:41 --> Undefined offset: 6
+#0 /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php(78): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home/vyapaar/c...', 78, Array)
+#1 /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php(87): App\Models\Leads_model->_get_datatables_query(Array)
+#2 /home/vyapaar/crm.vyapaar.net/app/Controllers/admin/Leads.php(172): App\Models\Leads_model->get_datatables(Array)
+#3 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\admin\Leads->listLeads()
+#4 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leads))
+#5 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/vyapaar/crm.vyapaar.net/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-13 20:38:41 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::orderBy() must be of the type string, null given, called in /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php on line 78
+#0 /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php(78): CodeIgniter\Database\BaseBuilder->orderBy(NULL, 'desc')
+#1 /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php(87): App\Models\Leads_model->_get_datatables_query(Array)
+#2 /home/vyapaar/crm.vyapaar.net/app/Controllers/admin/Leads.php(172): App\Models\Leads_model->get_datatables(Array)
+#3 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\admin\Leads->listLeads()
+#4 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leads))
+#5 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/vyapaar/crm.vyapaar.net/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-13 20:38:41 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::orderBy() must be of the type string, null given, called in /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php on line 78
+#0 /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php(78): CodeIgniter\Database\BaseBuilder->orderBy(NULL, 'asc')
+#1 /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php(87): App\Models\Leads_model->_get_datatables_query(Array)
+#2 /home/vyapaar/crm.vyapaar.net/app/Controllers/admin/Leads.php(172): App\Models\Leads_model->get_datatables(Array)
+#3 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\admin\Leads->listLeads()
+#4 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leads))
+#5 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/vyapaar/crm.vyapaar.net/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-13 20:38:41 --> Undefined offset: 6
+#0 /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php(78): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home/vyapaar/c...', 78, Array)
+#1 /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php(87): App\Models\Leads_model->_get_datatables_query(Array)
+#2 /home/vyapaar/crm.vyapaar.net/app/Controllers/admin/Leads.php(172): App\Models\Leads_model->get_datatables(Array)
+#3 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\admin\Leads->listLeads()
+#4 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leads))
+#5 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/vyapaar/crm.vyapaar.net/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-13 20:38:41 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::orderBy() must be of the type string, null given, called in /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php on line 78
+#0 /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php(78): CodeIgniter\Database\BaseBuilder->orderBy(NULL, 'asc')
+#1 /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php(87): App\Models\Leads_model->_get_datatables_query(Array)
+#2 /home/vyapaar/crm.vyapaar.net/app/Controllers/admin/Leads.php(172): App\Models\Leads_model->get_datatables(Array)
+#3 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\admin\Leads->listLeads()
+#4 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leads))
+#5 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/vyapaar/crm.vyapaar.net/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-13 20:38:41 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::orderBy() must be of the type string, null given, called in /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php on line 78
+#0 /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php(78): CodeIgniter\Database\BaseBuilder->orderBy(NULL, 'desc')
+#1 /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php(87): App\Models\Leads_model->_get_datatables_query(Array)
+#2 /home/vyapaar/crm.vyapaar.net/app/Controllers/admin/Leads.php(172): App\Models\Leads_model->get_datatables(Array)
+#3 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\admin\Leads->listLeads()
+#4 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leads))
+#5 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/vyapaar/crm.vyapaar.net/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-13 20:38:49 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::orderBy() must be of the type string, null given, called in /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php on line 78
+#0 /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php(78): CodeIgniter\Database\BaseBuilder->orderBy(NULL, 'asc')
+#1 /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php(87): App\Models\Leads_model->_get_datatables_query(Array)
+#2 /home/vyapaar/crm.vyapaar.net/app/Controllers/admin/Leads.php(172): App\Models\Leads_model->get_datatables(Array)
+#3 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\admin\Leads->listLeads()
+#4 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leads))
+#5 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/vyapaar/crm.vyapaar.net/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-13 20:39:31 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::orderBy() must be of the type string, null given, called in /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php on line 78
+#0 /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php(78): CodeIgniter\Database\BaseBuilder->orderBy(NULL, 'asc')
+#1 /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php(87): App\Models\Leads_model->_get_datatables_query(Array)
+#2 /home/vyapaar/crm.vyapaar.net/app/Controllers/admin/Leads.php(172): App\Models\Leads_model->get_datatables(Array)
+#3 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\admin\Leads->listLeads()
+#4 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leads))
+#5 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/vyapaar/crm.vyapaar.net/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-13 20:39:42 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::orderBy() must be of the type string, null given, called in /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php on line 78
+#0 /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php(78): CodeIgniter\Database\BaseBuilder->orderBy(NULL, 'asc')
+#1 /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php(87): App\Models\Leads_model->_get_datatables_query(Array)
+#2 /home/vyapaar/crm.vyapaar.net/app/Controllers/admin/Leads.php(172): App\Models\Leads_model->get_datatables(Array)
+#3 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\admin\Leads->listLeads()
+#4 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leads))
+#5 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/vyapaar/crm.vyapaar.net/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-13 20:39:57 --> Unknown column 'null' in 'order clause'
+#0 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php(96): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/vyapaar/crm.vyapaar.net/app/Controllers/admin/Leads.php(172): App\Models\Leads_model->get_datatables(Array)
+#6 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\admin\Leads->listLeads()
+#7 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leads))
+#8 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/vyapaar/crm.vyapaar.net/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-06-13 20:39:59 --> Unknown column 'null' in 'order clause'
+#0 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php(96): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/vyapaar/crm.vyapaar.net/app/Controllers/admin/Leads.php(172): App\Models\Leads_model->get_datatables(Array)
+#6 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\admin\Leads->listLeads()
+#7 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leads))
+#8 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/vyapaar/crm.vyapaar.net/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-06-13 20:40:00 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::orderBy() must be of the type string, null given, called in /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php on line 78
+#0 /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php(78): CodeIgniter\Database\BaseBuilder->orderBy(NULL, 'asc')
+#1 /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php(87): App\Models\Leads_model->_get_datatables_query(Array)
+#2 /home/vyapaar/crm.vyapaar.net/app/Controllers/admin/Leads.php(172): App\Models\Leads_model->get_datatables(Array)
+#3 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\admin\Leads->listLeads()
+#4 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leads))
+#5 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/vyapaar/crm.vyapaar.net/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-13 20:40:07 --> Unknown column 'null' in 'order clause'
+#0 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php(96): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/vyapaar/crm.vyapaar.net/app/Controllers/admin/Leads.php(172): App\Models\Leads_model->get_datatables(Array)
+#6 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\admin\Leads->listLeads()
+#7 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leads))
+#8 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/vyapaar/crm.vyapaar.net/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-06-13 20:41:22 --> Unknown column 'null' in 'order clause'
+#0 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php(96): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/vyapaar/crm.vyapaar.net/app/Controllers/admin/Leads.php(172): App\Models\Leads_model->get_datatables(Array)
+#6 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\admin\Leads->listLeads()
+#7 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leads))
+#8 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/vyapaar/crm.vyapaar.net/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-06-13 20:41:25 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::orderBy() must be of the type string, null given, called in /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php on line 78
+#0 /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php(78): CodeIgniter\Database\BaseBuilder->orderBy(NULL, 'asc')
+#1 /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php(87): App\Models\Leads_model->_get_datatables_query(Array)
+#2 /home/vyapaar/crm.vyapaar.net/app/Controllers/admin/Leads.php(172): App\Models\Leads_model->get_datatables(Array)
+#3 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\admin\Leads->listLeads()
+#4 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leads))
+#5 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/vyapaar/crm.vyapaar.net/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-13 20:41:32 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::orderBy() must be of the type string, null given, called in /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php on line 78
+#0 /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php(78): CodeIgniter\Database\BaseBuilder->orderBy(NULL, 'asc')
+#1 /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php(87): App\Models\Leads_model->_get_datatables_query(Array)
+#2 /home/vyapaar/crm.vyapaar.net/app/Controllers/admin/Leads.php(172): App\Models\Leads_model->get_datatables(Array)
+#3 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\admin\Leads->listLeads()
+#4 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leads))
+#5 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/vyapaar/crm.vyapaar.net/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-13 20:41:47 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::orderBy() must be of the type string, null given, called in /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php on line 78
+#0 /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php(78): CodeIgniter\Database\BaseBuilder->orderBy(NULL, 'asc')
+#1 /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php(87): App\Models\Leads_model->_get_datatables_query(Array)
+#2 /home/vyapaar/crm.vyapaar.net/app/Controllers/admin/Leads.php(172): App\Models\Leads_model->get_datatables(Array)
+#3 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\admin\Leads->listLeads()
+#4 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leads))
+#5 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/vyapaar/crm.vyapaar.net/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-13 20:41:49 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::orderBy() must be of the type string, null given, called in /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php on line 78
+#0 /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php(78): CodeIgniter\Database\BaseBuilder->orderBy(NULL, 'desc')
+#1 /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php(87): App\Models\Leads_model->_get_datatables_query(Array)
+#2 /home/vyapaar/crm.vyapaar.net/app/Controllers/admin/Leads.php(172): App\Models\Leads_model->get_datatables(Array)
+#3 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\admin\Leads->listLeads()
+#4 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leads))
+#5 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/vyapaar/crm.vyapaar.net/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-13 20:41:50 --> Unknown column 'null' in 'order clause'
+#0 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php(96): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/vyapaar/crm.vyapaar.net/app/Controllers/admin/Leads.php(172): App\Models\Leads_model->get_datatables(Array)
+#6 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\admin\Leads->listLeads()
+#7 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leads))
+#8 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/vyapaar/crm.vyapaar.net/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-06-13 20:43:17 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::orderBy() must be of the type string, null given, called in /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php on line 78
+#0 /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php(78): CodeIgniter\Database\BaseBuilder->orderBy(NULL, 'asc')
+#1 /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php(87): App\Models\Leads_model->_get_datatables_query(Array)
+#2 /home/vyapaar/crm.vyapaar.net/app/Controllers/admin/Leads.php(172): App\Models\Leads_model->get_datatables(Array)
+#3 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\admin\Leads->listLeads()
+#4 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leads))
+#5 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/vyapaar/crm.vyapaar.net/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-13 20:43:20 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::orderBy() must be of the type string, null given, called in /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php on line 78
+#0 /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php(78): CodeIgniter\Database\BaseBuilder->orderBy(NULL, 'asc')
+#1 /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php(87): App\Models\Leads_model->_get_datatables_query(Array)
+#2 /home/vyapaar/crm.vyapaar.net/app/Controllers/admin/Leads.php(172): App\Models\Leads_model->get_datatables(Array)
+#3 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\admin\Leads->listLeads()
+#4 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leads))
+#5 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/vyapaar/crm.vyapaar.net/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-13 20:44:06 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::orderBy() must be of the type string, null given, called in /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php on line 78
+#0 /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php(78): CodeIgniter\Database\BaseBuilder->orderBy(NULL, 'asc')
+#1 /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php(87): App\Models\Leads_model->_get_datatables_query(Array)
+#2 /home/vyapaar/crm.vyapaar.net/app/Controllers/admin/Leads.php(172): App\Models\Leads_model->get_datatables(Array)
+#3 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\admin\Leads->listLeads()
+#4 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leads))
+#5 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/vyapaar/crm.vyapaar.net/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-13 20:44:12 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::orderBy() must be of the type string, null given, called in /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php on line 78
+#0 /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php(78): CodeIgniter\Database\BaseBuilder->orderBy(NULL, 'asc')
+#1 /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php(87): App\Models\Leads_model->_get_datatables_query(Array)
+#2 /home/vyapaar/crm.vyapaar.net/app/Controllers/admin/Leads.php(172): App\Models\Leads_model->get_datatables(Array)
+#3 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\admin\Leads->listLeads()
+#4 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leads))
+#5 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/vyapaar/crm.vyapaar.net/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-13 20:44:56 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::orderBy() must be of the type string, null given, called in /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php on line 78
+#0 /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php(78): CodeIgniter\Database\BaseBuilder->orderBy(NULL, 'asc')
+#1 /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php(87): App\Models\Leads_model->_get_datatables_query(Array)
+#2 /home/vyapaar/crm.vyapaar.net/app/Controllers/admin/Leads.php(172): App\Models\Leads_model->get_datatables(Array)
+#3 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\admin\Leads->listLeads()
+#4 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leads))
+#5 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/vyapaar/crm.vyapaar.net/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-13 20:45:27 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::orderBy() must be of the type string, null given, called in /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php on line 78
+#0 /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php(78): CodeIgniter\Database\BaseBuilder->orderBy(NULL, 'asc')
+#1 /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php(87): App\Models\Leads_model->_get_datatables_query(Array)
+#2 /home/vyapaar/crm.vyapaar.net/app/Controllers/admin/Leads.php(172): App\Models\Leads_model->get_datatables(Array)
+#3 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\admin\Leads->listLeads()
+#4 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leads))
+#5 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/vyapaar/crm.vyapaar.net/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}

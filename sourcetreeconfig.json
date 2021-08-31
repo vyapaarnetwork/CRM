@@ -1,0 +1,34 @@
+{
+  "$id": "11",
+  "AutoRefresh": true,
+  "AutoRefreshRemotes": true,
+  "CommitTextLinks": null,
+  "DraftCommitMsg": "",
+  "IncomingSavedCount": 0,
+  "LastCheckedRemotes": "2021-08-04T21:50:26.6698232+05:30",
+  "LastUsedView": 0,
+  "LogBranchFilterIndex": 0,
+  "OutgoingSavedCount": 0,
+  "SidebarExpandedItems": [
+    "Branches",
+    "Remotes"
+  ],
+  "SidebarWidth": 210.0,
+  "SubtreeLinks": [],
+  "NeedsLargeFilesPull": false,
+  "RemoteProjectLinks": [
+    {
+      "$id": "12",
+      "BaseUrl": "https://www.bitbucket.org",
+      "Identifier": "hostqweb/crm",
+      "RemoteName": "origin",
+      "Type": 1,
+      "Username": "hostqweb-admin",
+      "CloneUrl": null,
+      "ProjectUrl": null,
+      "AccountId": null,
+      "AvatarUrl": null,
+      "DisplayName": "origin: https://www.bitbucket.org"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+CRITICAL - 2021-07-30 02:37:04 --> syntax error, unexpected 'base_url' (T_STRING), expecting ';' or ','
+#0 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('admin/leads/lea...', Array, true)
+#1 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\app\Controllers\admin\Leads.php(318): view('admin/leads/lea...', Array)
+#2 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Leads->leadsDetails('1758')
+#3 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leads))
+#4 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}

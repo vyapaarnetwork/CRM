@@ -1,0 +1,20 @@
+CRITICAL - 2021-01-21 18:54:23 --> syntax error, unexpected '$routes' (T_VARIABLE)
+#0 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 /opt/lampp/htdocs/SystemManager/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2021-01-21 18:55:46 --> syntax error, unexpected '$routes' (T_VARIABLE)
+#0 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 /opt/lampp/htdocs/SystemManager/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2021-01-21 18:55:56 --> Trying to get property 'svm_name' of non-object
+#0 /opt/lampp/htdocs/SystemManager/app/Views/client/Profile/profile.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/opt/lampp/htdo...', 83, Array)
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/View/View.php(246): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('client/Profile/...', Array, true)
+#3 /opt/lampp/htdocs/SystemManager/app/Controllers/client/User.php(31): view('client/Profile/...', Array)
+#4 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\client\User->profile('server', 'php')
+#5 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\client\User))
+#6 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/SystemManager/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}

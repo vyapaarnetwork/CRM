@@ -1,0 +1,119 @@
+CRITICAL - 2021-01-22 11:59:18 --> Could not move file phpBhpfLM to ./uploads/client/vendorImage/ ()
+#0 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/HTTP/Files/UploadedFile.php(187): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('phpBhpfLM', './uploads/clien...', '')
+#1 /opt/lampp/htdocs/SystemManager/app/Controllers/client/User.php(44): CodeIgniter\HTTP\Files\UploadedFile->move('./uploads/clien...', '1611296958_f89d...')
+#2 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\client\User->uploadProfilePic()
+#3 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\client\User))
+#4 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/SystemManager/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-22 12:00:41 --> unlink(./uploads/client/vendorImage/1611296893_e7eb492ec241c4564dfa.png): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(./upload...', '/opt/lampp/htdo...', 48, Array)
+#1 /opt/lampp/htdocs/SystemManager/app/Controllers/client/User.php(48): unlink('./uploads/clien...')
+#2 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\client\User->uploadProfilePic()
+#3 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\client\User))
+#4 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/SystemManager/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-22 12:51:23 --> Cannot use object of type stdClass as array
+#0 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/View/View.php(246): include()
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('client/includs/...', Array, true)
+#2 /opt/lampp/htdocs/SystemManager/app/Controllers/client/User.php(29): view('client/includs/...', Array)
+#3 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\client\User->profile('147f3783949885e...')
+#4 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\client\User))
+#5 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/SystemManager/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-01-22 12:51:31 --> Cannot use object of type stdClass as array
+#0 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/View/View.php(246): include()
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('client/includs/...', Array, true)
+#2 /opt/lampp/htdocs/SystemManager/app/Controllers/client/User.php(29): view('client/includs/...', Array)
+#3 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\client\User->profile('147f3783949885e...')
+#4 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\client\User))
+#5 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/SystemManager/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-01-22 12:53:31 --> Cannot use object of type stdClass as array
+#0 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/View/View.php(246): include()
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('client/includs/...', Array, true)
+#2 /opt/lampp/htdocs/SystemManager/app/Controllers/client/Home.php(27): view('client/includs/...', Array)
+#3 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\client\Home->index()
+#4 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\client\Home))
+#5 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/SystemManager/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-01-22 12:53:33 --> Cannot use object of type stdClass as array
+#0 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/View/View.php(246): include()
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('client/includs/...', Array, true)
+#2 /opt/lampp/htdocs/SystemManager/app/Controllers/client/Home.php(27): view('client/includs/...', Array)
+#3 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\client\Home->index()
+#4 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\client\Home))
+#5 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/SystemManager/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-01-22 12:53:35 --> Cannot use object of type stdClass as array
+#0 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/View/View.php(246): include()
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('client/includs/...', Array, true)
+#2 /opt/lampp/htdocs/SystemManager/app/Controllers/client/User.php(29): view('client/includs/...', Array)
+#3 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\client\User->profile('147f3783949885e...')
+#4 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\client\User))
+#5 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/SystemManager/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-01-22 12:53:37 --> Cannot use object of type stdClass as array
+#0 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/View/View.php(246): include()
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('client/includs/...', Array, true)
+#2 /opt/lampp/htdocs/SystemManager/app/Controllers/client/Home.php(27): view('client/includs/...', Array)
+#3 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\client\Home->index()
+#4 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\client\Home))
+#5 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/SystemManager/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-01-22 12:54:13 --> Cannot use object of type stdClass as array
+#0 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/View/View.php(246): include()
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('client/includs/...', Array, true)
+#2 /opt/lampp/htdocs/SystemManager/app/Controllers/client/User.php(29): view('client/includs/...', Array)
+#3 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\client\User->profile('147f3783949885e...')
+#4 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\client\User))
+#5 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/SystemManager/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-01-22 14:26:49 --> Trying to get property 'svm_image' of non-object
+#0 /opt/lampp/htdocs/SystemManager/app/Controllers/client/User.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/opt/lampp/htdo...', 53, Array)
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\client\User->uploadProfilePic()
+#2 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\client\User))
+#3 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/SystemManager/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-22 14:27:03 --> Trying to get property 'svm_image' of non-object
+#0 /opt/lampp/htdocs/SystemManager/app/Controllers/client/User.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/opt/lampp/htdo...', 53, Array)
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\client\User->uploadProfilePic()
+#2 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\client\User))
+#3 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/SystemManager/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-22 16:01:34 --> syntax error, unexpected '{'
+#0 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/opt/lampp/htdo...')
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/SystemManager/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-01-22 17:05:32 --> Class 'App\Models\Bank_Model' not found
+#0 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(890): App\Controllers\client\User->__construct()
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/SystemManager/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-22 17:51:57 --> syntax error, unexpected 'if' (T_IF)
+#0 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/opt/lampp/htdo...')
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Bank...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Bank...')
+#3 /opt/lampp/htdocs/SystemManager/app/Controllers/client/User.php(22): spl_autoload_call('App\\Models\\Bank...')
+#4 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(890): App\Controllers\client\User->__construct()
+#5 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#6 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/SystemManager/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}

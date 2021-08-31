@@ -1,0 +1,24 @@
+CRITICAL - 2021-05-26 17:57:19 --> Call to undefined function get_instance()
+#0 D:\Allxampp\7.4\htdocs\vyaapar\app\Controllers\admin\Vendor.php(36): xcrud_get_instance()
+#1 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Vendor->index()
+#2 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Vendor))
+#3 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Allxampp\7.4\htdocs\vyaapar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-26 18:15:22 --> Call to undefined function get_instance()
+#0 D:\Allxampp\7.4\htdocs\vyaapar\app\xcrud\xcrud.php(4882): Xcrud_db::get_instance(false)
+#1 D:\Allxampp\7.4\htdocs\vyaapar\app\xcrud\xcrud.php(1982): Xcrud->_get_table_info()
+#2 D:\Allxampp\7.4\htdocs\vyaapar\app\Controllers\admin\Vendor.php(38): Xcrud->render()
+#3 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Vendor->index()
+#4 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Vendor))
+#5 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Allxampp\7.4\htdocs\vyaapar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-26 21:32:23 --> syntax error, unexpected '$leadDetails' (T_VARIABLE), expecting ';' or ','
+#0 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('admin/leads/lea...', Array, true)
+#1 D:\Allxampp\7.4\htdocs\vyaapar\app\Controllers\admin\Leads.php(266): view('admin/leads/lea...', Array)
+#2 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Leads->leadsDetails('2278')
+#3 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leads))
+#4 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Allxampp\7.4\htdocs\vyaapar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}

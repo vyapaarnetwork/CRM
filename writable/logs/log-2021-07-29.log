@@ -1,0 +1,64 @@
+CRITICAL - 2021-07-29 22:31:58 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::post()
+#0 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\vendor\Vendor->forgotPassword()
+#1 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Vendor))
+#2 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-07-29 22:33:52 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::post()
+#0 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\vendor\Vendor->forgotPassword()
+#1 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Vendor))
+#2 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-07-29 22:34:48 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::post()
+#0 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\vendor\Vendor->forgotPassword()
+#1 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Vendor))
+#2 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-07-29 22:35:16 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::post()
+#0 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\vendor\Vendor->forgotPassword()
+#1 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Vendor))
+#2 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-07-29 22:35:44 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::post()
+#0 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\vendor\Vendor->forgotPassword()
+#1 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Vendor))
+#2 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-07-29 23:27:09 --> Undefined index: table
+#0 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\app\Helpers\db_helper.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'G:\\Shared drive...', 54, Array)
+#1 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\app\Controllers\vendor\Vendor.php(203): add_dbdata(Array)
+#2 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\vendor\Vendor->forgotPassword()
+#3 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Vendor))
+#4 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-07-29 23:30:00 --> Undefined index: data
+#0 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\app\Helpers\db_helper.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'G:\\Shared drive...', 62, Array)
+#1 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\app\Controllers\vendor\Vendor.php(206): add_dbdata(Array)
+#2 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\vendor\Vendor->forgotPassword()
+#3 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Vendor))
+#4 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-07-29 23:31:39 --> Duplicate entry '2' for key 'PRIMARY'
+#0 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `tb...')
+#1 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\app\Helpers\db_helper.php(62): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\app\Controllers\vendor\Vendor.php(206): add_dbdata(Array)
+#6 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\vendor\Vendor->forgotPassword()
+#7 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Vendor))
+#8 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-07-29 23:42:24 --> Class 'App\Controllers\vendor\Time' not found
+#0 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\vendor\Vendor->forgotPassword()
+#1 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Vendor))
+#2 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}

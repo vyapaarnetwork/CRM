@@ -1,0 +1,27 @@
+CRITICAL - 2021-06-12 13:11:36 --> Undefined offset: 6
+#0 /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php(78): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home/vyapaar/c...', 78, Array)
+#1 /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php(87): App\Models\Leads_model->_get_datatables_query(Array)
+#2 /home/vyapaar/crm.vyapaar.net/app/Controllers/admin/Leads.php(172): App\Models\Leads_model->get_datatables(Array)
+#3 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\admin\Leads->listLeads()
+#4 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leads))
+#5 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/vyapaar/crm.vyapaar.net/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-12 13:11:45 --> Undefined offset: 7
+#0 /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php(78): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home/vyapaar/c...', 78, Array)
+#1 /home/vyapaar/crm.vyapaar.net/app/Models/Leads_model.php(87): App\Models\Leads_model->_get_datatables_query(Array)
+#2 /home/vyapaar/crm.vyapaar.net/app/Controllers/admin/Leads.php(172): App\Models\Leads_model->get_datatables(Array)
+#3 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\admin\Leads->listLeads()
+#4 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leads))
+#5 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/vyapaar/crm.vyapaar.net/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-12 16:46:18 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::orderBy() must be of the type string, null given, called in /home/vyapaar/crm.vyapaar.net/app/Models/Vendor_model.php on line 168
+#0 /home/vyapaar/crm.vyapaar.net/app/Models/Vendor_model.php(168): CodeIgniter\Database\BaseBuilder->orderBy(NULL, 'asc')
+#1 /home/vyapaar/crm.vyapaar.net/app/Models/Vendor_model.php(177): App\Models\Vendor_model->_get_datatables_query(Array)
+#2 /home/vyapaar/crm.vyapaar.net/app/Controllers/admin/Vendor.php(55): App\Models\Vendor_model->get_datatables(Array)
+#3 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\admin\Vendor->vendorList()
+#4 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Vendor))
+#5 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/vyapaar/crm.vyapaar.net/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}

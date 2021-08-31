@@ -1,0 +1,48 @@
+CRITICAL - 2021-06-17 00:43:41 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResultArray()
+#0 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\admin\Leads->exportCSV()
+#1 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leads))
+#2 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/vyapaar/crm.vyapaar.net/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-17 00:44:08 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResultArray()
+#0 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\admin\Leads->exportCSV()
+#1 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leads))
+#2 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/vyapaar/crm.vyapaar.net/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-17 00:44:20 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResultArray()
+#0 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\admin\Leads->exportCSV()
+#1 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leads))
+#2 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/vyapaar/crm.vyapaar.net/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-17 00:45:34 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResultArray()
+#0 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\admin\Leads->exportCSV()
+#1 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leads))
+#2 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/vyapaar/crm.vyapaar.net/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-17 00:46:01 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResultArray()
+#0 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\admin\Leads->exportCSV()
+#1 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leads))
+#2 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/vyapaar/crm.vyapaar.net/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-17 00:47:19 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResult()
+#0 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\admin\Leads->exportCSV()
+#1 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leads))
+#2 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/vyapaar/crm.vyapaar.net/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-17 00:47:36 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getresult()
+#0 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\admin\Leads->exportCSV()
+#1 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leads))
+#2 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/vyapaar/crm.vyapaar.net/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-17 00:48:58 --> Cannot use object of type stdClass as array
+#0 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\admin\Leads->exportCSV()
+#1 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leads))
+#2 /home/vyapaar/crm.vyapaar.net/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/vyapaar/crm.vyapaar.net/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}

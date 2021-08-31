@@ -1,0 +1,14 @@
+CRITICAL - 2021-01-04 12:12:21 --> Trying to access array offset on value of type null
+#0 /opt/lampp/htdocs/SystemManager/app/Controllers/admin/Setting.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/opt/lampp/htdo...', 19, Array)
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\admin\Setting->index()
+#2 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Setting))
+#3 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/SystemManager/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-04 12:14:15 --> Trying to access array offset on value of type null
+#0 /opt/lampp/htdocs/SystemManager/app/Controllers/admin/Setting.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/opt/lampp/htdo...', 19, Array)
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\admin\Setting->index()
+#2 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Setting))
+#3 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/SystemManager/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

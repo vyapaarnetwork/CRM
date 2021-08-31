@@ -1,0 +1,12 @@
+CRITICAL - 2021-06-21 14:37:45 --> Cannot use object of type stdClass as array
+#0 G:\Shared drives\ProjectData\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Leads->assign_lead()
+#1 G:\Shared drives\ProjectData\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leads))
+#2 G:\Shared drives\ProjectData\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\Shared drives\ProjectData\Vyapaar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-21 14:37:50 --> Cannot use object of type stdClass as array
+#0 G:\Shared drives\ProjectData\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Leads->assign_lead()
+#1 G:\Shared drives\ProjectData\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leads))
+#2 G:\Shared drives\ProjectData\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\Shared drives\ProjectData\Vyapaar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}

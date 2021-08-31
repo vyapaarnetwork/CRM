@@ -1,0 +1,167 @@
+CRITICAL - 2021-08-21 08:47:08 --> Undefined offset: 0
+#0 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\app\Controllers\admin\Leads.php(189): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'G:\\Shared drive...', 189, Array)
+#1 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Leads->addLeads()
+#2 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leads))
+#3 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-21 08:48:14 --> Undefined offset: 0
+#0 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\app\Controllers\admin\Leads.php(189): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'G:\\Shared drive...', 189, Array)
+#1 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Leads->addLeads()
+#2 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leads))
+#3 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-21 12:58:30 --> Table 'crm_v.tblcounty' doesn't exist
+#0 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\app\Helpers\db_helper.php(174): CodeIgniter\Database\BaseBuilder->get()
+#5 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\app\Controllers\admin\Leads.php(614): get_dbdata(Array)
+#6 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Leads->getCountry()
+#7 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leads))
+#8 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-08-21 12:58:39 --> Table 'crm_v.tblcounty' doesn't exist
+#0 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\app\Helpers\db_helper.php(174): CodeIgniter\Database\BaseBuilder->get()
+#5 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\app\Controllers\admin\Leads.php(614): get_dbdata(Array)
+#6 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Leads->getCountry()
+#7 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leads))
+#8 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-08-21 13:05:46 --> syntax error, unexpected end of file
+#0 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('admin/leads/lea...', Array, true)
+#1 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\app\Controllers\admin\Leads.php(82): view('admin/leads/lea...', Array)
+#2 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Leads->index()
+#3 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leads))
+#4 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-21 13:05:51 --> syntax error, unexpected end of file
+#0 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('admin/leads/lea...', Array, true)
+#1 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\app\Controllers\admin\Leads.php(82): view('admin/leads/lea...', Array)
+#2 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Leads->index()
+#3 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leads))
+#4 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-21 14:31:36 --> syntax error, unexpected '}'
+#0 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('G:\\Shared drive...')
+#1 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-08-21 14:31:58 --> Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP)
+#0 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\app\Controllers\admin\Leads.php(611): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'G:\\Shared drive...', 611, Array)
+#1 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Leads->getState()
+#2 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leads))
+#3 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-21 14:32:44 --> Trying to get property 'id' of non-object
+#0 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\app\Controllers\admin\Leads.php(611): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'G:\\Shared drive...', 611, Array)
+#1 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Leads->getState()
+#2 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leads))
+#3 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-21 14:33:21 --> Undefined offset: 0
+#0 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\app\Controllers\admin\Leads.php(611): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'G:\\Shared drive...', 611, Array)
+#1 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Leads->getState()
+#2 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leads))
+#3 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-21 15:44:04 --> Unknown column 'customer_postition' in 'field list'
+#0 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `tb...')
+#1 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\app\Models\Customer_model.php(61): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\app\Controllers\admin\Customer.php(142): App\Models\Customer_model->insertCustomer(Array, NULL)
+#6 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Customer->addCustomer()
+#7 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Customer))
+#8 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-08-21 15:44:15 --> Unknown column 'customer_postition' in 'field list'
+#0 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `tb...')
+#1 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\app\Models\Customer_model.php(61): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\app\Controllers\admin\Customer.php(142): App\Models\Customer_model->insertCustomer(Array, NULL)
+#6 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Customer->addCustomer()
+#7 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Customer))
+#8 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-08-21 15:44:24 --> Unknown column 'customer_postition' in 'field list'
+#0 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `tb...')
+#1 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\app\Models\Customer_model.php(61): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\app\Controllers\admin\Customer.php(142): App\Models\Customer_model->insertCustomer(Array, NULL)
+#6 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Customer->addCustomer()
+#7 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Customer))
+#8 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-08-21 22:41:09 --> Undefined variable: lang
+#0 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\app\Views\admin\leads\leadDetails.php(139): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'G:\\Shared drive...', 139, Array)
+#1 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\View\View.php(246): include('G:\\Shared drive...')
+#2 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('admin/leads/lea...', Array, true)
+#3 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\app\Controllers\admin\Leads.php(322): view('admin/leads/lea...', Array)
+#4 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Leads->leadsDetails('4272')
+#5 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leads))
+#6 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-08-21 22:41:15 --> Undefined variable: lang
+#0 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\app\Views\admin\leads\leadDetails.php(139): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'G:\\Shared drive...', 139, Array)
+#1 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\View\View.php(246): include('G:\\Shared drive...')
+#2 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('admin/leads/lea...', Array, true)
+#3 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\app\Controllers\admin\Leads.php(322): view('admin/leads/lea...', Array)
+#4 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Leads->leadsDetails('4272')
+#5 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leads))
+#6 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-08-21 22:51:34 --> Undefined variable: lang
+#0 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\app\Views\admin\leads\leadDetails.php(139): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'G:\\Shared drive...', 139, Array)
+#1 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\View\View.php(246): include('G:\\Shared drive...')
+#2 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('admin/leads/lea...', Array, true)
+#3 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\app\Controllers\admin\Leads.php(322): view('admin/leads/lea...', Array)
+#4 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Leads->leadsDetails('4272')
+#5 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leads))
+#6 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-08-21 22:58:58 --> Cannot redeclare lang() (previously declared in G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\Common.php:713)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-08-21 22:59:00 --> Cannot redeclare lang() (previously declared in G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\Common.php:713)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-08-21 23:04:20 --> Use of undefined constant lang - assumed 'lang' (this will throw an Error in a future version of PHP)
+#0 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\app\Views\admin\leads\leadDetails.php(139): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'G:\\Shared drive...', 139, Array)
+#1 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\View\View.php(246): include('G:\\Shared drive...')
+#2 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('admin/leads/lea...', Array, true)
+#3 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\app\Controllers\admin\Leads.php(322): view('admin/leads/lea...', Array)
+#4 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Leads->leadsDetails('4272')
+#5 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leads))
+#6 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}

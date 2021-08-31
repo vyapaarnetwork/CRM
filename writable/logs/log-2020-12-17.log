@@ -1,0 +1,7 @@
+CRITICAL - 2020-12-17 00:17:53 --> Cannot access protected property CodeIgniter\Database\MySQLi\Builder::$db
+#0 /opt/lampp/htdocs/SystemManager/app/Controllers/admin/Admin.php(129): App\Models\Admin_model->checkEmailExists('gjogi57@gmail.c...')
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\admin\Admin->checkEmail()
+#2 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Admin))
+#3 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/SystemManager/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

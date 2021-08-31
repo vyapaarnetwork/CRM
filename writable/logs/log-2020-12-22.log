@@ -1,0 +1,112 @@
+CRITICAL - 2020-12-22 03:08:30 --> Column 'sam_user_name' cannot be null
+#0 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(331): mysqli->query('INSERT INTO `sm...')
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sm...')
+#2 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sm...')
+#3 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sm...', Array, false)
+#4 /opt/lampp/htdocs/SystemManager/app/Models/Admin_model.php(133): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /opt/lampp/htdocs/SystemManager/app/Controllers/admin/Admin.php(177): App\Models\Admin_model->insertAdmin(Array, NULL)
+#6 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\admin\Admin->addAdmin()
+#7 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Admin))
+#8 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /opt/lampp/htdocs/SystemManager/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-12-22 03:23:15 --> Column 'ssm_key' cannot be null
+#0 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(331): mysqli->query('INSERT INTO `sm...')
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sm...')
+#2 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sm...')
+#3 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sm...', Array, false)
+#4 /opt/lampp/htdocs/SystemManager/app/Models/Settiing_model.php(24): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /opt/lampp/htdocs/SystemManager/app/Controllers/admin/Setting.php(33): App\Models\Settiing_model->addSetting(Array, NULL)
+#6 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\admin\Setting->addSetting()
+#7 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Setting))
+#8 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /opt/lampp/htdocs/SystemManager/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-12-22 03:23:25 --> Column 'ssm_key' cannot be null
+#0 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(331): mysqli->query('INSERT INTO `sm...')
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sm...')
+#2 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sm...')
+#3 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sm...', Array, false)
+#4 /opt/lampp/htdocs/SystemManager/app/Models/Settiing_model.php(24): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /opt/lampp/htdocs/SystemManager/app/Controllers/admin/Setting.php(33): App\Models\Settiing_model->addSetting(Array, NULL)
+#6 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\admin\Setting->addSetting()
+#7 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Setting))
+#8 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /opt/lampp/htdocs/SystemManager/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-12-22 03:24:26 --> Undefined index: sam_user_name
+#0 /opt/lampp/htdocs/SystemManager/app/Controllers/admin/Setting.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 55, Array)
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\admin\Setting->setting_list()
+#2 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Setting))
+#3 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/SystemManager/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-22 03:24:35 --> Undefined index: sam_user_name
+#0 /opt/lampp/htdocs/SystemManager/app/Controllers/admin/Setting.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 55, Array)
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\admin\Setting->setting_list()
+#2 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Setting))
+#3 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/SystemManager/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-22 03:27:22 --> Undefined index: sam_id
+#0 /opt/lampp/htdocs/SystemManager/app/Controllers/admin/Setting.php(59): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 59, Array)
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\admin\Setting->setting_list()
+#2 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Setting))
+#3 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/SystemManager/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-22 05:08:42 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getLastQuery()
+#0 /opt/lampp/htdocs/SystemManager/app/Controllers/admin/Setting.php(76): App\Models\Settiing_model->getElementType('1')
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\admin\Setting->getElement('1')
+#2 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Setting))
+#3 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/SystemManager/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-22 05:42:31 --> Undefined index: ssm_type
+#0 /opt/lampp/htdocs/SystemManager/app/Controllers/admin/Setting.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 77, Array)
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\admin\Setting->getElement('1')
+#2 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Setting))
+#3 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/SystemManager/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-22 05:42:37 --> Undefined index: ssm_type
+#0 /opt/lampp/htdocs/SystemManager/app/Controllers/admin/Setting.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 77, Array)
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\admin\Setting->getElement('1')
+#2 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Setting))
+#3 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/SystemManager/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-22 22:30:32 --> syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+#0 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/opt/lampp/htdo...')
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/SystemManager/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-22 22:33:19 --> Unknown column 'ssn_type' in 'field list'
+#0 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(331): mysqli->query('INSERT INTO `sm...')
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sm...')
+#2 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sm...')
+#3 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sm...', Array, false)
+#4 /opt/lampp/htdocs/SystemManager/app/Models/Settiing_model.php(24): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /opt/lampp/htdocs/SystemManager/app/Controllers/admin/Setting.php(33): App\Models\Settiing_model->addSetting(Array, NULL)
+#6 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\admin\Setting->addSetting()
+#7 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Setting))
+#8 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /opt/lampp/htdocs/SystemManager/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-12-22 22:33:26 --> Unknown column 'ssn_type' in 'field list'
+#0 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(331): mysqli->query('INSERT INTO `sm...')
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sm...')
+#2 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sm...')
+#3 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sm...', Array, false)
+#4 /opt/lampp/htdocs/SystemManager/app/Models/Settiing_model.php(24): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /opt/lampp/htdocs/SystemManager/app/Controllers/admin/Setting.php(33): App\Models\Settiing_model->addSetting(Array, NULL)
+#6 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\admin\Setting->addSetting()
+#7 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Setting))
+#8 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /opt/lampp/htdocs/SystemManager/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}

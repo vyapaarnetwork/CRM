@@ -1,0 +1,9 @@
+CRITICAL - 2021-07-27 23:32:23 --> Invalid file: login/recovery_pass.php
+#0 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login/recovery_...')
+#1 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('login/recovery_...', Array, true)
+#2 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\app\Controllers\vendor\Vendor.php(73): view('login/recovery_...', Array)
+#3 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\vendor\Vendor->forget_pass()
+#4 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Vendor))
+#5 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}

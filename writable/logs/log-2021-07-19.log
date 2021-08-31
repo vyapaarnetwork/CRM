@@ -1,0 +1,163 @@
+CRITICAL - 2021-07-19 00:29:31 --> Array to string conversion
+#0 G:\Shared drives\ProjectData\Vyapaar\app\Controllers\vendor\Vendor.php(215): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'G:\\Shared drive...', 215, Array)
+#1 G:\Shared drives\ProjectData\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\vendor\Vendor->referrallead()
+#2 G:\Shared drives\ProjectData\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Vendor))
+#3 G:\Shared drives\ProjectData\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\Shared drives\ProjectData\Vyapaar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-19 00:29:59 --> Array to string conversion
+#0 G:\Shared drives\ProjectData\Vyapaar\app\Controllers\vendor\Vendor.php(215): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'G:\\Shared drive...', 215, Array)
+#1 G:\Shared drives\ProjectData\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\vendor\Vendor->referrallead()
+#2 G:\Shared drives\ProjectData\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Vendor))
+#3 G:\Shared drives\ProjectData\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\Shared drives\ProjectData\Vyapaar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-19 00:29:59 --> Array to string conversion
+#0 G:\Shared drives\ProjectData\Vyapaar\app\Controllers\vendor\Vendor.php(215): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'G:\\Shared drive...', 215, Array)
+#1 G:\Shared drives\ProjectData\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\vendor\Vendor->referrallead()
+#2 G:\Shared drives\ProjectData\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Vendor))
+#3 G:\Shared drives\ProjectData\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\Shared drives\ProjectData\Vyapaar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-19 00:30:45 --> Illegal string offset 'vendor_name'
+#0 G:\Shared drives\ProjectData\Vyapaar\app\Views\include\v_menu_bar.php(116): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'G:\\Shared drive...', 116, Array)
+#1 G:\Shared drives\ProjectData\Vyapaar\vendor\codeigniter4\framework\system\View\View.php(246): include('G:\\Shared drive...')
+#2 G:\Shared drives\ProjectData\Vyapaar\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('include/v_menu_...', Array, true)
+#3 G:\Shared drives\ProjectData\Vyapaar\app\Controllers\vendor\Vendor.php(224): view('include/v_menu_...', Array)
+#4 G:\Shared drives\ProjectData\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\vendor\Vendor->referrallead()
+#5 G:\Shared drives\ProjectData\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Vendor))
+#6 G:\Shared drives\ProjectData\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\Shared drives\ProjectData\Vyapaar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-07-19 00:30:52 --> Illegal string offset 'vendor_name'
+#0 G:\Shared drives\ProjectData\Vyapaar\app\Views\include\v_menu_bar.php(116): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'G:\\Shared drive...', 116, Array)
+#1 G:\Shared drives\ProjectData\Vyapaar\vendor\codeigniter4\framework\system\View\View.php(246): include('G:\\Shared drive...')
+#2 G:\Shared drives\ProjectData\Vyapaar\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('include/v_menu_...', Array, true)
+#3 G:\Shared drives\ProjectData\Vyapaar\app\Controllers\vendor\Vendor.php(224): view('include/v_menu_...', Array)
+#4 G:\Shared drives\ProjectData\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\vendor\Vendor->referrallead()
+#5 G:\Shared drives\ProjectData\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Vendor))
+#6 G:\Shared drives\ProjectData\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\Shared drives\ProjectData\Vyapaar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-07-19 00:31:49 --> Array to string conversion
+#0 G:\Shared drives\ProjectData\Vyapaar\app\Controllers\vendor\Vendor.php(215): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'G:\\Shared drive...', 215, Array)
+#1 G:\Shared drives\ProjectData\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\vendor\Vendor->referrallead()
+#2 G:\Shared drives\ProjectData\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Vendor))
+#3 G:\Shared drives\ProjectData\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\Shared drives\ProjectData\Vyapaar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-19 00:32:20 --> Array to string conversion
+#0 G:\Shared drives\ProjectData\Vyapaar\app\Controllers\vendor\Vendor.php(215): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'G:\\Shared drive...', 215, Array)
+#1 G:\Shared drives\ProjectData\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\vendor\Vendor->referrallead()
+#2 G:\Shared drives\ProjectData\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Vendor))
+#3 G:\Shared drives\ProjectData\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\Shared drives\ProjectData\Vyapaar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-19 00:32:27 --> Array to string conversion
+#0 G:\Shared drives\ProjectData\Vyapaar\app\Controllers\vendor\Vendor.php(215): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'G:\\Shared drive...', 215, Array)
+#1 G:\Shared drives\ProjectData\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\vendor\Vendor->referrallead()
+#2 G:\Shared drives\ProjectData\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Vendor))
+#3 G:\Shared drives\ProjectData\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\Shared drives\ProjectData\Vyapaar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-19 00:36:33 --> Call to undefined method CodeIgniter\Session\Session::set_userdata()
+#0 G:\Shared drives\ProjectData\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\vendor\Vendor->referrallead()
+#1 G:\Shared drives\ProjectData\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Vendor))
+#2 G:\Shared drives\ProjectData\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\Shared drives\ProjectData\Vyapaar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-07-19 00:57:10 --> Undefined index: refer
+#0 G:\Shared drives\ProjectData\Vyapaar\app\Models\Leads_model.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'G:\\Shared drive...', 77, Array)
+#1 G:\Shared drives\ProjectData\Vyapaar\app\Models\Leads_model.php(91): App\Models\Leads_model->_get_datatables_query(Array)
+#2 G:\Shared drives\ProjectData\Vyapaar\app\Controllers\vendor\Vendor.php(236): App\Models\Leads_model->get_datatables(Array)
+#3 G:\Shared drives\ProjectData\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\vendor\Vendor->listLeads()
+#4 G:\Shared drives\ProjectData\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Vendor))
+#5 G:\Shared drives\ProjectData\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\Shared drives\ProjectData\Vyapaar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-19 01:22:48 --> Undefined index: refer
+#0 G:\Shared drives\ProjectData\Vyapaar\app\Models\Leads_model.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'G:\\Shared drive...', 77, Array)
+#1 G:\Shared drives\ProjectData\Vyapaar\app\Models\Leads_model.php(91): App\Models\Leads_model->_get_datatables_query(Array)
+#2 G:\Shared drives\ProjectData\Vyapaar\app\Controllers\vendor\Vendor.php(236): App\Models\Leads_model->get_datatables(Array)
+#3 G:\Shared drives\ProjectData\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\vendor\Vendor->listLeads()
+#4 G:\Shared drives\ProjectData\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Vendor))
+#5 G:\Shared drives\ProjectData\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\Shared drives\ProjectData\Vyapaar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-19 01:24:33 --> Undefined index: refer
+#0 G:\Shared drives\ProjectData\Vyapaar\app\Models\Leads_model.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'G:\\Shared drive...', 77, Array)
+#1 G:\Shared drives\ProjectData\Vyapaar\app\Models\Leads_model.php(91): App\Models\Leads_model->_get_datatables_query(Array)
+#2 G:\Shared drives\ProjectData\Vyapaar\app\Controllers\vendor\Vendor.php(236): App\Models\Leads_model->get_datatables(Array)
+#3 G:\Shared drives\ProjectData\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\vendor\Vendor->listLeads()
+#4 G:\Shared drives\ProjectData\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Vendor))
+#5 G:\Shared drives\ProjectData\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\Shared drives\ProjectData\Vyapaar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-19 01:25:09 --> Undefined index: refer
+#0 G:\Shared drives\ProjectData\Vyapaar\app\Models\Leads_model.php(98): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'G:\\Shared drive...', 98, Array)
+#1 G:\Shared drives\ProjectData\Vyapaar\app\Controllers\vendor\Vendor.php(236): App\Models\Leads_model->get_datatables(Array)
+#2 G:\Shared drives\ProjectData\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\vendor\Vendor->listLeads()
+#3 G:\Shared drives\ProjectData\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Vendor))
+#4 G:\Shared drives\ProjectData\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 G:\Shared drives\ProjectData\Vyapaar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-07-19 01:25:31 --> Undefined index: refer
+#0 G:\Shared drives\ProjectData\Vyapaar\app\Models\Leads_model.php(98): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'G:\\Shared drive...', 98, Array)
+#1 G:\Shared drives\ProjectData\Vyapaar\app\Controllers\vendor\Vendor.php(236): App\Models\Leads_model->get_datatables(Array)
+#2 G:\Shared drives\ProjectData\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\vendor\Vendor->listLeads()
+#3 G:\Shared drives\ProjectData\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Vendor))
+#4 G:\Shared drives\ProjectData\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 G:\Shared drives\ProjectData\Vyapaar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-07-19 23:05:09 --> Column 'lead_customer_id' cannot be null
+#0 G:\Shared drives\ProjectData\Vyapaar\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `tb...')
+#1 G:\Shared drives\ProjectData\Vyapaar\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 G:\Shared drives\ProjectData\Vyapaar\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 G:\Shared drives\ProjectData\Vyapaar\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 G:\Shared drives\ProjectData\Vyapaar\app\Models\Leads_model.php(39): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 G:\Shared drives\ProjectData\Vyapaar\app\Controllers\vendor\Vendor.php(419): App\Models\Leads_model->addLead(Array)
+#6 G:\Shared drives\ProjectData\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\vendor\Vendor->addLeads()
+#7 G:\Shared drives\ProjectData\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Vendor))
+#8 G:\Shared drives\ProjectData\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 G:\Shared drives\ProjectData\Vyapaar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-07-19 23:07:50 --> Column 'lead_source_id' cannot be null
+#0 G:\Shared drives\ProjectData\Vyapaar\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `tb...')
+#1 G:\Shared drives\ProjectData\Vyapaar\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 G:\Shared drives\ProjectData\Vyapaar\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 G:\Shared drives\ProjectData\Vyapaar\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 G:\Shared drives\ProjectData\Vyapaar\app\Models\Leads_model.php(39): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 G:\Shared drives\ProjectData\Vyapaar\app\Controllers\vendor\Vendor.php(416): App\Models\Leads_model->addLead(Array)
+#6 G:\Shared drives\ProjectData\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\vendor\Vendor->addLeads()
+#7 G:\Shared drives\ProjectData\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Vendor))
+#8 G:\Shared drives\ProjectData\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 G:\Shared drives\ProjectData\Vyapaar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-07-19 23:17:17 --> Undefined index: lead_assign_id
+#0 G:\Shared drives\ProjectData\Vyapaar\app\Controllers\admin\Leads.php(394): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'G:\\Shared drive...', 394, Array)
+#1 G:\Shared drives\ProjectData\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Leads->assign_lead()
+#2 G:\Shared drives\ProjectData\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leads))
+#3 G:\Shared drives\ProjectData\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\Shared drives\ProjectData\Vyapaar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-19 23:17:23 --> Trying to access array offset on value of type bool
+#0 G:\Shared drives\ProjectData\Vyapaar\app\Controllers\admin\Leads.php(376): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'G:\\Shared drive...', 376, Array)
+#1 G:\Shared drives\ProjectData\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Leads->assign_lead()
+#2 G:\Shared drives\ProjectData\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leads))
+#3 G:\Shared drives\ProjectData\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\Shared drives\ProjectData\Vyapaar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-19 23:17:35 --> Undefined index: lead_assign_id
+#0 G:\Shared drives\ProjectData\Vyapaar\app\Controllers\admin\Leads.php(394): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'G:\\Shared drive...', 394, Array)
+#1 G:\Shared drives\ProjectData\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Leads->assign_lead()
+#2 G:\Shared drives\ProjectData\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leads))
+#3 G:\Shared drives\ProjectData\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\Shared drives\ProjectData\Vyapaar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-19 23:19:58 --> Undefined index: lead_assign_id
+#0 G:\Shared drives\ProjectData\Vyapaar\app\Controllers\admin\Leads.php(394): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'G:\\Shared drive...', 394, Array)
+#1 G:\Shared drives\ProjectData\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Leads->assign_lead()
+#2 G:\Shared drives\ProjectData\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leads))
+#3 G:\Shared drives\ProjectData\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\Shared drives\ProjectData\Vyapaar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

@@ -1,0 +1,75 @@
+CRITICAL - 2021-02-02 10:55:32 --> Call to undefined method App\Models\SaleasAssociate_model::insertVendor
+#0 /opt/lampp/htdocs/SystemManager/app/Controllers/client/Home.php(88): CodeIgniter\Model->__call('insertVendor', Array)
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\client\Home->registerVendor()
+#2 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\client\Home))
+#3 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/SystemManager/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-02 14:55:32 --> Undefined index: svm_slug
+#0 /opt/lampp/htdocs/SystemManager/app/Views/client/includs/header.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 52, Array)
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/View/View.php(246): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('client/includs/...', Array, true)
+#3 /opt/lampp/htdocs/SystemManager/app/Controllers/client/Home.php(30): view('client/includs/...', Array)
+#4 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\client\Home->index()
+#5 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\client\Home))
+#6 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/SystemManager/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-02-02 14:58:04 --> Undefined index: svm_status
+#0 /opt/lampp/htdocs/SystemManager/app/Views/client/home.php(4): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 4, Array)
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/View/View.php(246): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('client/home', Array, true)
+#3 /opt/lampp/htdocs/SystemManager/app/Controllers/client/Home.php(32): view('client/home', Array)
+#4 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\client\Home->index()
+#5 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\client\Home))
+#6 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/SystemManager/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-02-02 14:58:07 --> Undefined index: svm_status
+#0 /opt/lampp/htdocs/SystemManager/app/Views/client/home.php(4): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 4, Array)
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/View/View.php(246): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('client/home', Array, true)
+#3 /opt/lampp/htdocs/SystemManager/app/Controllers/client/Home.php(32): view('client/home', Array)
+#4 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\client\Home->index()
+#5 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\client\Home))
+#6 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/SystemManager/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-02-02 14:59:37 --> Undefined index: svm_status
+#0 /opt/lampp/htdocs/SystemManager/app/Views/client/home.php(4): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 4, Array)
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/View/View.php(246): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('client/home', Array, true)
+#3 /opt/lampp/htdocs/SystemManager/app/Controllers/client/Home.php(32): view('client/home', Array)
+#4 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\client\Home->index()
+#5 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\client\Home))
+#6 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/SystemManager/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-02-02 14:59:40 --> Undefined index: svm_status
+#0 /opt/lampp/htdocs/SystemManager/app/Views/client/home.php(4): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 4, Array)
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/View/View.php(246): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('client/home', Array, true)
+#3 /opt/lampp/htdocs/SystemManager/app/Controllers/client/Home.php(32): view('client/home', Array)
+#4 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\client\Home->index()
+#5 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\client\Home))
+#6 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/SystemManager/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-02-02 14:59:46 --> Undefined index: svm_status
+#0 /opt/lampp/htdocs/SystemManager/app/Views/client/home.php(4): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 4, Array)
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/View/View.php(246): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('client/home', Array, true)
+#3 /opt/lampp/htdocs/SystemManager/app/Controllers/client/Home.php(32): view('client/home', Array)
+#4 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\client\Home->index()
+#5 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\client\Home))
+#6 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/SystemManager/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-02-02 15:01:55 --> syntax error, unexpected end of file
+#0 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('client/home', Array, true)
+#1 /opt/lampp/htdocs/SystemManager/app/Controllers/client/Home.php(32): view('client/home', Array)
+#2 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\client\Home->index()
+#3 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\client\Home))
+#4 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/SystemManager/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}

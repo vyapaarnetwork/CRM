@@ -1,0 +1,896 @@
+CRITICAL - 2021-01-05 11:24:54 --> Required parameter $from follows optional parameter $verbs
+#0 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(365): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Required parame...', '/opt/lampp/htdo...', 1017)
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(365): require_once()
+#2 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/opt/lampp/htdo...')
+#3 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('CodeIgniter\\Rou...')
+#4 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Config/Services.php(699): CodeIgniter\Autoloader\Autoloader->loadClass('CodeIgniter\\Rou...')
+#5 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Config/BaseService.php(123): CodeIgniter\Config\Services::routes(false)
+#6 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Config/Services.php(696): CodeIgniter\Config\BaseService::getSharedInstance('routes')
+#7 /opt/lampp/htdocs/SystemManager/app/Config/Routes.php(6): CodeIgniter\Config\Services::routes()
+#8 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(780): require('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#10 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /opt/lampp/htdocs/SystemManager/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-01-05 11:24:54 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /opt/lampp/htdocs/SystemManager/app/Config/Events.php:33) in /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Debug/Exceptions.php:164
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', '/opt/lampp/htdo...', 164)
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Debug/Exceptions.php(164): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-01-05 11:27:56 --> Required parameter $from follows optional parameter $verbs
+#0 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(365): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Required parame...', '/opt/lampp/htdo...', 1017)
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(365): require_once()
+#2 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/opt/lampp/htdo...')
+#3 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('CodeIgniter\\Rou...')
+#4 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Config/Services.php(699): CodeIgniter\Autoloader\Autoloader->loadClass('CodeIgniter\\Rou...')
+#5 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Config/BaseService.php(123): CodeIgniter\Config\Services::routes(false)
+#6 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Config/Services.php(696): CodeIgniter\Config\BaseService::getSharedInstance('routes')
+#7 /opt/lampp/htdocs/SystemManager/app/Config/Routes.php(6): CodeIgniter\Config\Services::routes()
+#8 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(780): require('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#10 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /opt/lampp/htdocs/SystemManager/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-01-05 11:27:56 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /opt/lampp/htdocs/SystemManager/app/Config/Events.php:33) in /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Debug/Exceptions.php:164
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', '/opt/lampp/htdo...', 164)
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Debug/Exceptions.php(164): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-01-05 11:29:46 --> Required parameter $from follows optional parameter $verbs
+#0 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(365): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Required parame...', '/opt/lampp/htdo...', 1017)
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(365): require_once()
+#2 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/opt/lampp/htdo...')
+#3 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('CodeIgniter\\Rou...')
+#4 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Config/Services.php(699): CodeIgniter\Autoloader\Autoloader->loadClass('CodeIgniter\\Rou...')
+#5 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Config/BaseService.php(123): CodeIgniter\Config\Services::routes(false)
+#6 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Config/Services.php(696): CodeIgniter\Config\BaseService::getSharedInstance('routes')
+#7 /opt/lampp/htdocs/SystemManager/app/Config/Routes.php(6): CodeIgniter\Config\Services::routes()
+#8 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(780): require('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#10 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /opt/lampp/htdocs/SystemManager/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-01-05 11:29:46 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /opt/lampp/htdocs/SystemManager/app/Config/Events.php:33) in /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Debug/Exceptions.php:164
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', '/opt/lampp/htdo...', 164)
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Debug/Exceptions.php(164): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-01-05 11:34:06 --> Required parameter $from follows optional parameter $verbs
+#0 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(365): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Required parame...', '/opt/lampp/htdo...', 1017)
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(365): require_once()
+#2 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/opt/lampp/htdo...')
+#3 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('CodeIgniter\\Rou...')
+#4 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Config/Services.php(699): CodeIgniter\Autoloader\Autoloader->loadClass('CodeIgniter\\Rou...')
+#5 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Config/BaseService.php(123): CodeIgniter\Config\Services::routes(false)
+#6 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Config/Services.php(696): CodeIgniter\Config\BaseService::getSharedInstance('routes')
+#7 /opt/lampp/htdocs/SystemManager/app/Config/Routes.php(6): CodeIgniter\Config\Services::routes()
+#8 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(780): require('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#10 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /opt/lampp/htdocs/SystemManager/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-01-05 11:34:06 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /opt/lampp/htdocs/SystemManager/app/Config/Events.php:33) in /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Debug/Exceptions.php:164
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', '/opt/lampp/htdo...', 164)
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Debug/Exceptions.php(164): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-01-05 11:34:07 --> Required parameter $from follows optional parameter $verbs
+#0 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(365): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Required parame...', '/opt/lampp/htdo...', 1017)
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(365): require_once()
+#2 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/opt/lampp/htdo...')
+#3 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('CodeIgniter\\Rou...')
+#4 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Config/Services.php(699): CodeIgniter\Autoloader\Autoloader->loadClass('CodeIgniter\\Rou...')
+#5 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Config/BaseService.php(123): CodeIgniter\Config\Services::routes(false)
+#6 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Config/Services.php(696): CodeIgniter\Config\BaseService::getSharedInstance('routes')
+#7 /opt/lampp/htdocs/SystemManager/app/Config/Routes.php(6): CodeIgniter\Config\Services::routes()
+#8 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(780): require('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#10 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /opt/lampp/htdocs/SystemManager/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-01-05 11:34:07 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /opt/lampp/htdocs/SystemManager/app/Config/Events.php:33) in /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Debug/Exceptions.php:164
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', '/opt/lampp/htdo...', 164)
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Debug/Exceptions.php(164): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-01-05 11:34:07 --> Required parameter $from follows optional parameter $verbs
+#0 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(365): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Required parame...', '/opt/lampp/htdo...', 1017)
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(365): require_once()
+#2 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/opt/lampp/htdo...')
+#3 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('CodeIgniter\\Rou...')
+#4 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Config/Services.php(699): CodeIgniter\Autoloader\Autoloader->loadClass('CodeIgniter\\Rou...')
+#5 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Config/BaseService.php(123): CodeIgniter\Config\Services::routes(false)
+#6 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Config/Services.php(696): CodeIgniter\Config\BaseService::getSharedInstance('routes')
+#7 /opt/lampp/htdocs/SystemManager/app/Config/Routes.php(6): CodeIgniter\Config\Services::routes()
+#8 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(780): require('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#10 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /opt/lampp/htdocs/SystemManager/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-01-05 11:34:07 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /opt/lampp/htdocs/SystemManager/app/Config/Events.php:33) in /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Debug/Exceptions.php:164
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', '/opt/lampp/htdo...', 164)
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Debug/Exceptions.php(164): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-01-05 11:34:08 --> Required parameter $from follows optional parameter $verbs
+#0 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(365): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Required parame...', '/opt/lampp/htdo...', 1017)
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(365): require_once()
+#2 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/opt/lampp/htdo...')
+#3 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('CodeIgniter\\Rou...')
+#4 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Config/Services.php(699): CodeIgniter\Autoloader\Autoloader->loadClass('CodeIgniter\\Rou...')
+#5 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Config/BaseService.php(123): CodeIgniter\Config\Services::routes(false)
+#6 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Config/Services.php(696): CodeIgniter\Config\BaseService::getSharedInstance('routes')
+#7 /opt/lampp/htdocs/SystemManager/app/Config/Routes.php(6): CodeIgniter\Config\Services::routes()
+#8 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(780): require('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#10 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /opt/lampp/htdocs/SystemManager/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-01-05 11:34:08 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /opt/lampp/htdocs/SystemManager/app/Config/Events.php:33) in /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Debug/Exceptions.php:164
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', '/opt/lampp/htdo...', 164)
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Debug/Exceptions.php(164): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-01-05 11:34:08 --> Required parameter $from follows optional parameter $verbs
+#0 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(365): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Required parame...', '/opt/lampp/htdo...', 1017)
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(365): require_once()
+#2 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/opt/lampp/htdo...')
+#3 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('CodeIgniter\\Rou...')
+#4 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Config/Services.php(699): CodeIgniter\Autoloader\Autoloader->loadClass('CodeIgniter\\Rou...')
+#5 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Config/BaseService.php(123): CodeIgniter\Config\Services::routes(false)
+#6 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Config/Services.php(696): CodeIgniter\Config\BaseService::getSharedInstance('routes')
+#7 /opt/lampp/htdocs/SystemManager/app/Config/Routes.php(6): CodeIgniter\Config\Services::routes()
+#8 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(780): require('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#10 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /opt/lampp/htdocs/SystemManager/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-01-05 11:34:08 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /opt/lampp/htdocs/SystemManager/app/Config/Events.php:33) in /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Debug/Exceptions.php:164
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', '/opt/lampp/htdo...', 164)
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Debug/Exceptions.php(164): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-01-05 11:34:08 --> Required parameter $from follows optional parameter $verbs
+#0 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(365): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Required parame...', '/opt/lampp/htdo...', 1017)
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(365): require_once()
+#2 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/opt/lampp/htdo...')
+#3 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('CodeIgniter\\Rou...')
+#4 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Config/Services.php(699): CodeIgniter\Autoloader\Autoloader->loadClass('CodeIgniter\\Rou...')
+#5 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Config/BaseService.php(123): CodeIgniter\Config\Services::routes(false)
+#6 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Config/Services.php(696): CodeIgniter\Config\BaseService::getSharedInstance('routes')
+#7 /opt/lampp/htdocs/SystemManager/app/Config/Routes.php(6): CodeIgniter\Config\Services::routes()
+#8 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(780): require('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#10 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /opt/lampp/htdocs/SystemManager/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-01-05 11:34:08 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /opt/lampp/htdocs/SystemManager/app/Config/Events.php:33) in /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Debug/Exceptions.php:164
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', '/opt/lampp/htdo...', 164)
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Debug/Exceptions.php(164): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-01-05 11:34:08 --> Required parameter $from follows optional parameter $verbs
+#0 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(365): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Required parame...', '/opt/lampp/htdo...', 1017)
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(365): require_once()
+#2 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/opt/lampp/htdo...')
+#3 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('CodeIgniter\\Rou...')
+#4 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Config/Services.php(699): CodeIgniter\Autoloader\Autoloader->loadClass('CodeIgniter\\Rou...')
+#5 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Config/BaseService.php(123): CodeIgniter\Config\Services::routes(false)
+#6 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Config/Services.php(696): CodeIgniter\Config\BaseService::getSharedInstance('routes')
+#7 /opt/lampp/htdocs/SystemManager/app/Config/Routes.php(6): CodeIgniter\Config\Services::routes()
+#8 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(780): require('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#10 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /opt/lampp/htdocs/SystemManager/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-01-05 11:34:08 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /opt/lampp/htdocs/SystemManager/app/Config/Events.php:33) in /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Debug/Exceptions.php:164
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', '/opt/lampp/htdo...', 164)
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Debug/Exceptions.php(164): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-01-05 11:34:08 --> Required parameter $from follows optional parameter $verbs
+#0 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(365): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Required parame...', '/opt/lampp/htdo...', 1017)
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(365): require_once()
+#2 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/opt/lampp/htdo...')
+#3 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('CodeIgniter\\Rou...')
+#4 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Config/Services.php(699): CodeIgniter\Autoloader\Autoloader->loadClass('CodeIgniter\\Rou...')
+#5 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Config/BaseService.php(123): CodeIgniter\Config\Services::routes(false)
+#6 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Config/Services.php(696): CodeIgniter\Config\BaseService::getSharedInstance('routes')
+#7 /opt/lampp/htdocs/SystemManager/app/Config/Routes.php(6): CodeIgniter\Config\Services::routes()
+#8 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(780): require('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#10 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /opt/lampp/htdocs/SystemManager/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-01-05 11:34:08 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /opt/lampp/htdocs/SystemManager/app/Config/Events.php:33) in /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Debug/Exceptions.php:164
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', '/opt/lampp/htdo...', 164)
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Debug/Exceptions.php(164): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-01-05 11:34:09 --> Required parameter $from follows optional parameter $verbs
+#0 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(365): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Required parame...', '/opt/lampp/htdo...', 1017)
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(365): require_once()
+#2 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/opt/lampp/htdo...')
+#3 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('CodeIgniter\\Rou...')
+#4 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Config/Services.php(699): CodeIgniter\Autoloader\Autoloader->loadClass('CodeIgniter\\Rou...')
+#5 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Config/BaseService.php(123): CodeIgniter\Config\Services::routes(false)
+#6 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Config/Services.php(696): CodeIgniter\Config\BaseService::getSharedInstance('routes')
+#7 /opt/lampp/htdocs/SystemManager/app/Config/Routes.php(6): CodeIgniter\Config\Services::routes()
+#8 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(780): require('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#10 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /opt/lampp/htdocs/SystemManager/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-01-05 11:34:09 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /opt/lampp/htdocs/SystemManager/app/Config/Events.php:33) in /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Debug/Exceptions.php:164
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', '/opt/lampp/htdo...', 164)
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Debug/Exceptions.php(164): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-01-05 11:34:09 --> Required parameter $from follows optional parameter $verbs
+#0 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(365): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Required parame...', '/opt/lampp/htdo...', 1017)
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(365): require_once()
+#2 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/opt/lampp/htdo...')
+#3 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('CodeIgniter\\Rou...')
+#4 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Config/Services.php(699): CodeIgniter\Autoloader\Autoloader->loadClass('CodeIgniter\\Rou...')
+#5 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Config/BaseService.php(123): CodeIgniter\Config\Services::routes(false)
+#6 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Config/Services.php(696): CodeIgniter\Config\BaseService::getSharedInstance('routes')
+#7 /opt/lampp/htdocs/SystemManager/app/Config/Routes.php(6): CodeIgniter\Config\Services::routes()
+#8 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(780): require('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#10 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /opt/lampp/htdocs/SystemManager/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-01-05 11:34:09 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /opt/lampp/htdocs/SystemManager/app/Config/Events.php:33) in /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Debug/Exceptions.php:164
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', '/opt/lampp/htdo...', 164)
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Debug/Exceptions.php(164): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-01-05 11:34:09 --> Required parameter $from follows optional parameter $verbs
+#0 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(365): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Required parame...', '/opt/lampp/htdo...', 1017)
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(365): require_once()
+#2 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/opt/lampp/htdo...')
+#3 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('CodeIgniter\\Rou...')
+#4 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Config/Services.php(699): CodeIgniter\Autoloader\Autoloader->loadClass('CodeIgniter\\Rou...')
+#5 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Config/BaseService.php(123): CodeIgniter\Config\Services::routes(false)
+#6 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Config/Services.php(696): CodeIgniter\Config\BaseService::getSharedInstance('routes')
+#7 /opt/lampp/htdocs/SystemManager/app/Config/Routes.php(6): CodeIgniter\Config\Services::routes()
+#8 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(780): require('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#10 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /opt/lampp/htdocs/SystemManager/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-01-05 11:34:09 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /opt/lampp/htdocs/SystemManager/app/Config/Events.php:33) in /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Debug/Exceptions.php:164
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', '/opt/lampp/htdo...', 164)
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Debug/Exceptions.php(164): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-01-05 11:34:09 --> Required parameter $from follows optional parameter $verbs
+#0 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(365): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Required parame...', '/opt/lampp/htdo...', 1017)
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(365): require_once()
+#2 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/opt/lampp/htdo...')
+#3 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('CodeIgniter\\Rou...')
+#4 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Config/Services.php(699): CodeIgniter\Autoloader\Autoloader->loadClass('CodeIgniter\\Rou...')
+#5 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Config/BaseService.php(123): CodeIgniter\Config\Services::routes(false)
+#6 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Config/Services.php(696): CodeIgniter\Config\BaseService::getSharedInstance('routes')
+#7 /opt/lampp/htdocs/SystemManager/app/Config/Routes.php(6): CodeIgniter\Config\Services::routes()
+#8 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(780): require('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#10 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /opt/lampp/htdocs/SystemManager/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-01-05 11:34:09 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /opt/lampp/htdocs/SystemManager/app/Config/Events.php:33) in /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Debug/Exceptions.php:164
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', '/opt/lampp/htdo...', 164)
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Debug/Exceptions.php(164): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-01-05 11:34:09 --> Required parameter $from follows optional parameter $verbs
+#0 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(365): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Required parame...', '/opt/lampp/htdo...', 1017)
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(365): require_once()
+#2 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/opt/lampp/htdo...')
+#3 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('CodeIgniter\\Rou...')
+#4 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Config/Services.php(699): CodeIgniter\Autoloader\Autoloader->loadClass('CodeIgniter\\Rou...')
+#5 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Config/BaseService.php(123): CodeIgniter\Config\Services::routes(false)
+#6 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Config/Services.php(696): CodeIgniter\Config\BaseService::getSharedInstance('routes')
+#7 /opt/lampp/htdocs/SystemManager/app/Config/Routes.php(6): CodeIgniter\Config\Services::routes()
+#8 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(780): require('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#10 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /opt/lampp/htdocs/SystemManager/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-01-05 11:34:09 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /opt/lampp/htdocs/SystemManager/app/Config/Events.php:33) in /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Debug/Exceptions.php:164
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', '/opt/lampp/htdo...', 164)
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Debug/Exceptions.php(164): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-01-05 11:35:29 --> Required parameter $from follows optional parameter $verbs
+#0 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(365): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Required parame...', '/opt/lampp/htdo...', 1017)
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(365): require_once()
+#2 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/opt/lampp/htdo...')
+#3 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('CodeIgniter\\Rou...')
+#4 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Config/Services.php(699): CodeIgniter\Autoloader\Autoloader->loadClass('CodeIgniter\\Rou...')
+#5 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Config/BaseService.php(123): CodeIgniter\Config\Services::routes(false)
+#6 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Config/Services.php(696): CodeIgniter\Config\BaseService::getSharedInstance('routes')
+#7 /opt/lampp/htdocs/SystemManager/app/Config/Routes.php(6): CodeIgniter\Config\Services::routes()
+#8 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(780): require('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#10 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /opt/lampp/htdocs/SystemManager/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-01-05 11:35:29 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /opt/lampp/htdocs/SystemManager/app/Config/Events.php:33) in /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Debug/Exceptions.php:164
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', '/opt/lampp/htdo...', 164)
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Debug/Exceptions.php(164): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-01-05 11:35:31 --> Required parameter $from follows optional parameter $verbs
+#0 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(365): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Required parame...', '/opt/lampp/htdo...', 1017)
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(365): require_once()
+#2 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/opt/lampp/htdo...')
+#3 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('CodeIgniter\\Rou...')
+#4 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Config/Services.php(699): CodeIgniter\Autoloader\Autoloader->loadClass('CodeIgniter\\Rou...')
+#5 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Config/BaseService.php(123): CodeIgniter\Config\Services::routes(false)
+#6 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Config/Services.php(696): CodeIgniter\Config\BaseService::getSharedInstance('routes')
+#7 /opt/lampp/htdocs/SystemManager/app/Config/Routes.php(6): CodeIgniter\Config\Services::routes()
+#8 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(780): require('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#10 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /opt/lampp/htdocs/SystemManager/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-01-05 11:35:31 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /opt/lampp/htdocs/SystemManager/app/Config/Events.php:33) in /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Debug/Exceptions.php:164
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', '/opt/lampp/htdo...', 164)
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Debug/Exceptions.php(164): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-01-05 11:35:31 --> Required parameter $from follows optional parameter $verbs
+#0 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(365): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Required parame...', '/opt/lampp/htdo...', 1017)
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(365): require_once()
+#2 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/opt/lampp/htdo...')
+#3 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('CodeIgniter\\Rou...')
+#4 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Config/Services.php(699): CodeIgniter\Autoloader\Autoloader->loadClass('CodeIgniter\\Rou...')
+#5 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Config/BaseService.php(123): CodeIgniter\Config\Services::routes(false)
+#6 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Config/Services.php(696): CodeIgniter\Config\BaseService::getSharedInstance('routes')
+#7 /opt/lampp/htdocs/SystemManager/app/Config/Routes.php(6): CodeIgniter\Config\Services::routes()
+#8 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(780): require('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#10 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /opt/lampp/htdocs/SystemManager/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-01-05 11:35:31 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /opt/lampp/htdocs/SystemManager/app/Config/Events.php:33) in /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Debug/Exceptions.php:164
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', '/opt/lampp/htdo...', 164)
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Debug/Exceptions.php(164): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-01-05 11:35:31 --> Required parameter $from follows optional parameter $verbs
+#0 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(365): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Required parame...', '/opt/lampp/htdo...', 1017)
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(365): require_once()
+#2 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/opt/lampp/htdo...')
+#3 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('CodeIgniter\\Rou...')
+#4 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Config/Services.php(699): CodeIgniter\Autoloader\Autoloader->loadClass('CodeIgniter\\Rou...')
+#5 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Config/BaseService.php(123): CodeIgniter\Config\Services::routes(false)
+#6 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Config/Services.php(696): CodeIgniter\Config\BaseService::getSharedInstance('routes')
+#7 /opt/lampp/htdocs/SystemManager/app/Config/Routes.php(6): CodeIgniter\Config\Services::routes()
+#8 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(780): require('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#10 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /opt/lampp/htdocs/SystemManager/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-01-05 11:35:31 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /opt/lampp/htdocs/SystemManager/app/Config/Events.php:33) in /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Debug/Exceptions.php:164
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', '/opt/lampp/htdo...', 164)
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Debug/Exceptions.php(164): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-01-05 11:35:31 --> Required parameter $from follows optional parameter $verbs
+#0 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(365): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Required parame...', '/opt/lampp/htdo...', 1017)
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(365): require_once()
+#2 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/opt/lampp/htdo...')
+#3 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('CodeIgniter\\Rou...')
+#4 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Config/Services.php(699): CodeIgniter\Autoloader\Autoloader->loadClass('CodeIgniter\\Rou...')
+#5 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Config/BaseService.php(123): CodeIgniter\Config\Services::routes(false)
+#6 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Config/Services.php(696): CodeIgniter\Config\BaseService::getSharedInstance('routes')
+#7 /opt/lampp/htdocs/SystemManager/app/Config/Routes.php(6): CodeIgniter\Config\Services::routes()
+#8 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(780): require('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#10 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /opt/lampp/htdocs/SystemManager/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-01-05 11:35:31 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /opt/lampp/htdocs/SystemManager/app/Config/Events.php:33) in /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Debug/Exceptions.php:164
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', '/opt/lampp/htdo...', 164)
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Debug/Exceptions.php(164): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-01-05 11:35:31 --> Required parameter $from follows optional parameter $verbs
+#0 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(365): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Required parame...', '/opt/lampp/htdo...', 1017)
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(365): require_once()
+#2 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/opt/lampp/htdo...')
+#3 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('CodeIgniter\\Rou...')
+#4 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Config/Services.php(699): CodeIgniter\Autoloader\Autoloader->loadClass('CodeIgniter\\Rou...')
+#5 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Config/BaseService.php(123): CodeIgniter\Config\Services::routes(false)
+#6 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Config/Services.php(696): CodeIgniter\Config\BaseService::getSharedInstance('routes')
+#7 /opt/lampp/htdocs/SystemManager/app/Config/Routes.php(6): CodeIgniter\Config\Services::routes()
+#8 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(780): require('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#10 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /opt/lampp/htdocs/SystemManager/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-01-05 11:35:31 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /opt/lampp/htdocs/SystemManager/app/Config/Events.php:33) in /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Debug/Exceptions.php:164
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', '/opt/lampp/htdo...', 164)
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Debug/Exceptions.php(164): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-01-05 11:35:32 --> Required parameter $from follows optional parameter $verbs
+#0 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(365): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Required parame...', '/opt/lampp/htdo...', 1017)
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(365): require_once()
+#2 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/opt/lampp/htdo...')
+#3 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('CodeIgniter\\Rou...')
+#4 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Config/Services.php(699): CodeIgniter\Autoloader\Autoloader->loadClass('CodeIgniter\\Rou...')
+#5 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Config/BaseService.php(123): CodeIgniter\Config\Services::routes(false)
+#6 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Config/Services.php(696): CodeIgniter\Config\BaseService::getSharedInstance('routes')
+#7 /opt/lampp/htdocs/SystemManager/app/Config/Routes.php(6): CodeIgniter\Config\Services::routes()
+#8 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(780): require('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#10 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /opt/lampp/htdocs/SystemManager/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-01-05 11:35:32 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /opt/lampp/htdocs/SystemManager/app/Config/Events.php:33) in /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Debug/Exceptions.php:164
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', '/opt/lampp/htdo...', 164)
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Debug/Exceptions.php(164): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-01-05 11:35:32 --> Required parameter $from follows optional parameter $verbs
+#0 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(365): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Required parame...', '/opt/lampp/htdo...', 1017)
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(365): require_once()
+#2 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/opt/lampp/htdo...')
+#3 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('CodeIgniter\\Rou...')
+#4 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Config/Services.php(699): CodeIgniter\Autoloader\Autoloader->loadClass('CodeIgniter\\Rou...')
+#5 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Config/BaseService.php(123): CodeIgniter\Config\Services::routes(false)
+#6 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Config/Services.php(696): CodeIgniter\Config\BaseService::getSharedInstance('routes')
+#7 /opt/lampp/htdocs/SystemManager/app/Config/Routes.php(6): CodeIgniter\Config\Services::routes()
+#8 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(780): require('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#10 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /opt/lampp/htdocs/SystemManager/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-01-05 11:35:32 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /opt/lampp/htdocs/SystemManager/app/Config/Events.php:33) in /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Debug/Exceptions.php:164
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', '/opt/lampp/htdo...', 164)
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Debug/Exceptions.php(164): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-01-05 11:41:00 --> Required parameter $from follows optional parameter $verbs
+#0 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(365): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Required parame...', '/opt/lampp/htdo...', 1017)
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(365): require_once()
+#2 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/opt/lampp/htdo...')
+#3 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('CodeIgniter\\Rou...')
+#4 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Config/Services.php(699): CodeIgniter\Autoloader\Autoloader->loadClass('CodeIgniter\\Rou...')
+#5 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Config/BaseService.php(123): CodeIgniter\Config\Services::routes(false)
+#6 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Config/Services.php(696): CodeIgniter\Config\BaseService::getSharedInstance('routes')
+#7 /opt/lampp/htdocs/SystemManager/app/Config/Routes.php(6): CodeIgniter\Config\Services::routes()
+#8 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(780): require('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#10 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /opt/lampp/htdocs/SystemManager/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-01-05 11:41:00 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /opt/lampp/htdocs/SystemManager/app/Config/Events.php:33) in /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Debug/Exceptions.php:164
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', '/opt/lampp/htdo...', 164)
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Debug/Exceptions.php(164): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-01-05 11:50:53 --> Required parameter $from follows optional parameter $verbs
+#0 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(365): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Required parame...', '/opt/lampp/htdo...', 1017)
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(365): require_once()
+#2 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/opt/lampp/htdo...')
+#3 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('CodeIgniter\\Rou...')
+#4 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Config/Services.php(699): CodeIgniter\Autoloader\Autoloader->loadClass('CodeIgniter\\Rou...')
+#5 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Config/BaseService.php(123): CodeIgniter\Config\Services::routes(false)
+#6 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Config/Services.php(696): CodeIgniter\Config\BaseService::getSharedInstance('routes')
+#7 /opt/lampp/htdocs/SystemManager/app/Config/Routes.php(6): CodeIgniter\Config\Services::routes()
+#8 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(780): require('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#10 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /opt/lampp/htdocs/SystemManager/public/index.php(46): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-01-05 11:50:53 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /opt/lampp/htdocs/SystemManager/app/Config/Events.php:33) in /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Debug/Exceptions.php:164
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', '/opt/lampp/htdo...', 164)
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Debug/Exceptions.php(164): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-01-05 12:01:21 --> Required parameter $from follows optional parameter $verbs
+#0 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(365): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Required parame...', '/opt/lampp/htdo...', 1017)
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(365): require_once()
+#2 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/opt/lampp/htdo...')
+#3 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('CodeIgniter\\Rou...')
+#4 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Config/Services.php(699): CodeIgniter\Autoloader\Autoloader->loadClass('CodeIgniter\\Rou...')
+#5 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Config/BaseService.php(123): CodeIgniter\Config\Services::routes(false)
+#6 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Config/Services.php(696): CodeIgniter\Config\BaseService::getSharedInstance('routes')
+#7 /opt/lampp/htdocs/SystemManager/app/Config/Routes.php(6): CodeIgniter\Config\Services::routes()
+#8 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(779): require('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(363): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#10 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /opt/lampp/htdocs/SystemManager/public/index.php(46): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-01-05 12:01:21 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /opt/lampp/htdocs/SystemManager/app/Config/Events.php:33) in /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Debug/Exceptions.php:164
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', '/opt/lampp/htdo...', 164)
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Debug/Exceptions.php(164): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-01-05 12:08:55 --> Required parameter $from follows optional parameter $verbs
+#0 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(365): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Required parame...', '/opt/lampp/htdo...', 1017)
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(365): require_once()
+#2 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/opt/lampp/htdo...')
+#3 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('CodeIgniter\\Rou...')
+#4 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Config/Services.php(698): CodeIgniter\Autoloader\Autoloader->loadClass('CodeIgniter\\Rou...')
+#5 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Config/BaseService.php(123): CodeIgniter\Config\Services::routes(false)
+#6 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Config/Services.php(695): CodeIgniter\Config\BaseService::getSharedInstance('routes')
+#7 /opt/lampp/htdocs/SystemManager/app/Config/Routes.php(6): CodeIgniter\Config\Services::routes()
+#8 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(779): require('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(363): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#10 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /opt/lampp/htdocs/SystemManager/public/index.php(46): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-01-05 12:08:55 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /opt/lampp/htdocs/SystemManager/app/Config/Events.php:33) in /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Debug/Exceptions.php:164
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', '/opt/lampp/htdo...', 164)
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Debug/Exceptions.php(164): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-01-05 12:10:27 --> Required parameter $from follows optional parameter $verbs
+#0 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(365): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Required parame...', '/opt/lampp/htdo...', 1017)
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(365): require_once()
+#2 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/opt/lampp/htdo...')
+#3 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('CodeIgniter\\Rou...')
+#4 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Config/Services.php(698): CodeIgniter\Autoloader\Autoloader->loadClass('CodeIgniter\\Rou...')
+#5 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Config/BaseService.php(123): CodeIgniter\Config\Services::routes(false)
+#6 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Config/Services.php(695): CodeIgniter\Config\BaseService::getSharedInstance('routes')
+#7 /opt/lampp/htdocs/SystemManager/app/Config/Routes.php(6): CodeIgniter\Config\Services::routes()
+#8 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(779): require('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(363): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#10 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /opt/lampp/htdocs/SystemManager/public/index.php(46): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-01-05 12:10:27 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /opt/lampp/htdocs/SystemManager/app/Config/Events.php:33) in /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Debug/Exceptions.php:164
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', '/opt/lampp/htdo...', 164)
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Debug/Exceptions.php(164): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-01-05 12:11:56 --> Required parameter $from follows optional parameter $verbs
+#0 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(365): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Required parame...', '/opt/lampp/htdo...', 1017)
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(365): require_once()
+#2 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/opt/lampp/htdo...')
+#3 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('CodeIgniter\\Rou...')
+#4 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Config/Services.php(698): CodeIgniter\Autoloader\Autoloader->loadClass('CodeIgniter\\Rou...')
+#5 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Config/BaseService.php(123): CodeIgniter\Config\Services::routes(false)
+#6 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Config/Services.php(695): CodeIgniter\Config\BaseService::getSharedInstance('routes')
+#7 /opt/lampp/htdocs/SystemManager/app/Config/Routes.php(6): CodeIgniter\Config\Services::routes()
+#8 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(779): require('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(363): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#10 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /opt/lampp/htdocs/SystemManager/public/index.php(46): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-01-05 12:13:37 --> Required parameter $from follows optional parameter $verbs
+#0 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(365): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Required parame...', '/opt/lampp/htdo...', 1017)
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(365): require_once()
+#2 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/opt/lampp/htdo...')
+#3 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('CodeIgniter\\Rou...')
+#4 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Config/Services.php(698): CodeIgniter\Autoloader\Autoloader->loadClass('CodeIgniter\\Rou...')
+#5 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Config/BaseService.php(123): CodeIgniter\Config\Services::routes(false)
+#6 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Config/Services.php(695): CodeIgniter\Config\BaseService::getSharedInstance('routes')
+#7 /opt/lampp/htdocs/SystemManager/app/Config/Routes.php(6): CodeIgniter\Config\Services::routes()
+#8 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(779): require('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(363): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#10 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /opt/lampp/htdocs/SystemManager/public/index.php(46): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-01-05 12:13:39 --> Required parameter $from follows optional parameter $verbs
+#0 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(365): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Required parame...', '/opt/lampp/htdo...', 1017)
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(365): require_once()
+#2 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/opt/lampp/htdo...')
+#3 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('CodeIgniter\\Rou...')
+#4 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Config/Services.php(698): CodeIgniter\Autoloader\Autoloader->loadClass('CodeIgniter\\Rou...')
+#5 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Config/BaseService.php(123): CodeIgniter\Config\Services::routes(false)
+#6 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Config/Services.php(695): CodeIgniter\Config\BaseService::getSharedInstance('routes')
+#7 /opt/lampp/htdocs/SystemManager/app/Config/Routes.php(6): CodeIgniter\Config\Services::routes()
+#8 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(779): require('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(363): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#10 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /opt/lampp/htdocs/SystemManager/public/index.php(46): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-01-05 12:14:06 --> Required parameter $from follows optional parameter $verbs
+#0 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(365): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Required parame...', '/opt/lampp/htdo...', 1017)
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(365): require_once()
+#2 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/opt/lampp/htdo...')
+#3 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('CodeIgniter\\Rou...')
+#4 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Config/Services.php(698): CodeIgniter\Autoloader\Autoloader->loadClass('CodeIgniter\\Rou...')
+#5 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Config/BaseService.php(123): CodeIgniter\Config\Services::routes(false)
+#6 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Config/Services.php(695): CodeIgniter\Config\BaseService::getSharedInstance('routes')
+#7 /opt/lampp/htdocs/SystemManager/app/Config/Routes.php(6): CodeIgniter\Config\Services::routes()
+#8 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(779): require('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(363): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#10 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /opt/lampp/htdocs/SystemManager/public/index.php(46): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-01-05 12:14:06 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /opt/lampp/htdocs/SystemManager/app/Config/Events.php:33) in /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Debug/Exceptions.php:164
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', '/opt/lampp/htdo...', 164)
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Debug/Exceptions.php(164): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-01-05 12:14:13 --> Required parameter $from follows optional parameter $verbs
+#0 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(365): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Required parame...', '/opt/lampp/htdo...', 1017)
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(365): require_once()
+#2 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/opt/lampp/htdo...')
+#3 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('CodeIgniter\\Rou...')
+#4 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Config/Services.php(698): CodeIgniter\Autoloader\Autoloader->loadClass('CodeIgniter\\Rou...')
+#5 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Config/BaseService.php(123): CodeIgniter\Config\Services::routes(false)
+#6 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Config/Services.php(695): CodeIgniter\Config\BaseService::getSharedInstance('routes')
+#7 /opt/lampp/htdocs/SystemManager/app/Config/Routes.php(6): CodeIgniter\Config\Services::routes()
+#8 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(779): require('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(363): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#10 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /opt/lampp/htdocs/SystemManager/public/index.php(46): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-01-05 12:14:26 --> Required parameter $from follows optional parameter $verbs
+#0 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(365): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Required parame...', '/opt/lampp/htdo...', 1017)
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(365): require_once()
+#2 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/opt/lampp/htdo...')
+#3 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('CodeIgniter\\Rou...')
+#4 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Config/Services.php(698): CodeIgniter\Autoloader\Autoloader->loadClass('CodeIgniter\\Rou...')
+#5 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Config/BaseService.php(123): CodeIgniter\Config\Services::routes(false)
+#6 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Config/Services.php(695): CodeIgniter\Config\BaseService::getSharedInstance('routes')
+#7 /opt/lampp/htdocs/SystemManager/app/Config/Routes.php(6): CodeIgniter\Config\Services::routes()
+#8 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(779): require('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(363): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#10 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /opt/lampp/htdocs/SystemManager/public/index.php(46): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-01-05 12:14:26 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /opt/lampp/htdocs/SystemManager/app/Config/Events.php:33) in /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Debug/Exceptions.php:164
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', '/opt/lampp/htdo...', 164)
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Debug/Exceptions.php(164): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-01-05 12:15:54 --> Required parameter $from follows optional parameter $verbs
+#0 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(365): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Required parame...', '/opt/lampp/htdo...', 1017)
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(365): require_once()
+#2 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/opt/lampp/htdo...')
+#3 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('CodeIgniter\\Rou...')
+#4 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Config/Services.php(698): CodeIgniter\Autoloader\Autoloader->loadClass('CodeIgniter\\Rou...')
+#5 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Config/BaseService.php(123): CodeIgniter\Config\Services::routes(false)
+#6 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Config/Services.php(695): CodeIgniter\Config\BaseService::getSharedInstance('routes')
+#7 /opt/lampp/htdocs/SystemManager/app/Config/Routes.php(6): CodeIgniter\Config\Services::routes()
+#8 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(779): require('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(363): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#10 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /opt/lampp/htdocs/SystemManager/public/index.php(46): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-01-05 13:49:03 --> Object of class CodeIgniter\CodeIgniter could not be converted to string
+#0 {main}
+CRITICAL - 2021-01-05 13:53:18 --> Call to a member function getProtocolVersion() on null
+#0 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(286): CodeIgniter\CodeIgniter->getResponseObject()
+#1 /opt/lampp/htdocs/SystemManager/public/index.php(46): CodeIgniter\CodeIgniter->run()
+#2 {main}
+CRITICAL - 2021-01-05 13:55:23 --> Call to a member function getMethod() on null
+#0 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(286): CodeIgniter\CodeIgniter->spoofRequestMethod()
+#1 /opt/lampp/htdocs/SystemManager/public/index.php(46): CodeIgniter\CodeIgniter->run()
+#2 {main}
+CRITICAL - 2021-01-05 14:34:46 --> Undefined constant "CodeIgniter\SPARKED"
+#0 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(309): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#1 /opt/lampp/htdocs/SystemManager/public/index.php(46): CodeIgniter\CodeIgniter->run()
+#2 {main}
+CRITICAL - 2021-01-05 14:36:55 --> Undefined property: CodeIgniter\Filters\Filters::$initialize
+#0 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Filters/Filters.php(236): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/opt/lampp/htdo...', 236)
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Filters/Filters.php(139): CodeIgniter\Filters\Filters->initialize('admin')
+#2 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('admin', 'before')
+#3 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(309): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/SystemManager/public/index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-05 15:19:17 --> Table 'system_manager.sm_setting_master' doesn't exist in engine
+#0 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /opt/lampp/htdocs/SystemManager/app/Models/Settiing_model.php(102): CodeIgniter\Database\BaseBuilder->get()
+#5 /opt/lampp/htdocs/SystemManager/app/Helpers/Utility_helper.php(73): App\Models\Settiing_model->getSettings()
+#6 /opt/lampp/htdocs/SystemManager/app/Controllers/admin/Admin.php(22): settingSiteData()
+#7 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\admin\Admin->index()
+#8 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Admin))
+#9 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /opt/lampp/htdocs/SystemManager/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-01-05 15:29:36 --> Table 'system_manager.sm_setting_master' doesn't exist
+#0 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /opt/lampp/htdocs/SystemManager/app/Models/Settiing_model.php(102): CodeIgniter\Database\BaseBuilder->get()
+#5 /opt/lampp/htdocs/SystemManager/app/Helpers/Utility_helper.php(73): App\Models\Settiing_model->getSettings()
+#6 /opt/lampp/htdocs/SystemManager/app/Controllers/admin/Admin.php(22): settingSiteData()
+#7 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\admin\Admin->index()
+#8 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Admin))
+#9 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /opt/lampp/htdocs/SystemManager/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-01-05 15:29:51 --> Table 'system_manager.sm_setting_master' doesn't exist
+#0 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /opt/lampp/htdocs/SystemManager/app/Models/Settiing_model.php(102): CodeIgniter\Database\BaseBuilder->get()
+#5 /opt/lampp/htdocs/SystemManager/app/Helpers/Utility_helper.php(73): App\Models\Settiing_model->getSettings()
+#6 /opt/lampp/htdocs/SystemManager/app/Controllers/admin/Admin.php(22): settingSiteData()
+#7 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\admin\Admin->index()
+#8 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Admin))
+#9 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /opt/lampp/htdocs/SystemManager/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-01-05 15:49:37 --> Invalid file: client/header.php
+#0 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('client/header.p...')
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('client/header', Array, true)
+#2 /opt/lampp/htdocs/SystemManager/app/Controllers/client/Home.php(11): view('client/header')
+#3 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\client\Home->index()
+#4 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\client\Home))
+#5 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/SystemManager/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-01-05 15:50:15 --> Invalid file: client/header.php
+#0 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('client/header.p...')
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('client/header', Array, true)
+#2 /opt/lampp/htdocs/SystemManager/app/Controllers/client/Home.php(11): view('client/header')
+#3 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\client\Home->index()
+#4 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\client\Home))
+#5 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/SystemManager/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-01-05 15:50:41 --> Invalid file: client/header.php
+#0 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('client/header.p...')
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('client/header', Array, true)
+#2 /opt/lampp/htdocs/SystemManager/app/Controllers/client/Home.php(11): view('client/header')
+#3 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\client\Home->index()
+#4 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\client\Home))
+#5 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/SystemManager/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-01-05 15:51:10 --> Invalid file: client/includes/header.php
+#0 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('client/includes...')
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('client/includes...', Array, true)
+#2 /opt/lampp/htdocs/SystemManager/app/Controllers/client/Home.php(11): view('client/includes...')
+#3 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\client\Home->index()
+#4 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\client\Home))
+#5 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/SystemManager/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-01-05 15:56:26 --> syntax error, unexpected '}', expecting ';'
+#0 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Controller.php(175): helper(Array)
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Controller.php(126): CodeIgniter\Controller->loadHelpers()
+#2 /opt/lampp/htdocs/SystemManager/app/Controllers/BaseController.php(37): CodeIgniter\Controller->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#3 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(891): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#4 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#5 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/SystemManager/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-01-05 18:04:20 --> syntax error, unexpected '}', expecting ';' or ','
+#0 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('client/includs/...', Array, true)
+#1 /opt/lampp/htdocs/SystemManager/app/Controllers/client/Home.php(16): view('client/includs/...', Array)
+#2 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\client\Home->index()
+#3 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\client\Home))
+#4 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/SystemManager/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}

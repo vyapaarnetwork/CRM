@@ -1,0 +1,11 @@
+CRITICAL - 2021-07-07 23:53:54 --> Unable to connect to the database.
+#0 G:\Shared drives\ProjectData\Vyapaar\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 G:\Shared drives\ProjectData\Vyapaar\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 G:\Shared drives\ProjectData\Vyapaar\app\Models\Settiing_model.php(102): CodeIgniter\Database\BaseBuilder->get()
+#3 G:\Shared drives\ProjectData\Vyapaar\app\Helpers\Utility_helper.php(89): App\Models\Settiing_model->getSettings()
+#4 G:\Shared drives\ProjectData\Vyapaar\app\Controllers\admin\Leadsource.php(33): settingSiteData()
+#5 G:\Shared drives\ProjectData\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Leadsource->index()
+#6 G:\Shared drives\ProjectData\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leadsource))
+#7 G:\Shared drives\ProjectData\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 G:\Shared drives\ProjectData\Vyapaar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}

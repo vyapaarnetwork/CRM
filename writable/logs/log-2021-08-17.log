@@ -1,0 +1,30 @@
+CRITICAL - 2021-08-17 21:41:59 --> unlink(G:\Shared drives\ProjectData\ProjectSite\Vyapaar\writable\debugbar/debugbar_1628795556.json): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(G:\\Share...', 'G:\\Shared drive...', 106, Array)
+#1 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\Debug\Toolbar\Collectors\History.php(106): unlink('G:\\Shared drive...')
+#2 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\Debug\Toolbar.php(483): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles(1629216717, 20)
+#3 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\Debug\Toolbar.php(455): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#4 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\app\Config\Events.php(50): CodeIgniter\Debug\Toolbar->respond()
+#5 [internal function]: CodeIgniter\Events\Events::Config\{closure}()
+#6 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\Events\Events.php(188): call_user_func(Object(Closure))
+#7 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(293): CodeIgniter\Events\Events::trigger('pre_system')
+#8 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-17 22:44:48 --> Call to undefined method mysqli::resultArray()
+#0 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\vendor\Vendor->forgotPassword()
+#1 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Vendor))
+#2 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-17 22:45:02 --> Undefined property: mysqli::$resultArray
+#0 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\app\Controllers\vendor\Vendor.php(217): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'G:\\Shared drive...', 217, Array)
+#1 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\vendor\Vendor->forgotPassword()
+#2 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Vendor))
+#3 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-17 23:32:36 --> Too few arguments to function App\Controllers\vendor\Vendor::resetPassword(), 0 passed in G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php on line 918 and exactly 1 expected
+#0 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\vendor\Vendor->resetPassword()
+#1 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Vendor))
+#2 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}

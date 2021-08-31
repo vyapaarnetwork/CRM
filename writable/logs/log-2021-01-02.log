@@ -1,0 +1,53 @@
+CRITICAL - 2021-01-02 11:32:06 --> Call to undefined function App\Controllers\admin\settingSiteData()
+#0 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(890): App\Controllers\admin\Setting->__construct()
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/SystemManager/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-02 11:32:36 --> Call to undefined method App\Models\Settiing_model::settingSiteData
+#0 /opt/lampp/htdocs/SystemManager/app/Helpers/Utility_helper.php(73): CodeIgniter\Model->__call('settingSiteData', Array)
+#1 /opt/lampp/htdocs/SystemManager/app/Controllers/admin/Setting.php(18): settingSiteData()
+#2 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\admin\Setting->index()
+#3 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Setting))
+#4 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/SystemManager/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-02 11:32:51 --> Call to undefined method App\Models\Settiing_model::settingSiteData
+#0 /opt/lampp/htdocs/SystemManager/app/Helpers/Utility_helper.php(73): CodeIgniter\Model->__call('settingSiteData', Array)
+#1 /opt/lampp/htdocs/SystemManager/app/Controllers/admin/Setting.php(18): settingSiteData()
+#2 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\admin\Setting->index()
+#3 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Setting))
+#4 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/SystemManager/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-02 11:33:16 --> Call to undefined method App\Models\Settiing_model::settingSiteData
+#0 /opt/lampp/htdocs/SystemManager/app/Helpers/Utility_helper.php(73): CodeIgniter\Model->__call('settingSiteData', Array)
+#1 /opt/lampp/htdocs/SystemManager/app/Controllers/admin/Setting.php(18): settingSiteData()
+#2 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\admin\Setting->index()
+#3 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Setting))
+#4 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/SystemManager/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-02 11:36:12 --> Call to undefined function App\Controllers\admin\settingSiteData()
+#0 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(890): App\Controllers\admin\Setting->__construct()
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/SystemManager/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-02 11:54:13 --> syntax error, unexpected '?>'
+#0 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('admin/includs/f...', Array, true)
+#1 /opt/lampp/htdocs/SystemManager/app/Controllers/admin/Setting.php(30): view('admin/includs/f...', Array)
+#2 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\admin\Setting->index()
+#3 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Setting))
+#4 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/SystemManager/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-02 12:29:38 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::orderBy() must be of the type string, null given, called in /opt/lampp/htdocs/SystemManager/app/Models/Settiing_model.php on line 54
+#0 /opt/lampp/htdocs/SystemManager/app/Models/Settiing_model.php(54): CodeIgniter\Database\BaseBuilder->orderBy(NULL, 'asc')
+#1 /opt/lampp/htdocs/SystemManager/app/Models/Settiing_model.php(62): App\Models\Settiing_model->_get_datatables_query(Array)
+#2 /opt/lampp/htdocs/SystemManager/app/Controllers/admin/Setting.php(76): App\Models\Settiing_model->get_datatables(Array)
+#3 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\admin\Setting->setting_list()
+#4 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Setting))
+#5 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/SystemManager/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}

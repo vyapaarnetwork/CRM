@@ -1,0 +1,194 @@
+CRITICAL - 2021-08-01 10:14:21 --> Undefined property: stdClass::$status
+#0 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\app\Controllers\admin\Leadstatus.php(130): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'G:\\Shared drive...', 130, Array)
+#1 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Leadstatus->editStatus()
+#2 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leadstatus))
+#3 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-01 10:18:46 --> Return value of App\Controllers\admin\Leadstatus::index() must be an instance of CodeIgniter\HTTP\RedirectResponse, none returned
+#0 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Leadstatus->index()
+#1 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leadstatus))
+#2 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-01 10:19:45 --> Return value of App\Controllers\admin\Leadstatus::index() must be an instance of CodeIgniter\HTTP\RedirectResponse, none returned
+#0 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Leadstatus->index()
+#1 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leadstatus))
+#2 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-01 10:21:15 --> Return value of App\Controllers\admin\Leadstatus::index() must be an instance of CodeIgniter\HTTP\RedirectResponse, none returned
+#0 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Leadstatus->index()
+#1 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leadstatus))
+#2 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-01 10:39:33 --> Undefined variable: status_id
+#0 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\app\Views\admin\leads\leadDetails.php(309): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'G:\\Shared drive...', 309, Array)
+#1 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\View\View.php(246): include('G:\\Shared drive...')
+#2 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('admin/leads/lea...', Array, true)
+#3 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\app\Controllers\admin\Leads.php(320): view('admin/leads/lea...', Array)
+#4 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Leads->leadsDetails('1758')
+#5 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leads))
+#6 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-08-01 10:39:44 --> Undefined variable: status_id
+#0 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\app\Views\admin\leads\leadDetails.php(309): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'G:\\Shared drive...', 309, Array)
+#1 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\View\View.php(246): include('G:\\Shared drive...')
+#2 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('admin/leads/lea...', Array, true)
+#3 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\app\Controllers\admin\Leads.php(320): view('admin/leads/lea...', Array)
+#4 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Leads->leadsDetails('1758')
+#5 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leads))
+#6 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-08-01 10:41:32 --> Trying to get property 'status_id' of non-object
+#0 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\app\Views\admin\leads\leadDetails.php(309): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'G:\\Shared drive...', 309, Array)
+#1 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\View\View.php(246): include('G:\\Shared drive...')
+#2 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('admin/leads/lea...', Array, true)
+#3 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\app\Controllers\admin\Leads.php(320): view('admin/leads/lea...', Array)
+#4 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Leads->leadsDetails('1758')
+#5 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leads))
+#6 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-08-01 10:41:36 --> Trying to get property 'status_id' of non-object
+#0 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\app\Views\admin\leads\leadDetails.php(309): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'G:\\Shared drive...', 309, Array)
+#1 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\View\View.php(246): include('G:\\Shared drive...')
+#2 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('admin/leads/lea...', Array, true)
+#3 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\app\Controllers\admin\Leads.php(320): view('admin/leads/lea...', Array)
+#4 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Leads->leadsDetails('1758')
+#5 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leads))
+#6 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-08-01 11:00:09 --> Undefined index: status_id
+#0 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\app\Views\admin\leads\leadDetails.php(103): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'G:\\Shared drive...', 103, Array)
+#1 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\View\View.php(246): include('G:\\Shared drive...')
+#2 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('admin/leads/lea...', Array, true)
+#3 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\app\Controllers\admin\Leads.php(320): view('admin/leads/lea...', Array)
+#4 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Leads->leadsDetails('1758')
+#5 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leads))
+#6 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-08-01 11:00:13 --> Undefined index: status_id
+#0 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\app\Views\admin\leads\leadDetails.php(103): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'G:\\Shared drive...', 103, Array)
+#1 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\View\View.php(246): include('G:\\Shared drive...')
+#2 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('admin/leads/lea...', Array, true)
+#3 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\app\Controllers\admin\Leads.php(320): view('admin/leads/lea...', Array)
+#4 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Leads->leadsDetails('1758')
+#5 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leads))
+#6 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-08-01 11:01:21 --> Cannot use object of type stdClass as array
+#0 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\View\View.php(246): include()
+#1 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('admin/leads/lea...', Array, true)
+#2 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\app\Controllers\admin\Leads.php(320): view('admin/leads/lea...', Array)
+#3 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Leads->leadsDetails('1758')
+#4 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leads))
+#5 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-01 11:01:25 --> Cannot use object of type stdClass as array
+#0 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\View\View.php(246): include()
+#1 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('admin/leads/lea...', Array, true)
+#2 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\app\Controllers\admin\Leads.php(320): view('admin/leads/lea...', Array)
+#3 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Leads->leadsDetails('1758')
+#4 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leads))
+#5 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-01 11:01:47 --> unlink(G:\Shared drives\ProjectData\ProjectSite\Vyapaar\writable\debugbar/debugbar_1627794999.json): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(G:\\Share...', 'G:\\Shared drive...', 106, Array)
+#1 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\Debug\Toolbar\Collectors\History.php(106): unlink('G:\\Shared drive...')
+#2 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\Debug\Toolbar.php(483): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles(1627795905, 20)
+#3 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\Debug\Toolbar.php(455): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#4 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\app\Config\Events.php(50): CodeIgniter\Debug\Toolbar->respond()
+#5 [internal function]: CodeIgniter\Events\Events::Config\{closure}()
+#6 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\Events\Events.php(188): call_user_func(Object(Closure))
+#7 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(293): CodeIgniter\Events\Events::trigger('pre_system')
+#8 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-01 19:17:51 --> Call to undefined function <td> ()
+#0 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Leads->listLeads()
+#1 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leads))
+#2 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-01 19:18:02 --> Call to undefined function <td> ()
+#0 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Leads->listLeads()
+#1 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leads))
+#2 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-01 19:18:12 --> Undefined index: search
+#0 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\app\Models\Leads_model.php(59): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'G:\\Shared drive...', 59, Array)
+#1 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\app\Models\Leads_model.php(91): App\Models\Leads_model->_get_datatables_query(Array)
+#2 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\app\Controllers\admin\Leads.php(227): App\Models\Leads_model->get_datatables(Array)
+#3 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Leads->listLeads()
+#4 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leads))
+#5 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-01 20:37:23 --> Trying to get property 'sub_cat' of non-object
+#0 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\app\Views\admin\vendor\vendorDetails.php(164): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'G:\\Shared drive...', 164, Array)
+#1 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\View\View.php(246): include('G:\\Shared drive...')
+#2 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('admin/vendor/ve...', Array, true)
+#3 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\app\Controllers\admin\Vendor.php(368): view('admin/vendor/ve...', Array)
+#4 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Vendor->details('69638')
+#5 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Vendor))
+#6 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-08-01 20:37:28 --> Trying to get property 'sub_cat' of non-object
+#0 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\app\Views\admin\vendor\vendorDetails.php(164): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'G:\\Shared drive...', 164, Array)
+#1 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\View\View.php(246): include('G:\\Shared drive...')
+#2 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('admin/vendor/ve...', Array, true)
+#3 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\app\Controllers\admin\Vendor.php(368): view('admin/vendor/ve...', Array)
+#4 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Vendor->details('69638')
+#5 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Vendor))
+#6 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-08-01 22:03:43 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::orderBy() must be of the type string, null given, called in G:\Shared drives\ProjectData\ProjectSite\Vyapaar\app\Models\Leadstatus_model.php on line 64
+#0 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\app\Models\Leadstatus_model.php(64): CodeIgniter\Database\BaseBuilder->orderBy(NULL, 'asc')
+#1 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\app\Models\Leadstatus_model.php(72): App\Models\Leadstatus_model->_get_datatables_query(Array)
+#2 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\app\Controllers\admin\Leadstatus.php(45): App\Models\Leadstatus_model->get_datatables(Array)
+#3 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Leadstatus->LeadStatusList()
+#4 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leadstatus))
+#5 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-01 22:05:32 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::orderBy() must be of the type string, null given, called in G:\Shared drives\ProjectData\ProjectSite\Vyapaar\app\Models\Leadstatus_model.php on line 64
+#0 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\app\Models\Leadstatus_model.php(64): CodeIgniter\Database\BaseBuilder->orderBy(NULL, 'asc')
+#1 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\app\Models\Leadstatus_model.php(72): App\Models\Leadstatus_model->_get_datatables_query(Array)
+#2 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\app\Controllers\admin\Leadstatus.php(45): App\Models\Leadstatus_model->get_datatables(Array)
+#3 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Leadstatus->LeadStatusList()
+#4 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leadstatus))
+#5 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-01 22:24:02 --> syntax error, unexpected ';', expecting ']'
+#0 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('G:\\Shared drive...')
+#1 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-08-01 22:50:17 --> unlink(G:\Shared drives\ProjectData\ProjectSite\Vyapaar\writable\debugbar/debugbar_1627836653.json): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(G:\\Share...', 'G:\\Shared drive...', 106, Array)
+#1 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\Debug\Toolbar\Collectors\History.php(106): unlink('G:\\Shared drive...')
+#2 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\Debug\Toolbar.php(483): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles(1627838415, 20)
+#3 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\Debug\Toolbar.php(455): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#4 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\app\Config\Events.php(50): CodeIgniter\Debug\Toolbar->respond()
+#5 [internal function]: CodeIgniter\Events\Events::Config\{closure}()
+#6 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\Events\Events.php(188): call_user_func(Object(Closure))
+#7 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(293): CodeIgniter\Events\Events::trigger('pre_system')
+#8 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}

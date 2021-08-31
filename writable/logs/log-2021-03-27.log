@@ -1,0 +1,11 @@
+CRITICAL - 2021-03-27 12:04:58 --> Unable to connect to the database.
+#0 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\Allxampp\7.4\htdocs\vyaapar\app\Models\Settiing_model.php(102): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\Allxampp\7.4\htdocs\vyaapar\app\Helpers\Utility_helper.php(85): App\Models\Settiing_model->getSettings()
+#4 D:\Allxampp\7.4\htdocs\vyaapar\app\Controllers\client\Home.php(26): settingSiteData()
+#5 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\client\Home->index()
+#6 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\client\Home))
+#7 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Allxampp\7.4\htdocs\vyaapar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}

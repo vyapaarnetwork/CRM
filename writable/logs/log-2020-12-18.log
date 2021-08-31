@@ -1,0 +1,14 @@
+CRITICAL - 2020-12-18 23:41:37 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to int
+#0 /opt/lampp/htdocs/SystemManager/app/Controllers/admin/Admin.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Object of class...', '/opt/lampp/htdo...', 113, Array)
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\admin\Admin->checkUserName('1')
+#2 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Admin))
+#3 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/SystemManager/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-18 23:41:40 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to int
+#0 /opt/lampp/htdocs/SystemManager/app/Controllers/admin/Admin.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Object of class...', '/opt/lampp/htdo...', 113, Array)
+#1 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\admin\Admin->checkUserName('1')
+#2 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Admin))
+#3 /opt/lampp/htdocs/SystemManager/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/SystemManager/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

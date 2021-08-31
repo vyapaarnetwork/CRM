@@ -1,0 +1,132 @@
+CRITICAL - 2021-08-02 00:16:16 --> syntax error, unexpected ''_value'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+#0 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('G:\\Shared drive...')
+#1 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-08-02 00:21:50 --> Trying to get property 'version' of non-object
+#0 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\app\Views\include\footer.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'G:\\Shared drive...', 10, Array)
+#1 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\View\View.php(246): include('G:\\Shared drive...')
+#2 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('include/footer', Array, true)
+#3 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\app\Controllers\vendor\Vendor.php(374): view('include/footer', Array)
+#4 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\vendor\Vendor->leadsDetails('9862')
+#5 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Vendor))
+#6 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-08-02 00:30:28 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::orderBy() must be of the type string, null given, called in G:\Shared drives\ProjectData\ProjectSite\Vyapaar\app\Models\Leads_model.php on line 82
+#0 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\app\Models\Leads_model.php(82): CodeIgniter\Database\BaseBuilder->orderBy(NULL, 'asc')
+#1 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\app\Models\Leads_model.php(91): App\Models\Leads_model->_get_datatables_query(Array)
+#2 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\app\Controllers\admin\Leads.php(227): App\Models\Leads_model->get_datatables(Array)
+#3 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Leads->listLeads()
+#4 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leads))
+#5 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-02 00:30:42 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::orderBy() must be of the type string, null given, called in G:\Shared drives\ProjectData\ProjectSite\Vyapaar\app\Models\Leads_model.php on line 82
+#0 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\app\Models\Leads_model.php(82): CodeIgniter\Database\BaseBuilder->orderBy(NULL, 'asc')
+#1 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\app\Models\Leads_model.php(91): App\Models\Leads_model->_get_datatables_query(Array)
+#2 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\app\Controllers\admin\Leads.php(227): App\Models\Leads_model->get_datatables(Array)
+#3 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Leads->listLeads()
+#4 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leads))
+#5 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-02 00:30:46 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::orderBy() must be of the type string, null given, called in G:\Shared drives\ProjectData\ProjectSite\Vyapaar\app\Models\Leads_model.php on line 82
+#0 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\app\Models\Leads_model.php(82): CodeIgniter\Database\BaseBuilder->orderBy(NULL, 'desc')
+#1 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\app\Models\Leads_model.php(91): App\Models\Leads_model->_get_datatables_query(Array)
+#2 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\app\Controllers\admin\Leads.php(227): App\Models\Leads_model->get_datatables(Array)
+#3 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Leads->listLeads()
+#4 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leads))
+#5 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-02 00:32:02 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::orderBy() must be of the type string, null given, called in G:\Shared drives\ProjectData\ProjectSite\Vyapaar\app\Models\Leads_model.php on line 82
+#0 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\app\Models\Leads_model.php(82): CodeIgniter\Database\BaseBuilder->orderBy(NULL, 'asc')
+#1 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\app\Models\Leads_model.php(91): App\Models\Leads_model->_get_datatables_query(Array)
+#2 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\app\Controllers\admin\Leads.php(227): App\Models\Leads_model->get_datatables(Array)
+#3 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Leads->listLeads()
+#4 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leads))
+#5 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-02 00:33:04 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::orderBy() must be of the type string, null given, called in G:\Shared drives\ProjectData\ProjectSite\Vyapaar\app\Models\Leads_model.php on line 82
+#0 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\app\Models\Leads_model.php(82): CodeIgniter\Database\BaseBuilder->orderBy(NULL, 'asc')
+#1 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\app\Models\Leads_model.php(91): App\Models\Leads_model->_get_datatables_query(Array)
+#2 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\app\Controllers\admin\Leads.php(227): App\Models\Leads_model->get_datatables(Array)
+#3 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Leads->listLeads()
+#4 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leads))
+#5 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-02 00:33:25 --> Unknown column 'null' in 'order clause'
+#0 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\app\Models\Leads_model.php(104): CodeIgniter\Database\BaseBuilder->get()
+#5 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\app\Controllers\admin\Leads.php(227): App\Models\Leads_model->get_datatables(Array)
+#6 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Leads->listLeads()
+#7 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leads))
+#8 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-08-02 00:33:51 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::orderBy() must be of the type string, null given, called in G:\Shared drives\ProjectData\ProjectSite\Vyapaar\app\Models\Leads_model.php on line 82
+#0 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\app\Models\Leads_model.php(82): CodeIgniter\Database\BaseBuilder->orderBy(NULL, 'asc')
+#1 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\app\Models\Leads_model.php(91): App\Models\Leads_model->_get_datatables_query(Array)
+#2 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\app\Controllers\admin\Leads.php(227): App\Models\Leads_model->get_datatables(Array)
+#3 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Leads->listLeads()
+#4 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leads))
+#5 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-02 00:34:04 --> Undefined index: search
+#0 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\app\Models\Leads_model.php(59): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'G:\\Shared drive...', 59, Array)
+#1 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\app\Models\Leads_model.php(91): App\Models\Leads_model->_get_datatables_query(Array)
+#2 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\app\Controllers\admin\Leads.php(227): App\Models\Leads_model->get_datatables(Array)
+#3 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Leads->listLeads()
+#4 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leads))
+#5 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-02 00:34:07 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::orderBy() must be of the type string, null given, called in G:\Shared drives\ProjectData\ProjectSite\Vyapaar\app\Models\Leads_model.php on line 82
+#0 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\app\Models\Leads_model.php(82): CodeIgniter\Database\BaseBuilder->orderBy(NULL, 'desc')
+#1 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\app\Models\Leads_model.php(91): App\Models\Leads_model->_get_datatables_query(Array)
+#2 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\app\Controllers\admin\Leads.php(227): App\Models\Leads_model->get_datatables(Array)
+#3 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Leads->listLeads()
+#4 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leads))
+#5 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-02 00:34:18 --> Undefined index: search
+#0 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\app\Models\Leads_model.php(59): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'G:\\Shared drive...', 59, Array)
+#1 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\app\Models\Leads_model.php(91): App\Models\Leads_model->_get_datatables_query(Array)
+#2 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\app\Controllers\admin\Leads.php(227): App\Models\Leads_model->get_datatables(Array)
+#3 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Leads->listLeads()
+#4 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leads))
+#5 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-02 00:35:05 --> Undefined offset: 7
+#0 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\app\Models\Leads_model.php(82): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'G:\\Shared drive...', 82, Array)
+#1 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\app\Models\Leads_model.php(91): App\Models\Leads_model->_get_datatables_query(Array)
+#2 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\app\Controllers\admin\Leads.php(227): App\Models\Leads_model->get_datatables(Array)
+#3 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Leads->listLeads()
+#4 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Leads))
+#5 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-02 00:39:36 --> syntax error, unexpected 'var' (T_VAR)
+#0 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('G:\\Shared drive...')
+#1 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\Shared drives\ProjectData\ProjectSite\Vyapaar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}

@@ -1,0 +1,26 @@
+CRITICAL - 2021-05-23 13:10:22 --> Undefined property: App\Controllers\admin\Vendor::$load
+#0 D:\Allxampp\7.4\htdocs\vyaapar\app\Controllers\admin\Vendor.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\Allxampp\\7.4...', 35, Array)
+#1 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Vendor->index()
+#2 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Vendor))
+#3 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Allxampp\7.4\htdocs\vyaapar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-23 13:12:03 --> main(): Failed opening required 'D:\Allxampp\7.4\htdocs\vyaapar\public/application/xcrud/xcrud.php' (include_path='D:\Allxampp\7.4\php\PEAR')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-23 13:12:23 --> main(): Failed opening required 'D:\Allxampp\7.4\htdocs\vyaapar\public/app/xcrud/xcrud.php' (include_path='D:\Allxampp\7.4\php\PEAR')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-23 13:13:35 --> main(): Failed opening required './app/xcrud/xcrud.php' (include_path='D:\Allxampp\7.4\php\PEAR')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-23 13:16:13 --> main(): Failed opening required 'D:\Allxampp\7.4\htdocs\vyaapar\app\/app/xcrud/xcrud.php' (include_path='D:\Allxampp\7.4\php\PEAR')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-23 10:46:25 --> Call to undefined function get_instance()
+#0 D:\Allxampp\7.4\htdocs\vyaapar\app\Controllers\admin\Vendor.php(36): xcrud_get_instance()
+#1 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\Vendor->index()
+#2 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Vendor))
+#3 D:\Allxampp\7.4\htdocs\vyaapar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Allxampp\7.4\htdocs\vyaapar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
